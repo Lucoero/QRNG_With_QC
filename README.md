@@ -17,7 +17,8 @@ The repository is structured as follows:
 For an easy Quickstart you need the following preliminaries:
 
 1. An IBMQ Account and all configured to connect remotely to IBM Quantum Computers via token. Insert all needed in *Call_Computers.py* file, on *save_account* method of line 53.
-2. An AWS Account. Configure the creedentials in your terminal as AWS guide indicates to be able to connect to their and their partner's computers.
+   https://quantum.cloud.ibm.com/docs/en/guides/hello-world
+3. An AWS Account. Configure the creedentials in your terminal as AWS guide indicates to be able to connect to their and their partner's computers.
    https://aws.amazon.com/es/blogs/quantum-computing/setting-up-your-local-development-environment-in-amazon-braket/
 ### Get Bitstrings ###
 After that you can just run *main.py* on default variables and you will obtain some sequences as txts in the *Outputs* folder. Though we recommend to check first the number of qbits used, the length of the bitstring desired as well as the backends used.
