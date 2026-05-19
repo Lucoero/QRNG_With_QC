@@ -20,7 +20,7 @@ For an easy Quickstart you need the following preliminaries:
    https://quantum.cloud.ibm.com/docs/en/guides/hello-world
 2. An AWS Account. Configure the creedentials in your terminal as AWS guide indicates to be able to connect to their and their partner's computers.
    https://aws.amazon.com/es/blogs/quantum-computing/setting-up-your-local-development-environment-in-amazon-braket/
-3. Configure the repository as a self contained project in your IDE. This way all the relative paths will be properly identified.
+3. Configure the *Program* folder of the repository as a self contained project in your IDE. This way all the relative paths will be properly identified.
 
 ### Get Bitstrings ###
 After that you can just run *main.py* on default variables and you will obtain some sequences as txts in the *Outputs* folder. Though we recommend to check first the number of qbits used, the length of the bitstring desired as well as the backends used.
