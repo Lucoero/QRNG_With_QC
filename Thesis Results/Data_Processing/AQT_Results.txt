@@ -1,0 +1,47 @@
+ANALYSIS OF AWS_IBEX Q1--12-7.833000e+03-0-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.8861561836445685 bits
+		 --> H = 0.9951314556706178 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 9529 bits
+	 	 --> Deficiency Function = 56616
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 5.55631081207754e-99 -- False
+	 	 	 (o) Within a Block (used 668 bits for each block. Used 99 blocks): 1.5298904145808184e-64 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 3.239314759945486e-11 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 0.15223186643979453 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 3.131480501949582e-19 -- False
+	 	 	 (o) Cusum Test: 2.558673191294982e-99 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9979031595107858 -- True
+	 	 	 	 -3: 0.9953295932358704 -- True
+	 	 	 	 -2: 0.984747879018509 -- True
+	 	 	 	 -1: 0.9625657732472964 -- True
+	 	 	 	 +1: 0.9625657732472964 -- True
+	 	 	 	 +2: 0.024442548519677403 -- True
+	 	 	 	 +3: 0.4381393147182503 -- True
+	 	 	 	 +4: 7.750306806822414e-09 -- False
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -1.0: 0.6170750774519739 -- True
+	 	 	 	 +1.0: 0.6170750774519739 -- True
+	 	 	 	 +2.0: 0.7728299926844475 -- True
+	 	 	 	 +3.0: 0.5023349543605022 -- True
+	 	 	 	 +4.0: 0.7054569861112734 -- True
+	 	 	 	 +5.0: 1.0 -- True
+	 	 	 	 +6.0: 0.8801684549067255 -- True
+	 	 	 	 +7.0: 1.0 -- True
+	 	 	 	 +8.0: 0.7962534147376392 -- True
+	 	 	 	 +9.0: 0.8083651559145103 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: -1.0 -- False
+	 	 	 (o) Binary Matrix Test: 0.31960749092921104 -- True
+	 	 	 (o) Linear Complexity Test: 0.7515788994206876 -- True
+--> END NIST BATTERY TEST ----------

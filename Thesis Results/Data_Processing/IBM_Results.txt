@@ -1,0 +1,3283 @@
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-36-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9982853512966327 bits
+		 --> H = 0.9999989798545654 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315575 bits
+	 	 --> Deficiency Function = 8684337
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.1518481474828525e-05 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 0.6125121645363228 -- True
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.28332982755786096 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.522147353240451e-118 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.21541199884458873 -- True
+	 	 	 (o) Cusum Test: 2.5105794805260213e-05 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9389320951533657 -- True
+	 	 	 	 -3: 0.8379274517940323 -- True
+	 	 	 	 -2: 0.48191321496444117 -- True
+	 	 	 	 -1: 0.5235467364656399 -- True
+	 	 	 	 +1: 0.45006221432386684 -- True
+	 	 	 	 +2: 0.1020702591516507 -- True
+	 	 	 	 +3: 0.01230543272802879 -- True
+	 	 	 	 +4: 2.926088379162202e-06 -- False
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 1.0 -- True
+	 	 	 	 -8.0: 0.8762696636277617 -- True
+	 	 	 	 -7.0: 0.9666484886453913 -- True
+	 	 	 	 -6.0: 0.6824729474994817 -- True
+	 	 	 	 -5.0: 0.6876728942554107 -- True
+	 	 	 	 -4.0: 0.7757196518444692 -- True
+	 	 	 	 -3.0: 0.6369696845945059 -- True
+	 	 	 	 -2.0: 0.1389639853127834 -- True
+	 	 	 	 -1.0: 0.13166801602281422 -- True
+	 	 	 	 +1.0: 0.17484443361041502 -- True
+	 	 	 	 +2.0: 0.0981808126896524 -- True
+	 	 	 	 +3.0: 0.45831769413307955 -- True
+	 	 	 	 +4.0: 1.0 -- True
+	 	 	 	 +5.0: 0.840692660305486 -- True
+	 	 	 	 +6.0: 0.7503470236516971 -- True
+	 	 	 	 +7.0: 0.9333552247117332 -- True
+	 	 	 	 +8.0: 0.937947456842939 -- True
+	 	 	 	 +9.0: 1.0 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7243998403848485 -- True
+	 	 	 (o) Binary Matrix Test: 0.5159246594703292 -- True
+	 	 	 (o) Linear Complexity Test: 0.8197594883437788 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-37-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9984265756295424 bits
+		 --> H = 0.9999991410636394 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315728 bits
+	 	 --> Deficiency Function = 8684184
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.585716671736824e-13 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 0.002299234323204205 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.09302236868840376 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 5.479219013477656e-131 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.016136635053870186 -- True
+	 	 	 (o) Cusum Test: 2.7222201530746016e-13 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.35019177634010323 -- True
+	 	 	 	 -3: 0.20571547987357514 -- True
+	 	 	 	 -2: 0.0980619783684301 -- True
+	 	 	 	 -1: 0.2483085296948775 -- True
+	 	 	 	 +1: 0.5208350046652973 -- True
+	 	 	 	 +2: 0.5586233659824897 -- True
+	 	 	 	 +3: 0.6217224217807 -- True
+	 	 	 	 +4: 0.14577170944967124 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.8055725731525798 -- True
+	 	 	 	 -8.0: 0.8361098595084655 -- True
+	 	 	 	 -7.0: 0.9586478727416677 -- True
+	 	 	 	 -6.0: 0.6991123070679146 -- True
+	 	 	 	 -5.0: 0.9857946528871027 -- True
+	 	 	 	 -4.0: 0.5182558219927631 -- True
+	 	 	 	 -3.0: 0.4031194329446889 -- True
+	 	 	 	 -2.0: 0.4407269329274993 -- True
+	 	 	 	 -1.0: 0.33632396245634 -- True
+	 	 	 	 +1.0: 0.33632396245634 -- True
+	 	 	 	 +2.0: 0.24749739172724672 -- True
+	 	 	 	 +3.0: 0.6759240676120412 -- True
+	 	 	 	 +4.0: 0.8242555057453075 -- True
+	 	 	 	 +5.0: 0.9219911601075059 -- True
+	 	 	 	 +6.0: 0.8911160369636525 -- True
+	 	 	 	 +7.0: 0.9704562848484048 -- True
+	 	 	 	 +8.0: 0.6790616658802155 -- True
+	 	 	 	 +9.0: 0.5046613461152705 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6176510784312379 -- True
+	 	 	 (o) Binary Matrix Test: 0.7778307108611174 -- True
+	 	 	 (o) Linear Complexity Test: 0.06579121573781822 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-38-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9947879782378396 bits
+		 --> H = 0.9999905511642098 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315598 bits
+	 	 --> Deficiency Function = 8684314
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.549550338173119e-21 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.5894898187045755e-07 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.9791118868533013 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 3.1312408444572503e-112 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.8133894629172377e-06 -- False
+	 	 	 (o) Cusum Test: 4.131002209411007e-22 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.42660570090880323 -- True
+	 	 	 	 -3: 0.021136654218001316 -- True
+	 	 	 	 -2: 0.63846118654892 -- True
+	 	 	 	 -1: 0.3044643766601066 -- True
+	 	 	 	 +1: 0.5998316224829219 -- True
+	 	 	 	 +2: 0.10187953755702732 -- True
+	 	 	 	 +3: 0.5077031384897293 -- True
+	 	 	 	 +4: 0.7246796887047162 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.16361775517686417 -- True
+	 	 	 	 -8.0: 0.38334737555953025 -- True
+	 	 	 	 -7.0: 0.4195251475661904 -- True
+	 	 	 	 -6.0: 0.21057084452123487 -- True
+	 	 	 	 -5.0: 0.09517216382116034 -- True
+	 	 	 	 -4.0: 0.08090203258251584 -- True
+	 	 	 	 -3.0: 0.09228615852953356 -- True
+	 	 	 	 -2.0: 0.10670137321371771 -- True
+	 	 	 	 -1.0: 0.2772088783397664 -- True
+	 	 	 	 +1.0: 0.41509632185443635 -- True
+	 	 	 	 +2.0: 0.670322687637338 -- True
+	 	 	 	 +3.0: 0.7285123867856829 -- True
+	 	 	 	 +4.0: 0.5672902810394909 -- True
+	 	 	 	 +5.0: 0.4848423816410665 -- True
+	 	 	 	 +6.0: 0.590410102289278 -- True
+	 	 	 	 +7.0: 0.9828256305565118 -- True
+	 	 	 	 +8.0: 0.7790466065202347 -- True
+	 	 	 	 +9.0: 0.8286130085788519 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.8358887128676824 -- True
+	 	 	 (o) Binary Matrix Test: 0.2635621197410125 -- True
+	 	 	 (o) Linear Complexity Test: 0.9724729340878271 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-39-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9955471806420824 bits
+		 --> H = 0.9999931070188945 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315646 bits
+	 	 --> Deficiency Function = 8684266
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.1973480304500824e-24 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.1698099974973734e-07 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.4829012233593626 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 9.238791053452304e-123 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.031181205634744885 -- True
+	 	 	 (o) Cusum Test: 1.2331178131888895e-24 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9004052643036777 -- True
+	 	 	 	 -3: 0.7983781494167257 -- True
+	 	 	 	 -2: 0.5925450807190568 -- True
+	 	 	 	 -1: 0.4840754376326015 -- True
+	 	 	 	 +1: 0.7686316006325336 -- True
+	 	 	 	 +2: 0.6997082478612722 -- True
+	 	 	 	 +3: 0.32161977145595727 -- True
+	 	 	 	 +4: 0.16828808725855338 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.169494553473315 -- True
+	 	 	 	 -8.0: 0.18325751081918673 -- True
+	 	 	 	 -7.0: 0.3081795474670541 -- True
+	 	 	 	 -6.0: 0.6778243807326598 -- True
+	 	 	 	 -5.0: 0.9864283625022598 -- True
+	 	 	 	 -4.0: 0.6854434826775221 -- True
+	 	 	 	 -3.0: 0.37343949213043826 -- True
+	 	 	 	 -2.0: 0.3610604602553752 -- True
+	 	 	 	 -1.0: 0.30743416592739536 -- True
+	 	 	 	 +1.0: 0.33225105409665223 -- True
+	 	 	 	 +2.0: 0.30244826471650355 -- True
+	 	 	 	 +3.0: 0.21780875354798301 -- True
+	 	 	 	 +4.0: 0.28008721081149757 -- True
+	 	 	 	 +5.0: 0.22714939311794557 -- True
+	 	 	 	 +6.0: 0.12389131916687686 -- True
+	 	 	 	 +7.0: 0.11292366071592876 -- True
+	 	 	 	 +8.0: 0.15858433645627112 -- True
+	 	 	 	 +9.0: 0.177312547386151 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.48120988072936655 -- True
+	 	 	 (o) Binary Matrix Test: 0.9679663611573766 -- True
+	 	 	 (o) Linear Complexity Test: 0.5165838652472934 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-40-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9966493100091347 bits
+		 --> H = 0.9999960999227724 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315499 bits
+	 	 --> Deficiency Function = 8684413
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.8919952144312537e-17 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.899929730879588e-05 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.9966678151097131 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 9.066889710438118e-137 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.5067496707659728e-06 -- False
+	 	 	 (o) Cusum Test: 6.6695720067241696e-18 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.2800217820731652 -- True
+	 	 	 	 -3: 0.16981373812430706 -- True
+	 	 	 	 -2: 0.24821152776611763 -- True
+	 	 	 	 -1: 0.06463169498828965 -- True
+	 	 	 	 +1: 0.7931802481771678 -- True
+	 	 	 	 +2: 0.6835024031425977 -- True
+	 	 	 	 +3: 0.7686534660464214 -- True
+	 	 	 	 +4: 0.5435146048977804 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.1506773365570694 -- True
+	 	 	 	 -8.0: 0.09380368676287415 -- True
+	 	 	 	 -7.0: 0.11391715911057197 -- True
+	 	 	 	 -6.0: 0.13430384426249958 -- True
+	 	 	 	 -5.0: 0.13725902677259963 -- True
+	 	 	 	 -4.0: 0.0698271356074009 -- True
+	 	 	 	 -3.0: 0.14325189618851752 -- True
+	 	 	 	 -2.0: 0.24081851096307505 -- True
+	 	 	 	 -1.0: 0.2359784800684004 -- True
+	 	 	 	 +1.0: 0.4982795894976193 -- True
+	 	 	 	 +2.0: 0.28228604567158455 -- True
+	 	 	 	 +3.0: 0.4489709654458791 -- True
+	 	 	 	 +4.0: 0.7652324693933807 -- True
+	 	 	 	 +5.0: 0.6516536391899487 -- True
+	 	 	 	 +6.0: 0.42387439358536405 -- True
+	 	 	 	 +7.0: 0.4067967114513411 -- True
+	 	 	 	 +8.0: 0.37409370566055056 -- True
+	 	 	 	 +9.0: 0.3885302315910254 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.4289051478145737 -- True
+	 	 	 (o) Binary Matrix Test: 0.24055069505546176 -- True
+	 	 	 (o) Linear Complexity Test: 0.6019561031430862 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-41-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9958924047616161 bits
+		 --> H = 0.9999941358085547 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315517 bits
+	 	 --> Deficiency Function = 8684395
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.0123828169760097e-19 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.2530460879929811e-07 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.3412044341862734 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.0163111044394984e-118 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.006577228645861213 -- False
+	 	 	 (o) Cusum Test: 1.346570707833499e-19 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.37796933776758085 -- True
+	 	 	 	 -3: 0.9001580357096569 -- True
+	 	 	 	 -2: 0.28624647774036616 -- True
+	 	 	 	 -1: 0.5319149294236698 -- True
+	 	 	 	 +1: 0.8649375563156205 -- True
+	 	 	 	 +2: 0.9193904937660191 -- True
+	 	 	 	 +3: 0.38177803440125846 -- True
+	 	 	 	 +4: 0.2427254637112506 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6351318944178613 -- True
+	 	 	 	 -8.0: 0.44860574784161056 -- True
+	 	 	 	 -7.0: 0.12747079479885956 -- True
+	 	 	 	 -6.0: 0.0797131532796694 -- True
+	 	 	 	 -5.0: 0.3327201043873773 -- True
+	 	 	 	 -4.0: 0.6400618348312392 -- True
+	 	 	 	 -3.0: 0.4175788181278761 -- True
+	 	 	 	 -2.0: 0.25865562839300116 -- True
+	 	 	 	 -1.0: 0.3572088830150044 -- True
+	 	 	 	 +1.0: 0.5457059580976624 -- True
+	 	 	 	 +2.0: 0.9074308644202821 -- True
+	 	 	 	 +3.0: 0.32812303130118026 -- True
+	 	 	 	 +4.0: 0.15744655632874704 -- True
+	 	 	 	 +5.0: 0.14227811953173294 -- True
+	 	 	 	 +6.0: 0.14027912265039175 -- True
+	 	 	 	 +7.0: 0.2073749048867105 -- True
+	 	 	 	 +8.0: 0.18116033555885946 -- True
+	 	 	 	 +9.0: 0.1317372240691189 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.17411050225857128 -- True
+	 	 	 (o) Binary Matrix Test: 0.559437595156181 -- True
+	 	 	 (o) Linear Complexity Test: 0.6532937956663818 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-42-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9957571821399165 bits
+		 --> H = 0.9999937427659723 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315625 bits
+	 	 --> Deficiency Function = 8684287
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.937494976448134e-23 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 8.637375387573654e-07 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.41238051256077907 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 2.7884016263648812e-118 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.002489564895186378 -- False
+	 	 	 (o) Cusum Test: 1.7181798501970622e-23 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6896758232140326 -- True
+	 	 	 	 -3: 0.2080970611748265 -- True
+	 	 	 	 -2: 0.3768215171274305 -- True
+	 	 	 	 -1: 0.8843994192514338 -- True
+	 	 	 	 +1: 0.8337704204366998 -- True
+	 	 	 	 +2: 0.2468944300089039 -- True
+	 	 	 	 +3: 0.6854156745912866 -- True
+	 	 	 	 +4: 0.9515644819706988 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.4022104497962202 -- True
+	 	 	 	 -8.0: 0.7089232340537643 -- True
+	 	 	 	 -7.0: 0.8848668684893526 -- True
+	 	 	 	 -6.0: 0.7345708317140047 -- True
+	 	 	 	 -5.0: 0.9147128914417622 -- True
+	 	 	 	 -4.0: 0.9274317964802413 -- True
+	 	 	 	 -3.0: 0.6927457213902568 -- True
+	 	 	 	 -2.0: 0.43048842826195155 -- True
+	 	 	 	 -1.0: 0.3351145185269776 -- True
+	 	 	 	 +1.0: 0.9679647967716811 -- True
+	 	 	 	 +2.0: 0.8528403637748379 -- True
+	 	 	 	 +3.0: 0.773830190649588 -- True
+	 	 	 	 +4.0: 0.9515840557763324 -- True
+	 	 	 	 +5.0: 0.5204996086600453 -- True
+	 	 	 	 +6.0: 0.5131857068232789 -- True
+	 	 	 	 +7.0: 0.7636100986194099 -- True
+	 	 	 	 +8.0: 0.925644853245545 -- True
+	 	 	 	 +9.0: 0.9301435855152581 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.49854945591088284 -- True
+	 	 	 (o) Binary Matrix Test: 0.3512123059696403 -- True
+	 	 	 (o) Linear Complexity Test: 0.9472704483147123 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-43-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9957399205898105 bits
+		 --> H = 0.9999936916727454 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315541 bits
+	 	 --> Deficiency Function = 8684371
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.0871874493948817e-23 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 8.015985231260345e-06 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.40628303766509977 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.377587814032883e-113 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.0008345831567524928 -- False
+	 	 	 (o) Cusum Test: 6.959772709536126e-24 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.03742241327056232 -- True
+	 	 	 	 -3: 0.7052857265468857 -- True
+	 	 	 	 -2: 0.865215762325062 -- True
+	 	 	 	 -1: 0.7938784476215841 -- True
+	 	 	 	 +1: 0.8867293530775051 -- True
+	 	 	 	 +2: 0.7632477144652906 -- True
+	 	 	 	 +3: 0.20496713965153582 -- True
+	 	 	 	 +4: 0.5558870588877618 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9029950552061526 -- True
+	 	 	 	 -8.0: 0.735853416720871 -- True
+	 	 	 	 -7.0: 0.7275141437921588 -- True
+	 	 	 	 -6.0: 0.6494362837267547 -- True
+	 	 	 	 -5.0: 0.9332526969526242 -- True
+	 	 	 	 -4.0: 0.8642702641586779 -- True
+	 	 	 	 -3.0: 0.6210143706612848 -- True
+	 	 	 	 -2.0: 0.6846094685667796 -- True
+	 	 	 	 -1.0: 0.4213795037428696 -- True
+	 	 	 	 +1.0: 0.8801684549067255 -- True
+	 	 	 	 +2.0: 0.3531927735350686 -- True
+	 	 	 	 +3.0: 0.32274805351112157 -- True
+	 	 	 	 +4.0: 0.7040429655866594 -- True
+	 	 	 	 +5.0: 0.8016135209415048 -- True
+	 	 	 	 +6.0: 0.5545813344681694 -- True
+	 	 	 	 +7.0: 0.7380047021897749 -- True
+	 	 	 	 +8.0: 0.7067128424221578 -- True
+	 	 	 	 +9.0: 0.6172843443229379 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.3101498896913383 -- True
+	 	 	 (o) Binary Matrix Test: 0.8726051168074455 -- True
+	 	 	 (o) Linear Complexity Test: 0.5965354732448405 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-44-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9955932057519977 bits
+		 --> H = 0.999993248992266 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315599 bits
+	 	 --> Deficiency Function = 8684313
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.567587878224216e-26 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.187527627726371e-09 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.9429461779515681 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.3996282540763224e-145 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.00011522643284917001 -- False
+	 	 	 (o) Cusum Test: 4.473038585288629e-27 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 7.707968827952946e-06 -- False
+	 	 	 	 -3: 0.00026465364966427317 -- False
+	 	 	 	 -2: 0.0759378954930886 -- True
+	 	 	 	 -1: 0.01560941610026691 -- True
+	 	 	 	 +1: 0.6999858358786276 -- True
+	 	 	 	 +2: 0.502487515435573 -- True
+	 	 	 	 +3: 0.9770333437569263 -- True
+	 	 	 	 +4: 0.989273996570703 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.8638317428547264 -- True
+	 	 	 	 -8.0: 0.9272644735252321 -- True
+	 	 	 	 -7.0: 1.0 -- True
+	 	 	 	 -6.0: 0.8311704095417624 -- True
+	 	 	 	 -5.0: 0.9061856157549283 -- True
+	 	 	 	 -4.0: 0.8936946693232327 -- True
+	 	 	 	 -3.0: 0.7518296340458492 -- True
+	 	 	 	 -2.0: 0.30743416592739536 -- True
+	 	 	 	 -1.0: 0.4795001221869535 -- True
+	 	 	 	 +1.0: 1.0 -- True
+	 	 	 	 +2.0: 0.6830913983096087 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.4633595501190144 -- True
+	 	 	 (o) Binary Matrix Test: 0.7653953436403028 -- True
+	 	 	 (o) Linear Complexity Test: 0.36881976025634117 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-45-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9968393181604639 bits
+		 --> H = 0.9999965301635132 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315558 bits
+	 	 --> Deficiency Function = 8684354
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 5.462361844858793e-38 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.5122798929001896e-16 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.5111662931279572 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 2.0136889172543703e-119 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.0025601982601853477 -- False
+	 	 	 (o) Cusum Test: 2.4956130885639947e-38 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.1523192880194443 -- True
+	 	 	 	 -3: 0.8827035777884342 -- True
+	 	 	 	 -2: 0.42735390099524584 -- True
+	 	 	 	 -1: 0.9270734120041205 -- True
+	 	 	 	 +1: 0.9516778782463371 -- True
+	 	 	 	 +2: 0.8773988017709449 -- True
+	 	 	 	 +3: 0.7827807657403366 -- True
+	 	 	 	 +4: 0.5296168658292093 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.2582006672299674 -- True
+	 	 	 	 -8.0: 0.35830860596997627 -- True
+	 	 	 	 -7.0: 0.6177552112522124 -- True
+	 	 	 	 -6.0: 0.9410276562752662 -- True
+	 	 	 	 -5.0: 0.4534319426219946 -- True
+	 	 	 	 -4.0: 0.37000992760962736 -- True
+	 	 	 	 -3.0: 0.8120804222044257 -- True
+	 	 	 	 -2.0: 0.9811640080272952 -- True
+	 	 	 	 -1.0: 0.6528377469381212 -- True
+	 	 	 	 +1.0: 0.5669815424765701 -- True
+	 	 	 	 +2.0: 0.4935467314841394 -- True
+	 	 	 	 +3.0: 0.44243205191149304 -- True
+	 	 	 	 +4.0: 0.47709578182576273 -- True
+	 	 	 	 +5.0: 0.8808110454028365 -- True
+	 	 	 	 +6.0: 0.9410276562752662 -- True
+	 	 	 	 +7.0: 0.981902834963363 -- True
+	 	 	 	 +8.0: 0.9663120381628455 -- True
+	 	 	 	 +9.0: 0.835011592647233 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.8004742577166892 -- True
+	 	 	 (o) Binary Matrix Test: 0.6767627582829023 -- True
+	 	 	 (o) Linear Complexity Test: 0.8573705111890026 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-46-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9938539023905928 bits
+		 --> H = 0.999986852399244 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315534 bits
+	 	 --> Deficiency Function = 8684378
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 4.541209235054225e-45 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 6.358222162705943e-19 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.9619507009894213 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.658198964013546e-127 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.173527182054856e-05 -- False
+	 	 	 (o) Cusum Test: 1.8981579027621177e-45 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.5184041559298613 -- True
+	 	 	 	 -3: 0.8209441410319401 -- True
+	 	 	 	 -2: 0.8538495580087142 -- True
+	 	 	 	 -1: 0.6379219094127975 -- True
+	 	 	 	 +1: 0.7876659476902326 -- True
+	 	 	 	 +2: 0.6049719701943079 -- True
+	 	 	 	 +3: 0.651468512138619 -- True
+	 	 	 	 +4: 0.39787921423007694 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9435928154437776 -- True
+	 	 	 	 -8.0: 0.8358989748064951 -- True
+	 	 	 	 -7.0: 0.4916125044271419 -- True
+	 	 	 	 -6.0: 0.4415080591456543 -- True
+	 	 	 	 -5.0: 0.6268135758578905 -- True
+	 	 	 	 -4.0: 0.7408025802000056 -- True
+	 	 	 	 -3.0: 0.7691035964026744 -- True
+	 	 	 	 -2.0: 0.8005421074231263 -- True
+	 	 	 	 -1.0: 0.8840279686806821 -- True
+	 	 	 	 +1.0: 0.51157163944384 -- True
+	 	 	 	 +2.0: 0.5841048147662004 -- True
+	 	 	 	 +3.0: 0.4730280856323741 -- True
+	 	 	 	 +4.0: 0.334641874287691 -- True
+	 	 	 	 +5.0: 0.4366004820837418 -- True
+	 	 	 	 +6.0: 0.628542403042692 -- True
+	 	 	 	 +7.0: 0.5989412171111905 -- True
+	 	 	 	 +8.0: 0.42899898924742774 -- True
+	 	 	 	 +9.0: 0.42603623200202656 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9104441172271055 -- True
+	 	 	 (o) Binary Matrix Test: 0.352998595937471 -- True
+	 	 	 (o) Linear Complexity Test: 0.24971431941448988 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-47-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9952595569665339 bits
+		 --> H = 0.9999921862138766 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315659 bits
+	 	 --> Deficiency Function = 8684253
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.2474297670566875e-34 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.3565635072980646e-11 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.2556149277072457 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 5.4467681761822374e-105 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.9234513876612442e-09 -- False
+	 	 	 (o) Cusum Test: 6.164469686253517e-35 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.7179089271064168 -- True
+	 	 	 	 -3: 0.7402979876979007 -- True
+	 	 	 	 -2: 0.4206149717857399 -- True
+	 	 	 	 -1: 0.5556926281397904 -- True
+	 	 	 	 +1: 0.6465278656738097 -- True
+	 	 	 	 +2: 0.386495693848211 -- True
+	 	 	 	 +3: 0.6373623826719866 -- True
+	 	 	 	 +4: 0.4890459025313101 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9429840238229006 -- True
+	 	 	 	 -8.0: 0.969632389237608 -- True
+	 	 	 	 -7.0: 0.8379899799745315 -- True
+	 	 	 	 -6.0: 0.9645413845555681 -- True
+	 	 	 	 -5.0: 0.5887691809341116 -- True
+	 	 	 	 -4.0: 0.6159838228599541 -- True
+	 	 	 	 -3.0: 0.843190481080196 -- True
+	 	 	 	 -2.0: 0.8648125041589424 -- True
+	 	 	 	 -1.0: 0.5553463166714221 -- True
+	 	 	 	 +1.0: 0.7680825619009432 -- True
+	 	 	 	 +2.0: 0.6703787406647557 -- True
+	 	 	 	 +3.0: 0.947427149084497 -- True
+	 	 	 	 +4.0: 0.7381026926356604 -- True
+	 	 	 	 +5.0: 0.5887691809341116 -- True
+	 	 	 	 +6.0: 0.6248348671273874 -- True
+	 	 	 	 +7.0: 0.774685664974643 -- True
+	 	 	 	 +8.0: 0.969632389237608 -- True
+	 	 	 	 +9.0: 0.6678365357057534 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7338957350535266 -- True
+	 	 	 (o) Binary Matrix Test: 0.3623201814008995 -- True
+	 	 	 (o) Linear Complexity Test: 0.44916407917176127 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-48-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.993715997814637 bits
+		 --> H = 0.999986254458314 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315609 bits
+	 	 --> Deficiency Function = 8684303
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.567539262448937e-32 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.145303820575724e-15 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.6070425252288814 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.502587237369242e-94 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.7995056026459712e-08 -- False
+	 	 	 (o) Cusum Test: 3.882301598856465e-33 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.201908526774593 -- True
+	 	 	 	 -3: 0.16774444780912323 -- True
+	 	 	 	 -2: 0.5580116138731769 -- True
+	 	 	 	 -1: 0.2345173378471364 -- True
+	 	 	 	 +1: 0.7558327890983201 -- True
+	 	 	 	 +2: 0.12815962751051904 -- True
+	 	 	 	 +3: 0.19130248475380038 -- True
+	 	 	 	 +4: 0.9865736795558144 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.43796657516602067 -- True
+	 	 	 	 -8.0: 0.5448268505172666 -- True
+	 	 	 	 -7.0: 0.8130253426175775 -- True
+	 	 	 	 -6.0: 0.9487453396406136 -- True
+	 	 	 	 -5.0: 0.6698153575994166 -- True
+	 	 	 	 -4.0: 0.19728799275451914 -- True
+	 	 	 	 -3.0: 0.15266138035243018 -- True
+	 	 	 	 -2.0: 0.5382526579885007 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 	 	 +1.0: 0.5224312849615644 -- True
+	 	 	 	 +2.0: 0.6224606558934542 -- True
+	 	 	 	 +3.0: 0.6335534753768335 -- True
+	 	 	 	 +4.0: 0.6870133442333652 -- True
+	 	 	 	 +5.0: 0.5696715815879664 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.48150627622221176 -- True
+	 	 	 (o) Binary Matrix Test: 0.4865051081548749 -- True
+	 	 	 (o) Linear Complexity Test: 0.019449277103618785 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-49-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9922228758979003 bits
+		 --> H = 0.9999789245023698 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315418 bits
+	 	 --> Deficiency Function = 8684494
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 4.525096097850597e-104 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.730336681761852e-67 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.1753687895138565 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.3292972735857543e-114 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.2443082606876958e-26 -- False
+	 	 	 (o) Cusum Test: 2.013287346459724e-104 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.002445670177466333 -- False
+	 	 	 	 -3: 0.005665999491305043 -- False
+	 	 	 	 -2: 0.003458298780615612 -- False
+	 	 	 	 -1: 2.3187585803101154e-05 -- False
+	 	 	 	 +1: 0.5655217216523047 -- True
+	 	 	 	 +2: 0.9196978657507592 -- True
+	 	 	 	 +3: 0.9690721629224632 -- True
+	 	 	 	 +4: 0.985930570685331 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 7.717040577191723e-08 -- False
+	 	 	 	 -8.0: 2.6785223425411122e-05 -- False
+	 	 	 	 -7.0: 2.8666261254657593e-05 -- False
+	 	 	 	 -6.0: 4.517450988213631e-07 -- False
+	 	 	 	 -5.0: 1.1093369049350335e-06 -- False
+	 	 	 	 -4.0: 1.901276281788005e-05 -- False
+	 	 	 	 -3.0: 3.9401582725131885e-05 -- False
+	 	 	 	 -2.0: 2.4586136714663832e-05 -- False
+	 	 	 	 -1.0: 0.002183044737362255 -- False
+	 	 	 	 +1.0: 0.813663715766792 -- True
+	 	 	 	 +2.0: 0.58621368107314 -- True
+	 	 	 	 +3.0: 0.17058693287144144 -- True
+	 	 	 	 +4.0: 0.4226780741706355 -- True
+	 	 	 	 +5.0: 0.875138580080403 -- True
+	 	 	 	 +6.0: 0.6698153575994166 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.5277066268511421 -- True
+	 	 	 (o) Binary Matrix Test: 0.7004683245905401 -- True
+	 	 	 (o) Linear Complexity Test: 0.01974398962976614 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-50-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9914338683828546 bits
+		 --> H = 0.9999744172364489 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315548 bits
+	 	 --> Deficiency Function = 8684364
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 6.971840181396738e-130 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 4.165584762641735e-88 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.7746778737005874 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 3.5857379805690174e-141 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 5.6799374885519815e-30 -- False
+	 	 	 (o) Cusum Test: 3.278158752953972e-130 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.5530512849073652 -- True
+	 	 	 	 -3: 0.10944015096176214 -- True
+	 	 	 	 -2: 0.018775729108363743 -- True
+	 	 	 	 -1: 0.491775092523837 -- True
+	 	 	 	 +1: 0.5078927208274553 -- True
+	 	 	 	 +2: 0.9725068434185997 -- True
+	 	 	 	 +3: 0.17164572641502565 -- True
+	 	 	 	 +4: 0.7471033736541265 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6774501287687147 -- True
+	 	 	 	 -8.0: 0.5353035972463007 -- True
+	 	 	 	 -7.0: 0.4466317481305161 -- True
+	 	 	 	 -6.0: 0.40804420568711997 -- True
+	 	 	 	 -5.0: 0.3603706112538273 -- True
+	 	 	 	 -4.0: 0.29967715920559657 -- True
+	 	 	 	 -3.0: 0.4431023319909091 -- True
+	 	 	 	 -2.0: 0.6920614909359382 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 	 	 +1.0: 0.6069054272179508 -- True
+	 	 	 	 +2.0: 0.6920614909359382 -- True
+	 	 	 	 +3.0: 0.5394981968180632 -- True
+	 	 	 	 +4.0: 0.6040655312875796 -- True
+	 	 	 	 +5.0: 0.5675510167281037 -- True
+	 	 	 	 +6.0: 0.46911315243545415 -- True
+	 	 	 	 +7.0: 0.4466317481305161 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.896414902123882 -- True
+	 	 	 (o) Binary Matrix Test: 0.24466096989024985 -- True
+	 	 	 (o) Linear Complexity Test: 0.1430489575066832 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-51-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9872864880561926 bits
+		 --> H = 0.9999434852037703 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315611 bits
+	 	 --> Deficiency Function = 8684301
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 4.6860288032911065e-154 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 6.3572625251739815e-108 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.0836612216209332 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 3.6934718235377755e-130 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 3.5139691716445257e-40 -- False
+	 	 	 (o) Cusum Test: 7.558943899440507e-155 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8633136319283226 -- True
+	 	 	 	 -3: 0.9344955323163923 -- True
+	 	 	 	 -2: 0.8518611484085725 -- True
+	 	 	 	 -1: 0.9358643411851875 -- True
+	 	 	 	 +1: 0.5125371168983258 -- True
+	 	 	 	 +2: 0.4180939911704037 -- True
+	 	 	 	 +3: 0.4212216763686405 -- True
+	 	 	 	 +4: 0.9681468507982273 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6595114057706537 -- True
+	 	 	 	 -8.0: 0.7980737221573262 -- True
+	 	 	 	 -7.0: 0.6360018494092361 -- True
+	 	 	 	 -6.0: 0.496185526944124 -- True
+	 	 	 	 -5.0: 0.4408998098859006 -- True
+	 	 	 	 -4.0: 0.4664794871252478 -- True
+	 	 	 	 -3.0: 0.6399650499319731 -- True
+	 	 	 	 -2.0: 0.7506208241656307 -- True
+	 	 	 	 -1.0: 0.7411815058736042 -- True
+	 	 	 	 +1.0: 0.8688301969253137 -- True
+	 	 	 	 +2.0: 0.48442336471277603 -- True
+	 	 	 	 +3.0: 0.30115087819951303 -- True
+	 	 	 	 +4.0: 0.28863571846352665 -- True
+	 	 	 	 +5.0: 0.23298267579657272 -- True
+	 	 	 	 +6.0: 0.3701068283962963 -- True
+	 	 	 	 +7.0: 0.7952112583672171 -- True
+	 	 	 	 +8.0: 0.7762052970938843 -- True
+	 	 	 	 +9.0: 0.6307714694104605 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9720376057585898 -- True
+	 	 	 (o) Binary Matrix Test: 0.05547318384733407 -- True
+	 	 	 (o) Linear Complexity Test: 0.7942143316818041 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-52-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.986663120963783 bits
+		 --> H = 0.9999377802836786 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315559 bits
+	 	 --> Deficiency Function = 8684353
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.7831855959314113e-172 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 8.514883415051842e-129 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.008496550975053446 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 3.709999124965927e-144 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.0813154341816487e-54 -- False
+	 	 	 (o) Cusum Test: 1.1723862804111043e-172 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8256322234524587 -- True
+	 	 	 	 -3: 0.3696001195543557 -- True
+	 	 	 	 -2: 0.39760979240556527 -- True
+	 	 	 	 -1: 0.7043908877923186 -- True
+	 	 	 	 +1: 0.5330818102784434 -- True
+	 	 	 	 +2: 0.9182404375689667 -- True
+	 	 	 	 +3: 0.9456076716745427 -- True
+	 	 	 	 +4: 0.5409531861429213 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9346530702061856 -- True
+	 	 	 	 -8.0: 0.7599815271577279 -- True
+	 	 	 	 -7.0: 0.7784923216050192 -- True
+	 	 	 	 -6.0: 0.8784817434328712 -- True
+	 	 	 	 -5.0: 0.9775251218619695 -- True
+	 	 	 	 -4.0: 0.7253017013822287 -- True
+	 	 	 	 -3.0: 0.7913367801006606 -- True
+	 	 	 	 -2.0: 0.8836174593813683 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 	 	 +1.0: 0.23672357063785732 -- True
+	 	 	 	 +2.0: 0.5914437399020237 -- True
+	 	 	 	 +3.0: 0.7623688184698398 -- True
+	 	 	 	 +4.0: 0.5438955516167712 -- True
+	 	 	 	 +5.0: 0.39802471950693785 -- True
+	 	 	 	 +6.0: 0.34575901183129 -- True
+	 	 	 	 +7.0: 0.373072030158872 -- True
+	 	 	 	 +8.0: 0.3480712878701422 -- True
+	 	 	 	 +9.0: 0.3054103382367953 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.5726766060132135 -- True
+	 	 	 (o) Binary Matrix Test: 0.20567033969557783 -- True
+	 	 	 (o) Linear Complexity Test: 0.19692859807377336 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-53-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9851087363944482 bits
+		 --> H = 0.9999223479485914 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315472 bits
+	 	 --> Deficiency Function = 8684440
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.390481309223754e-186 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.206210503100689e-137 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.4854231403848064 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 2.6544906774133083e-154 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.116766012125722e-61 -- False
+	 	 	 (o) Cusum Test: 4.254359544336442e-187 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.5559963452255363 -- True
+	 	 	 	 -3: 0.5105433647861285 -- True
+	 	 	 	 -2: 0.9518470974843987 -- True
+	 	 	 	 -1: 0.8685378108778972 -- True
+	 	 	 	 +1: 0.7439326487244222 -- True
+	 	 	 	 +2: 0.007409465395503322 -- False
+	 	 	 	 +3: 0.3332353043758681 -- True
+	 	 	 	 +4: 0.006728502498969504 -- False
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.08990629340609323 -- True
+	 	 	 	 -8.0: 0.040423979336908576 -- True
+	 	 	 	 -7.0: 0.027707849358079864 -- True
+	 	 	 	 -6.0: 0.12393428012758574 -- True
+	 	 	 	 -5.0: 0.7054569861112734 -- True
+	 	 	 	 -4.0: 0.9430566709670429 -- True
+	 	 	 	 -3.0: 0.8657723749926214 -- True
+	 	 	 	 -2.0: 1.0 -- True
+	 	 	 	 -1.0: 0.7054569861112734 -- True
+	 	 	 	 +1.0: 0.7054569861112734 -- True
+	 	 	 	 +2.0: 0.5853789284609616 -- True
+	 	 	 	 +3.0: 0.49896229860376107 -- True
+	 	 	 	 +4.0: 0.39136593830755195 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.17745622850128773 -- True
+	 	 	 (o) Binary Matrix Test: 0.41242375229922035 -- True
+	 	 	 (o) Linear Complexity Test: 0.9298393000019496 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-54-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9883508377476713 bits
+		 --> H = 0.9999525868599539 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315524 bits
+	 	 --> Deficiency Function = 8684388
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 4.205245685920586e-161 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.4321514972723007e-115 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.8639277029079824 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.893087561191809e-131 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.7089087215445762e-45 -- False
+	 	 	 (o) Cusum Test: 1.6542362045349862e-161 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.01235945443023644 -- True
+	 	 	 	 -3: 0.17356267022817284 -- True
+	 	 	 	 -2: 0.24663415218605245 -- True
+	 	 	 	 -1: 0.6999858358786276 -- True
+	 	 	 	 +1: 0.9625657732472964 -- True
+	 	 	 	 +2: 0.6999858358786276 -- True
+	 	 	 	 +3: 0.9770333437569263 -- True
+	 	 	 	 +4: 0.989273996570703 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.931665716594859 -- True
+	 	 	 	 -8.0: 0.8551321405847059 -- True
+	 	 	 	 -7.0: 0.7686247922021466 -- True
+	 	 	 	 -6.0: 0.7491191330005953 -- True
+	 	 	 	 -5.0: 0.7236736098317631 -- True
+	 	 	 	 -4.0: 0.6884997410966343 -- True
+	 	 	 	 -3.0: 0.6352562959972483 -- True
+	 	 	 	 -2.0: 0.8382564863858263 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 	 	 +1.0: 0.7236736098317631 -- True
+	 	 	 	 +2.0: 0.5402913746074199 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.3226586128398897 -- True
+	 	 	 (o) Binary Matrix Test: 0.9115253759164519 -- True
+	 	 	 (o) Linear Complexity Test: 0.419465178625459 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-55-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9855171715825957 bits
+		 --> H = 0.9999265700863237 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315465 bits
+	 	 --> Deficiency Function = 8684447
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 8.34379680868497e-171 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.0853190807667325e-122 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.2808299617421504 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.5932646122304873e-137 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 4.25126840076594e-48 -- False
+	 	 	 (o) Cusum Test: 3.2301042237504455e-171 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8029968951064848 -- True
+	 	 	 	 -3: 0.0026223490150527233 -- False
+	 	 	 	 -2: 0.2705578274593887 -- True
+	 	 	 	 -1: 0.14298521746690174 -- True
+	 	 	 	 +1: 0.6108174432324845 -- True
+	 	 	 	 +2: 0.9142539923610294 -- True
+	 	 	 	 +3: 0.706091109222725 -- True
+	 	 	 	 +4: 0.5906412651950954 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9163591402734885 -- True
+	 	 	 	 -8.0: 0.9702714798252512 -- True
+	 	 	 	 -7.0: 0.9680675837672984 -- True
+	 	 	 	 -6.0: 0.965287489060738 -- True
+	 	 	 	 -5.0: 0.7362769783410712 -- True
+	 	 	 	 -4.0: 0.5853789284609616 -- True
+	 	 	 	 -3.0: 0.6985353583033387 -- True
+	 	 	 	 -2.0: 0.9335864962947554 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 	 	 +1.0: 0.47048642205878966 -- True
+	 	 	 	 +2.0: 0.27866049489924394 -- True
+	 	 	 	 +3.0: 0.43857802608099994 -- True
+	 	 	 	 +4.0: 0.5484401269400269 -- True
+	 	 	 	 +5.0: 0.7003113729368904 -- True
+	 	 	 	 +6.0: 0.8277430676386885 -- True
+	 	 	 	 +7.0: 0.8727801237939118 -- True
+	 	 	 	 +8.0: 0.6818457101446453 -- True
+	 	 	 	 +9.0: 0.4838398513935682 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.8263734255007262 -- True
+	 	 	 (o) Binary Matrix Test: 0.5868453032941447 -- True
+	 	 	 (o) Linear Complexity Test: 0.4582271222012356 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-56-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9880417520981217 bits
+		 --> H = 0.9999500267191777 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315601 bits
+	 	 --> Deficiency Function = 8684311
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.492341084351516e-193 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.233087531052353e-145 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.13582765953193232 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 8.245015879767206e-128 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 5.1093203079166564e-64 -- False
+	 	 	 (o) Cusum Test: 5.19822639803812e-194 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.026422733921454382 -- True
+	 	 	 	 -3: 0.4158801869955075 -- True
+	 	 	 	 -2: 0.8176196954122688 -- True
+	 	 	 	 -1: 0.8491450360846096 -- True
+	 	 	 	 +1: 0.7512117103661213 -- True
+	 	 	 	 +2: 0.8176196954122688 -- True
+	 	 	 	 +3: 0.9448773650021219 -- True
+	 	 	 	 +4: 0.973246337232544 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9441825132504833 -- True
+	 	 	 	 -8.0: 0.765594483995764 -- True
+	 	 	 	 -7.0: 0.5218393903336155 -- True
+	 	 	 	 -6.0: 0.43342193095607373 -- True
+	 	 	 	 -5.0: 0.7728299926844475 -- True
+	 	 	 	 -4.0: 0.7434206976952524 -- True
+	 	 	 	 -3.0: 0.5186050164287256 -- True
+	 	 	 	 -2.0: 0.40465676192728617 -- True
+	 	 	 	 -1.0: 0.24821307898992362 -- True
+	 	 	 	 +1.0: 0.7728299926844475 -- True
+	 	 	 	 +2.0: 0.40465676192728617 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.007456980252572934 -- False
+	 	 	 (o) Binary Matrix Test: 0.1140213840894064 -- True
+	 	 	 (o) Linear Complexity Test: 0.9455080492756509 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-57-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9884080830984726 bits
+		 --> H = 0.9999530535728763 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315556 bits
+	 	 --> Deficiency Function = 8684356
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 4.7680693245185955e-202 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 5.104991181909276e-151 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.08907729222254883 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 7.709262337163508e-138 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 6.659727968920156e-78 -- False
+	 	 	 (o) Cusum Test: 6.969866904767555e-203 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.2280501417675757 -- True
+	 	 	 	 -3: 0.6612308172694588 -- True
+	 	 	 	 -2: 0.16696552257179023 -- True
+	 	 	 	 -1: 0.013440634053440485 -- True
+	 	 	 	 +1: 0.5256782391116276 -- True
+	 	 	 	 +2: 0.7391236591812972 -- True
+	 	 	 	 +3: 0.08756768570904756 -- True
+	 	 	 	 +4: 0.4228286455515021 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9592211344573861 -- True
+	 	 	 	 -8.0: 0.6830913983096087 -- True
+	 	 	 	 -7.0: 0.5686182086635944 -- True
+	 	 	 	 -6.0: 0.7029175632453667 -- True
+	 	 	 	 -5.0: 0.8743670611628919 -- True
+	 	 	 	 -4.0: 0.936490249583841 -- True
+	 	 	 	 -3.0: 0.96240128706151 -- True
+	 	 	 	 -2.0: 0.7150006546880892 -- True
+	 	 	 	 -1.0: 0.5981614526835282 -- True
+	 	 	 	 +1.0: 0.5270892568655381 -- True
+	 	 	 	 +2.0: 1.0 -- True
+	 	 	 	 +3.0: 0.5245182802130763 -- True
+	 	 	 	 +4.0: 0.40278369424647575 -- True
+	 	 	 	 +5.0: 0.36095498970716366 -- True
+	 	 	 	 +6.0: 0.6678808961214499 -- True
+	 	 	 	 +7.0: 0.8378480324150425 -- True
+	 	 	 	 +8.0: 0.7750513736700824 -- True
+	 	 	 	 +9.0: 0.5651399880422409 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.3525608715402503 -- True
+	 	 	 (o) Binary Matrix Test: 0.4322325638663051 -- True
+	 	 	 (o) Linear Complexity Test: 0.7215331151079818 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-58-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9868975668924709 bits
+		 --> H = 0.9999399583521469 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315622 bits
+	 	 --> Deficiency Function = 8684290
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.4657152674528994e-178 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.7393336095242254e-132 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.6946354895811602 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.3292972735857543e-114 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 6.878418865269816e-60 -- False
+	 	 	 (o) Cusum Test: 9.840481932447437e-179 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 2.64000316051373e-06 -- False
+	 	 	 	 -3: 0.006996448247797921 -- False
+	 	 	 	 -2: 0.22125313719359033 -- True
+	 	 	 	 -1: 0.502487515435573 -- True
+	 	 	 	 +1: 0.8013589222076911 -- True
+	 	 	 	 +2: 0.5335322196587069 -- True
+	 	 	 	 +3: 0.9880032427940937 -- True
+	 	 	 	 +4: 0.9945059778188691 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.8430219763697249 -- True
+	 	 	 	 -8.0: 0.4605966187047714 -- True
+	 	 	 	 -7.0: 0.36503027183830405 -- True
+	 	 	 	 -6.0: 0.3247557654026184 -- True
+	 	 	 	 -5.0: 0.07688120490870527 -- True
+	 	 	 	 -4.0: 0.044862271152914815 -- True
+	 	 	 	 -3.0: 0.06788915486182903 -- True
+	 	 	 	 -2.0: 0.15729920705028516 -- True
+	 	 	 	 -1.0: 0.6830913983096087 -- True
+	 	 	 	 +1.0: 0.6830913983096087 -- True
+	 	 	 	 +2.0: 0.6373518882339371 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.388849586269124 -- True
+	 	 	 (o) Binary Matrix Test: 0.42469168648060357 -- True
+	 	 	 (o) Linear Complexity Test: 0.5951422077952724 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-59-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9899173171647973 bits
+		 --> H = 0.9999645196254834 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315552 bits
+	 	 --> Deficiency Function = 8684360
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 4.4511320856579214e-170 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.8997241313108435e-125 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.1228821355527661 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 2.0251572207080723e-150 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 6.63752962940903e-43 -- False
+	 	 	 (o) Cusum Test: 2.0925706205928927e-170 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.16814108601086955 -- True
+	 	 	 	 -3: 0.024467177118605236 -- True
+	 	 	 	 -2: 0.6816972334522664 -- True
+	 	 	 	 -1: 0.676420248832065 -- True
+	 	 	 	 +1: 0.07133248430245426 -- True
+	 	 	 	 +2: 0.054394706969639973 -- True
+	 	 	 	 +3: 0.3854158674139953 -- True
+	 	 	 	 +4: 0.578850590922534 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9258970734385271 -- True
+	 	 	 	 -8.0: 0.7363806353634739 -- True
+	 	 	 	 -7.0: 0.6322124858094492 -- True
+	 	 	 	 -6.0: 0.7813974541464781 -- True
+	 	 	 	 -5.0: 0.9388649898237753 -- True
+	 	 	 	 -4.0: 0.8391976692307378 -- True
+	 	 	 	 -3.0: 0.9044443246077083 -- True
+	 	 	 	 -2.0: 0.9823359820507692 -- True
+	 	 	 	 -1.0: 0.969410021563544 -- True
+	 	 	 	 +1.0: 0.5651399880422409 -- True
+	 	 	 	 +2.0: 0.19909242023852602 -- True
+	 	 	 	 +3.0: 0.19835952842898708 -- True
+	 	 	 	 +4.0: 0.2966761100794524 -- True
+	 	 	 	 +5.0: 0.33770675602842704 -- True
+	 	 	 	 +6.0: 0.8171216407043889 -- True
+	 	 	 	 +7.0: 0.9152975951921257 -- True
+	 	 	 	 +8.0: 0.6135762217536993 -- True
+	 	 	 	 +9.0: 0.7945376066681331 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.8513717111906502 -- True
+	 	 	 (o) Binary Matrix Test: 0.9136830946659833 -- True
+	 	 	 (o) Linear Complexity Test: 0.15853159151225982 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-60-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9876440448526436 bits
+		 --> H = 0.9999466326504386 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315605 bits
+	 	 --> Deficiency Function = 8684307
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.2223298758109645e-163 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.56780265450031e-114 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.16879367203541282 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 8.04597274877758e-141 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.3860456828987946e-46 -- False
+	 	 	 (o) Cusum Test: 7.536421793518372e-164 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8037165103325061 -- True
+	 	 	 	 -3: 0.44478739685205326 -- True
+	 	 	 	 -2: 0.47740955390130524 -- True
+	 	 	 	 -1: 0.7288655263240481 -- True
+	 	 	 	 +1: 0.7951912019132266 -- True
+	 	 	 	 +2: 0.8708767159406854 -- True
+	 	 	 	 +3: 0.2299267766258675 -- True
+	 	 	 	 +4: 0.9929389611505015 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6276258050283594 -- True
+	 	 	 	 -8.0: 0.922865700723369 -- True
+	 	 	 	 -7.0: 0.6151772820835655 -- True
+	 	 	 	 -6.0: 0.43974563486845974 -- True
+	 	 	 	 -5.0: 0.5319710580974011 -- True
+	 	 	 	 -4.0: 0.9059774116720972 -- True
+	 	 	 	 -3.0: 0.8448794662830248 -- True
+	 	 	 	 -2.0: 0.6134313729551664 -- True
+	 	 	 	 -1.0: 0.9005235503397743 -- True
+	 	 	 	 +1.0: 0.4532547047537365 -- True
+	 	 	 	 +2.0: 0.6914203270448916 -- True
+	 	 	 	 +3.0: 0.8448794662830248 -- True
+	 	 	 	 +4.0: 0.5707503880581739 -- True
+	 	 	 	 +5.0: 0.6922279845770752 -- True
+	 	 	 	 +6.0: 0.89505451924387 -- True
+	 	 	 	 +7.0: 0.9861698575424498 -- True
+	 	 	 	 +8.0: 0.9100606706245511 -- True
+	 	 	 	 +9.0: 1.0 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6491325096401634 -- True
+	 	 	 (o) Binary Matrix Test: 0.9531824718127209 -- True
+	 	 	 (o) Linear Complexity Test: 0.10081750427837902 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-61-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9868403814455738 bits
+		 --> H = 0.9999394306941841 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315513 bits
+	 	 --> Deficiency Function = 8684399
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.0130600384238645e-170 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 9.49726956470625e-121 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.01631504774228023 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 9.560177565257716e-133 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 7.945319554049717e-43 -- False
+	 	 	 (o) Cusum Test: 4.135258888807294e-171 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.04207302944705015 -- True
+	 	 	 	 -3: 0.006036754403143387 -- False
+	 	 	 	 -2: 0.1988893731106404 -- True
+	 	 	 	 -1: 0.8661567035905395 -- True
+	 	 	 	 +1: 0.7575632541396593 -- True
+	 	 	 	 +2: 0.4911099661197781 -- True
+	 	 	 	 +3: 0.6691829020332432 -- True
+	 	 	 	 +4: 0.8083627560836737 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.3679246720758792 -- True
+	 	 	 	 -8.0: 0.11014892418594699 -- True
+	 	 	 	 -7.0: 0.20239601597295898 -- True
+	 	 	 	 -6.0: 0.18269447121494797 -- True
+	 	 	 	 -5.0: 0.06774601384068933 -- True
+	 	 	 	 -4.0: 0.027460744334305093 -- True
+	 	 	 	 -3.0: 0.057779571123597245 -- True
+	 	 	 	 -2.0: 0.22067136191984693 -- True
+	 	 	 	 -1.0: 0.2888443663464849 -- True
+	 	 	 	 +1.0: 0.4795001221869535 -- True
+	 	 	 	 +2.0: 0.2615722360139494 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.026766192580596065 -- True
+	 	 	 (o) Binary Matrix Test: 0.7999476718057499 -- True
+	 	 	 (o) Linear Complexity Test: 0.9534725743425457 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-62-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9882964567682733 bits
+		 --> H = 0.9999521413444253 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315528 bits
+	 	 --> Deficiency Function = 8684384
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.6680761287485218e-160 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 7.710184157572507e-116 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.08178047500665411 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 6.618597186891181e-129 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.8643239557651353e-42 -- False
+	 	 	 (o) Cusum Test: 1.0062577660982123e-160 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.7584987039443398 -- True
+	 	 	 	 -3: 0.7217806957604032 -- True
+	 	 	 	 -2: 0.4020131090234936 -- True
+	 	 	 	 -1: 0.747817301104742 -- True
+	 	 	 	 +1: 0.8582906277500125 -- True
+	 	 	 	 +2: 0.6304353675981254 -- True
+	 	 	 	 +3: 0.6794383863139952 -- True
+	 	 	 	 +4: 0.026663308216918077 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.8993022978950431 -- True
+	 	 	 	 -8.0: 1.0 -- True
+	 	 	 	 -7.0: 0.679277596213328 -- True
+	 	 	 	 -6.0: 0.7024268081091429 -- True
+	 	 	 	 -5.0: 0.5846574210119373 -- True
+	 	 	 	 -4.0: 0.7998461056624733 -- True
+	 	 	 	 -3.0: 0.893929766752772 -- True
+	 	 	 	 -2.0: 0.897278961260083 -- True
+	 	 	 	 -1.0: 0.8230632737581215 -- True
+	 	 	 	 +1.0: 0.6547208460185769 -- True
+	 	 	 	 +2.0: 0.41356859615378105 -- True
+	 	 	 	 +3.0: 0.5265159900789567 -- True
+	 	 	 	 +4.0: 0.932646638965876 -- True
+	 	 	 	 +5.0: 0.9011363376507411 -- True
+	 	 	 	 +6.0: 0.8749979379042403 -- True
+	 	 	 	 +7.0: 0.6344545177790937 -- True
+	 	 	 	 +8.0: 0.5637028616507731 -- True
+	 	 	 	 +9.0: 0.43696165757432914 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6872866191844423 -- True
+	 	 	 (o) Binary Matrix Test: 0.058321598417997285 -- True
+	 	 	 (o) Linear Complexity Test: 0.7447521371758132 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-63-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9808547529383512 bits
+		 --> H = 0.9998712640029751 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315373 bits
+	 	 --> Deficiency Function = 8684539
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.6802121706699517e-280 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 7.518073571319198e-226 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.007888915432562602 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.2646985285399577e-80 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 6.062732103054007e-105 -- False
+	 	 	 (o) Cusum Test: 3.099597781489997e-281 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.45701440715667685 -- True
+	 	 	 	 -3: 0.5140118424932223 -- True
+	 	 	 	 -2: 0.3259165281600336 -- True
+	 	 	 	 -1: 0.31441226920867216 -- True
+	 	 	 	 +1: 0.21451611564042633 -- True
+	 	 	 	 +2: 0.008269707507775998 -- False
+	 	 	 	 +3: 0.8024997044585214 -- True
+	 	 	 	 +4: 0.043085973960628444 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -6.0: 0.3168526635403315 -- True
+	 	 	 	 -5.0: 0.3123214216762161 -- True
+	 	 	 	 -4.0: 0.2519425151568083 -- True
+	 	 	 	 -3.0: 0.15558034779219784 -- True
+	 	 	 	 -2.0: 0.15658040708963475 -- True
+	 	 	 	 -1.0: 0.11235119769046385 -- True
+	 	 	 	 +1.0: 0.043308142810791955 -- True
+	 	 	 	 +2.0: 0.4532547047537364 -- True
+	 	 	 	 +3.0: 0.897278961260083 -- True
+	 	 	 	 +4.0: 0.6234333413821049 -- True
+	 	 	 	 +5.0: 0.4414183267820537 -- True
+	 	 	 	 +6.0: 0.3840882494738521 -- True
+	 	 	 	 +7.0: 0.3571878141741228 -- True
+	 	 	 	 +8.0: 0.39135680171486487 -- True
+	 	 	 	 +9.0: 0.4412085195058776 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.002480254524071215 -- False
+	 	 	 (o) Binary Matrix Test: 0.9552684110738752 -- True
+	 	 	 (o) Linear Complexity Test: 0.7107882194375137 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-64-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.985540595847387 bits
+		 --> H = 0.9999268086170652 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315439 bits
+	 	 --> Deficiency Function = 8684473
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 9.191195096877136e-247 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 5.21974629407681e-193 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 1.751926245550636e-06 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.045194861728371e-90 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 3.7732857945892874e-81 -- False
+	 	 	 (o) Cusum Test: 4.266378860459394e-247 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8203835014854888 -- True
+	 	 	 	 -3: 0.19619689508643473 -- True
+	 	 	 	 -2: 0.33168366321293036 -- True
+	 	 	 	 -1: 0.13495514982711848 -- True
+	 	 	 	 +1: 0.5827987229567915 -- True
+	 	 	 	 +2: 0.7897930465137813 -- True
+	 	 	 	 +3: 0.8773443261135034 -- True
+	 	 	 	 +4: 0.8712441638471178 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6176848467379198 -- True
+	 	 	 	 -8.0: 0.712123101751542 -- True
+	 	 	 	 -7.0: 0.8615467545812074 -- True
+	 	 	 	 -6.0: 0.7959872153886274 -- True
+	 	 	 	 -5.0: 0.7604526942866897 -- True
+	 	 	 	 -4.0: 0.8797804536658191 -- True
+	 	 	 	 -3.0: 0.42805142166934784 -- True
+	 	 	 	 -2.0: 0.1558373705573533 -- True
+	 	 	 	 -1.0: 0.2299490567942134 -- True
+	 	 	 	 +1.0: 0.8638317428547264 -- True
+	 	 	 	 +2.0: 0.8949687316194994 -- True
+	 	 	 	 +3.0: 0.7204054321083013 -- True
+	 	 	 	 +4.0: 0.8968506656319674 -- True
+	 	 	 	 +5.0: 0.8938867025178854 -- True
+	 	 	 	 +6.0: 0.7959872153886274 -- True
+	 	 	 	 +7.0: 0.7997421707284815 -- True
+	 	 	 	 +8.0: 0.6157741396176692 -- True
+	 	 	 	 +9.0: 0.4374945612821397 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6284494691664234 -- True
+	 	 	 (o) Binary Matrix Test: 0.19017521240855165 -- True
+	 	 	 (o) Linear Complexity Test: 0.6005420025420585 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-65-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9862034887946791 bits
+		 --> H = 0.9999333964806323 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315538 bits
+	 	 --> Deficiency Function = 8684374
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.032596023908312e-269 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 5.965311557850092e-211 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.029764950670882515 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 3.307254469771397e-115 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 8.335914351433408e-96 -- False
+	 	 	 (o) Cusum Test: 1.1617884545771161e-269 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6258062896752538 -- True
+	 	 	 	 -3: 0.7143959402224375 -- True
+	 	 	 	 -2: 0.6590028182763817 -- True
+	 	 	 	 -1: 0.9921232932326296 -- True
+	 	 	 	 +1: 0.21538204960315152 -- True
+	 	 	 	 +2: 0.8145449193579282 -- True
+	 	 	 	 +3: 0.4620900267097855 -- True
+	 	 	 	 +4: 0.7977374869317202 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9483170207664727 -- True
+	 	 	 	 -8.0: 0.8359944985248412 -- True
+	 	 	 	 -7.0: 0.7952978836076402 -- True
+	 	 	 	 -6.0: 0.8719637673702084 -- True
+	 	 	 	 -5.0: 0.5625446241828542 -- True
+	 	 	 	 -4.0: 0.6494195965521816 -- True
+	 	 	 	 -3.0: 0.6757058487030954 -- True
+	 	 	 	 -2.0: 0.5891544654500582 -- True
+	 	 	 	 -1.0: 0.6884997410966343 -- True
+	 	 	 	 +1.0: 0.7892680261342813 -- True
+	 	 	 	 +2.0: 0.9385028847784713 -- True
+	 	 	 	 +3.0: 0.5906786252963061 -- True
+	 	 	 	 +4.0: 0.5114386930367658 -- True
+	 	 	 	 +5.0: 0.6560051321908611 -- True
+	 	 	 	 +6.0: 0.6870133442333652 -- True
+	 	 	 	 +7.0: 0.6038482460673436 -- True
+	 	 	 	 +8.0: 0.7300697275800422 -- True
+	 	 	 	 +9.0: 0.9225433008087743 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.47781269559134376 -- True
+	 	 	 (o) Binary Matrix Test: 0.4376192176604401 -- True
+	 	 	 (o) Linear Complexity Test: 0.4091819735278062 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-66-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9846353247803981 bits
+		 --> H = 0.9999173048831012 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315467 bits
+	 	 --> Deficiency Function = 8684445
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.6008368902898215e-245 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 9.99151554608633e-191 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.0017573973088966526 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 3.736378216899014e-98 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 3.2887446395496714e-84 -- False
+	 	 	 (o) Cusum Test: 1.7076142045630046e-245 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6197831121740268 -- True
+	 	 	 	 -3: 0.822207842679695 -- True
+	 	 	 	 -2: 0.8931022412314061 -- True
+	 	 	 	 -1: 0.7897208451937031 -- True
+	 	 	 	 +1: 0.5750929180723867 -- True
+	 	 	 	 +2: 0.44864313187399507 -- True
+	 	 	 	 +3: 0.23769793851792703 -- True
+	 	 	 	 +4: 0.09608078618589017 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.7469702333356562 -- True
+	 	 	 	 -8.0: 0.6001056376132003 -- True
+	 	 	 	 -7.0: 0.8157453387131137 -- True
+	 	 	 	 -6.0: 0.8992094275813173 -- True
+	 	 	 	 -5.0: 0.8886378608950078 -- True
+	 	 	 	 -4.0: 0.8738446985173735 -- True
+	 	 	 	 -3.0: 0.9500671686227161 -- True
+	 	 	 	 -2.0: 0.41883037948611723 -- True
+	 	 	 	 -1.0: 0.16142946236708322 -- True
+	 	 	 	 +1.0: 0.16142946236708322 -- True
+	 	 	 	 +2.0: 0.07530625275195978 -- True
+	 	 	 	 +3.0: 0.024170547174545264 -- True
+	 	 	 	 +4.0: 0.018513249311389625 -- True
+	 	 	 	 +5.0: 0.033690374015066964 -- True
+	 	 	 	 +6.0: 0.07618871630871912 -- True
+	 	 	 	 +7.0: 0.10702147985046431 -- True
+	 	 	 	 +8.0: 0.14311729825820152 -- True
+	 	 	 	 +9.0: 0.21512153418340296 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.8549073034746251 -- True
+	 	 	 (o) Binary Matrix Test: 0.044736762598177236 -- True
+	 	 	 (o) Linear Complexity Test: 0.7828712361139358 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-67-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9830631599699574 bits
+		 --> H = 0.9998994055974654 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315564 bits
+	 	 --> Deficiency Function = 8684348
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 7.971318142777241e-214 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.8129823978951287e-162 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.0008171821532798885 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.94316270330926e-99 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 8.431627108521616e-68 -- False
+	 	 	 (o) Cusum Test: 1.7204620934797256e-214 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8800690818277741 -- True
+	 	 	 	 -3: 0.9048168088782423 -- True
+	 	 	 	 -2: 0.837889395594566 -- True
+	 	 	 	 -1: 0.43691357980044876 -- True
+	 	 	 	 +1: 0.10377649701115725 -- True
+	 	 	 	 +2: 0.1400679435623738 -- True
+	 	 	 	 +3: 0.28886049188080937 -- True
+	 	 	 	 +4: 0.08508401223209 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5466186076201004 -- True
+	 	 	 	 -8.0: 0.6010292597725444 -- True
+	 	 	 	 -7.0: 0.5918375633524654 -- True
+	 	 	 	 -6.0: 0.5599715600772636 -- True
+	 	 	 	 -5.0: 0.3572725590318748 -- True
+	 	 	 	 -4.0: 0.3656478165252661 -- True
+	 	 	 	 -3.0: 0.7418875371736059 -- True
+	 	 	 	 -2.0: 0.6706943810042421 -- True
+	 	 	 	 -1.0: 0.1974660733580187 -- True
+	 	 	 	 +1.0: 0.16732141830922165 -- True
+	 	 	 	 +2.0: 0.20210204418937272 -- True
+	 	 	 	 +3.0: 0.249016396508296 -- True
+	 	 	 	 +4.0: 0.2508790544991898 -- True
+	 	 	 	 +5.0: 0.37352559985213984 -- True
+	 	 	 	 +6.0: 0.6370279525777349 -- True
+	 	 	 	 +7.0: 0.7017329688403728 -- True
+	 	 	 	 +8.0: 0.6515474038445084 -- True
+	 	 	 	 +9.0: 0.7042700988925321 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9212491704207934 -- True
+	 	 	 (o) Binary Matrix Test: 0.36570842937190695 -- True
+	 	 	 (o) Linear Complexity Test: 0.9053089852231694 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-68-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9854063399745756 bits
+		 --> H = 0.9999254361662411 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315485 bits
+	 	 --> Deficiency Function = 8684427
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 4.9461010701463425e-194 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 7.394507176878232e-144 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 4.338323512796372e-08 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 2.9641781609076735e-95 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 8.93818623120998e-56 -- False
+	 	 	 (o) Cusum Test: 2.1883527047972913e-194 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6290190315492886 -- True
+	 	 	 	 -3: 0.8579489858717617 -- True
+	 	 	 	 -2: 0.9010373593142106 -- True
+	 	 	 	 -1: 0.1015887671626633 -- True
+	 	 	 	 +1: 0.3927190150311806 -- True
+	 	 	 	 +2: 0.7936309191191203 -- True
+	 	 	 	 +3: 0.6530160344951558 -- True
+	 	 	 	 +4: 0.09748947041690198 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.3059882978747235 -- True
+	 	 	 	 -8.0: 0.307621493024812 -- True
+	 	 	 	 -7.0: 0.251914499554712 -- True
+	 	 	 	 -6.0: 0.15913730652540914 -- True
+	 	 	 	 -5.0: 0.1685202919709884 -- True
+	 	 	 	 -4.0: 0.2626741397014677 -- True
+	 	 	 	 -3.0: 0.3153669679279697 -- True
+	 	 	 	 -2.0: 0.37809652033141794 -- True
+	 	 	 	 -1.0: 0.17796742596806492 -- True
+	 	 	 	 +1.0: 0.20866778769826422 -- True
+	 	 	 	 +2.0: 0.4067868333984651 -- True
+	 	 	 	 +3.0: 0.19873954844640906 -- True
+	 	 	 	 +4.0: 0.3085513953655459 -- True
+	 	 	 	 +5.0: 0.7646789817609645 -- True
+	 	 	 	 +6.0: 0.5157978822814435 -- True
+	 	 	 	 +7.0: 0.2318819139628545 -- True
+	 	 	 	 +8.0: 0.10962094897879643 -- True
+	 	 	 	 +9.0: 0.07064255483006691 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.005094465657714945 -- False
+	 	 	 (o) Binary Matrix Test: 0.8799268161239878 -- True
+	 	 	 (o) Linear Complexity Test: 0.9378848240607136 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-69-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9850864614366767 bits
+		 --> H = 0.9999221142558397 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315578 bits
+	 	 --> Deficiency Function = 8684334
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.0086559061524418e-204 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.2713890829132005e-151 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.2685004045549707 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.492003767171775e-78 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 8.427828385841372e-65 -- False
+	 	 	 (o) Cusum Test: 9.662677620389664e-205 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6738955899492527 -- True
+	 	 	 	 -3: 0.6871123579779097 -- True
+	 	 	 	 -2: 0.5834349095816338 -- True
+	 	 	 	 -1: 0.6586994445281688 -- True
+	 	 	 	 +1: 0.8624730914419199 -- True
+	 	 	 	 +2: 0.8405817920608565 -- True
+	 	 	 	 +3: 0.39463390621922706 -- True
+	 	 	 	 +4: 0.5833074280991613 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -8.0: 0.11580410335886271 -- True
+	 	 	 	 -7.0: 0.11891756267142575 -- True
+	 	 	 	 -6.0: 0.12592635032266275 -- True
+	 	 	 	 -5.0: 0.16772989450955467 -- True
+	 	 	 	 -4.0: 0.22624944793955293 -- True
+	 	 	 	 -3.0: 0.27900067990545285 -- True
+	 	 	 	 -2.0: 0.3437645971341302 -- True
+	 	 	 	 -1.0: 0.5846479572713805 -- True
+	 	 	 	 +1.0: 0.639411852803375 -- True
+	 	 	 	 +2.0: 0.6521086053828111 -- True
+	 	 	 	 +3.0: 0.7532980334628382 -- True
+	 	 	 	 +4.0: 0.836323457097104 -- True
+	 	 	 	 +5.0: 0.7155552705176893 -- True
+	 	 	 	 +6.0: 0.6717164565642901 -- True
+	 	 	 	 +7.0: 0.6649071938796189 -- True
+	 	 	 	 +8.0: 0.6573586978812125 -- True
+	 	 	 	 +9.0: 0.6494456692174662 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.23957442566428644 -- True
+	 	 	 (o) Binary Matrix Test: 0.23200112170992282 -- True
+	 	 	 (o) Linear Complexity Test: 0.17167108424879934 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-70-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.986472161460786 bits
+		 --> H = 0.999935977271442 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315552 bits
+	 	 --> Deficiency Function = 8684360
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.348371861940361e-175 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.9612629945261173e-128 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.0012968699737549072 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 2.6428022290532223e-104 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 6.572456793791211e-45 -- False
+	 	 	 (o) Cusum Test: 3.265599449241173e-176 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.2915070167312795 -- True
+	 	 	 	 -3: 0.6758497059353649 -- True
+	 	 	 	 -2: 0.9850638189701061 -- True
+	 	 	 	 -1: 0.2993842944970394 -- True
+	 	 	 	 +1: 0.9215372931054469 -- True
+	 	 	 	 +2: 0.9338285361703581 -- True
+	 	 	 	 +3: 0.49380024444013115 -- True
+	 	 	 	 +4: 0.7383959335520558 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.47445592899884503 -- True
+	 	 	 	 -8.0: 0.48603056615531526 -- True
+	 	 	 	 -7.0: 0.43356123868981855 -- True
+	 	 	 	 -6.0: 0.4492055412890543 -- True
+	 	 	 	 -5.0: 0.4514817836723717 -- True
+	 	 	 	 -4.0: 0.43385334251749075 -- True
+	 	 	 	 -3.0: 0.4656484225710851 -- True
+	 	 	 	 -2.0: 0.8562648396702484 -- True
+	 	 	 	 -1.0: 0.20951084877439552 -- True
+	 	 	 	 +1.0: 0.4146760029449921 -- True
+	 	 	 	 +2.0: 0.8279300870715519 -- True
+	 	 	 	 +3.0: 0.43204388053240095 -- True
+	 	 	 	 +4.0: 0.3802274920541657 -- True
+	 	 	 	 +5.0: 0.3911559458805547 -- True
+	 	 	 	 +6.0: 0.4839368839235273 -- True
+	 	 	 	 +7.0: 0.6260671452795077 -- True
+	 	 	 	 +8.0: 0.7336926471494378 -- True
+	 	 	 	 +9.0: 0.41120548622955533 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6768268618799687 -- True
+	 	 	 (o) Binary Matrix Test: 0.675431743281131 -- True
+	 	 	 (o) Linear Complexity Test: 0.609089950693378 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-71-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9890585498013145 bits
+		 --> H = 0.9999581933640457 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315494 bits
+	 	 --> Deficiency Function = 8684418
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 4.318992177698919e-152 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 4.1982706143239794e-109 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 2.2417855049567678e-05 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 9.399926508551046e-83 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.0187525569533468e-45 -- False
+	 	 	 (o) Cusum Test: 1.710698242557325e-152 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8600726942961985 -- True
+	 	 	 	 -3: 0.7003955896238486 -- True
+	 	 	 	 -2: 0.5794249552339451 -- True
+	 	 	 	 -1: 0.5690987126113054 -- True
+	 	 	 	 +1: 0.8937738944439421 -- True
+	 	 	 	 +2: 0.6055004761499445 -- True
+	 	 	 	 +3: 0.4692354765437601 -- True
+	 	 	 	 +4: 0.16114943489723235 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.23019097548559897 -- True
+	 	 	 	 -8.0: 0.3552768521365327 -- True
+	 	 	 	 -7.0: 0.5757028007903058 -- True
+	 	 	 	 -6.0: 0.7238778613415503 -- True
+	 	 	 	 -5.0: 0.6801452837283392 -- True
+	 	 	 	 -4.0: 0.43110127745491156 -- True
+	 	 	 	 -3.0: 0.43186725974073636 -- True
+	 	 	 	 -2.0: 0.7070484772702186 -- True
+	 	 	 	 -1.0: 0.8451711180218477 -- True
+	 	 	 	 +1.0: 0.5150822787096432 -- True
+	 	 	 	 +2.0: 1.0 -- True
+	 	 	 	 +3.0: 0.6002783598836592 -- True
+	 	 	 	 +4.0: 0.5065037139939663 -- True
+	 	 	 	 +5.0: 0.30781709203366425 -- True
+	 	 	 	 +6.0: 0.40975656141147565 -- True
+	 	 	 	 +7.0: 0.8425807465780782 -- True
+	 	 	 	 +8.0: 1.0 -- True
+	 	 	 	 +9.0: 0.6930693873389284 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.47747765855680746 -- True
+	 	 	 (o) Binary Matrix Test: 0.2726299589081937 -- True
+	 	 	 (o) Linear Complexity Test: 0.20127406414946603 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-72-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9879765091477717 bits
+		 --> H = 0.9999494776393484 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315495 bits
+	 	 --> Deficiency Function = 8684417
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.655681825819856e-110 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 6.073888364264006e-74 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.04670296714525935 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.819267465170907e-102 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 5.7573303696585096e-24 -- False
+	 	 	 (o) Cusum Test: 6.694491265458763e-111 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8514453944963547 -- True
+	 	 	 	 -3: 0.8747081612331625 -- True
+	 	 	 	 -2: 0.24663415218605245 -- True
+	 	 	 	 -1: 0.30621891841327875 -- True
+	 	 	 	 +1: 0.9625657732472964 -- True
+	 	 	 	 +2: 0.020447481945815252 -- True
+	 	 	 	 +3: 0.8747081612331625 -- True
+	 	 	 	 +4: 0.8514453944963547 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.931665716594859 -- True
+	 	 	 	 -8.0: 1.0 -- True
+	 	 	 	 -7.0: 0.84451926747294 -- True
+	 	 	 	 -6.0: 0.5940323405990415 -- True
+	 	 	 	 -5.0: 0.6373518882339371 -- True
+	 	 	 	 -4.0: 0.5929800980174267 -- True
+	 	 	 	 -3.0: 0.7518296340458492 -- True
+	 	 	 	 -2.0: 0.8382564863858263 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 	 	 +1.0: 0.7236736098317631 -- True
+	 	 	 	 +2.0: 0.6830913983096087 -- True
+	 	 	 	 +3.0: 0.8743670611628919 -- True
+	 	 	 	 +4.0: 0.28504940740261286 -- True
+	 	 	 	 +5.0: 0.2888443663464849 -- True
+	 	 	 	 +6.0: 0.45554509378932995 -- True
+	 	 	 	 +7.0: 0.49245682377288025 -- True
+	 	 	 	 +8.0: 0.4652088184521418 -- True
+	 	 	 	 +9.0: 0.3911725228101395 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.697988289923267 -- True
+	 	 	 (o) Binary Matrix Test: 0.5597691347469128 -- True
+	 	 	 (o) Linear Complexity Test: 0.7641134895744714 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-73-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9883972063070299 bits
+		 --> H = 0.9999529650750604 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315603 bits
+	 	 --> Deficiency Function = 8684309
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.876584580363382e-133 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 9.873762676191886e-99 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.2919899002921856 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.5273754235359804e-95 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.1181853201402248e-29 -- False
+	 	 	 (o) Cusum Test: 1.0534986736189162e-133 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9979031595107858 -- True
+	 	 	 	 -3: 0.9953295932358704 -- True
+	 	 	 	 -2: 0.984747879018509 -- True
+	 	 	 	 -1: 0.9625657732472964 -- True
+	 	 	 	 +1: 0.9625657732472964 -- True
+	 	 	 	 +2: 0.24663415218605245 -- True
+	 	 	 	 +3: 0.0011461968894336736 -- False
+	 	 	 	 +4: 1.259114344723498e-07 -- False
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -1.0: 0.6170750774519739 -- True
+	 	 	 	 +1.0: 0.6170750774519739 -- True
+	 	 	 	 +2.0: 0.7728299926844475 -- True
+	 	 	 	 +3.0: 1.0 -- True
+	 	 	 	 +4.0: 0.8501067391385259 -- True
+	 	 	 	 +5.0: 1.0 -- True
+	 	 	 	 +6.0: 0.8801684549067255 -- True
+	 	 	 	 +7.0: 1.0 -- True
+	 	 	 	 +8.0: 0.7962534147376392 -- True
+	 	 	 	 +9.0: 0.46685427082272546 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.07865600356923312 -- True
+	 	 	 (o) Binary Matrix Test: 0.23080602196650007 -- True
+	 	 	 (o) Linear Complexity Test: 0.9171300743483847 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-74-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9896628991626445 bits
+		 --> H = 0.9999626998696713 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315646 bits
+	 	 --> Deficiency Function = 8684266
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 5.778036675829797e-114 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.8886607883031455e-80 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.605274900087609 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.6798340046463067e-88 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 9.301691914513732e-27 -- False
+	 	 	 (o) Cusum Test: 1.9037041748824908e-114 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.0020086007866998903 -- False
+	 	 	 	 -3: 0.7059501625059711 -- True
+	 	 	 	 -2: 0.766269492130957 -- True
+	 	 	 	 -1: 0.29172848857935885 -- True
+	 	 	 	 +1: 0.36286596875908655 -- True
+	 	 	 	 +2: 0.6436582533269278 -- True
+	 	 	 	 +3: 0.5810790773409613 -- True
+	 	 	 	 +4: 0.9025661423524854 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.48456290245442735 -- True
+	 	 	 	 -8.0: 0.5338522499428682 -- True
+	 	 	 	 -7.0: 0.3387894301448001 -- True
+	 	 	 	 -6.0: 0.2983908880277626 -- True
+	 	 	 	 -5.0: 0.625405272974494 -- True
+	 	 	 	 -4.0: 0.9715101794666455 -- True
+	 	 	 	 -3.0: 0.8491839838712325 -- True
+	 	 	 	 -2.0: 0.9347805406184412 -- True
+	 	 	 	 -1.0: 0.29861767444881016 -- True
+	 	 	 	 +1.0: 0.10819724752370156 -- True
+	 	 	 	 +2.0: 0.428920736314221 -- True
+	 	 	 	 +3.0: 0.7037083255881851 -- True
+	 	 	 	 +4.0: 0.497409451259859 -- True
+	 	 	 	 +5.0: 0.56009848540993 -- True
+	 	 	 	 +6.0: 0.9092690452142217 -- True
+	 	 	 	 +7.0: 0.8544450676295319 -- True
+	 	 	 	 +8.0: 0.9029089106661908 -- True
+	 	 	 	 +9.0: 0.9725771669736317 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.00044865646624060805 -- False
+	 	 	 (o) Binary Matrix Test: 0.62018164750252 -- True
+	 	 	 (o) Linear Complexity Test: 0.625917312937506 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-75-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.990528332809978 bits
+		 --> H = 0.9999687028867758 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315419 bits
+	 	 --> Deficiency Function = 8684493
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.7529350587121988e-104 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 4.094841121724058e-71 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.05417119013707305 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.253892275772102e-95 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 8.86013573359453e-27 -- False
+	 	 	 (o) Cusum Test: 2.076836534579622e-105 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.06525357608496715 -- True
+	 	 	 	 -3: 0.34333336001153464 -- True
+	 	 	 	 -2: 0.908657917468703 -- True
+	 	 	 	 -1: 0.9996543413196947 -- True
+	 	 	 	 +1: 0.41005035593216793 -- True
+	 	 	 	 +2: 0.5751834273111164 -- True
+	 	 	 	 +3: 0.6476032033458976 -- True
+	 	 	 	 +4: 0.4509152059496686 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.8299620840242915 -- True
+	 	 	 	 -8.0: 0.8446421165963759 -- True
+	 	 	 	 -7.0: 0.7924600886080352 -- True
+	 	 	 	 -6.0: 0.8487665010168555 -- True
+	 	 	 	 -5.0: 0.8826797981986431 -- True
+	 	 	 	 -4.0: 0.7559835073778963 -- True
+	 	 	 	 -3.0: 0.9548888938548753 -- True
+	 	 	 	 -2.0: 0.9417825038473678 -- True
+	 	 	 	 -1.0: 0.8993431885613663 -- True
+	 	 	 	 +1.0: 0.7518296340458492 -- True
+	 	 	 	 +2.0: 0.4652088184521417 -- True
+	 	 	 	 +3.0: 0.6921199319709659 -- True
+	 	 	 	 +4.0: 0.9048611294504482 -- True
+	 	 	 	 +5.0: 0.9160510722818964 -- True
+	 	 	 	 +6.0: 0.8938100141955002 -- True
+	 	 	 	 +7.0: 0.7655507304740766 -- True
+	 	 	 	 +8.0: 0.8446421165963759 -- True
+	 	 	 	 +9.0: 0.9510747382654914 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.49609077259593704 -- True
+	 	 	 (o) Binary Matrix Test: 0.3161435738358289 -- True
+	 	 	 (o) Linear Complexity Test: 0.8488505739081731 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-76-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9912996366048223 bits
+		 --> H = 0.999973606724843 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315480 bits
+	 	 --> Deficiency Function = 8684432
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.7786352549522478e-132 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 5.031787780914396e-88 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.006153610583850703 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.3170898520052825e-108 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.3790995322401775e-39 -- False
+	 	 	 (o) Cusum Test: 1.2658924510411707e-132 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.008367977510205063 -- False
+	 	 	 	 -3: 0.1675674636432846 -- True
+	 	 	 	 -2: 0.06468725586795153 -- True
+	 	 	 	 -1: 7.963023153838401e-05 -- False
+	 	 	 	 +1: 0.5060874023479193 -- True
+	 	 	 	 +2: 0.649371460622289 -- True
+	 	 	 	 +3: 0.26086018031065206 -- True
+	 	 	 	 +4: 0.3226182200613406 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.0022863987581619853 -- False
+	 	 	 	 -8.0: 0.024860872815614183 -- True
+	 	 	 	 -7.0: 0.0378004955719585 -- True
+	 	 	 	 -6.0: 0.04373288761671476 -- True
+	 	 	 	 -5.0: 0.06735194751886038 -- True
+	 	 	 	 -4.0: 0.08783386088590381 -- True
+	 	 	 	 -3.0: 0.2103114540117994 -- True
+	 	 	 	 -2.0: 0.05993379507602404 -- True
+	 	 	 	 -1.0: 0.0024470897605208403 -- False
+	 	 	 	 +1.0: 0.3311374592689704 -- True
+	 	 	 	 +2.0: 0.35541462347648434 -- True
+	 	 	 	 +3.0: 0.1922879771115198 -- True
+	 	 	 	 +4.0: 0.2023798083550774 -- True
+	 	 	 	 +5.0: 0.2529041350887422 -- True
+	 	 	 	 +6.0: 0.25529050519961527 -- True
+	 	 	 	 +7.0: 0.3027386458861159 -- True
+	 	 	 	 +8.0: 0.636692731112174 -- True
+	 	 	 	 +9.0: 0.8244404469823573 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.23428561664461256 -- True
+	 	 	 (o) Binary Matrix Test: 0.021713418266929057 -- True
+	 	 	 (o) Linear Complexity Test: 0.9023113690085652 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-77-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9885059779117467 bits
+		 --> H = 0.999953846303058 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315569 bits
+	 	 --> Deficiency Function = 8684343
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.7865321738056733e-122 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.463737320233844e-80 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.2685727582054149 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 8.718606993028929e-93 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.0156446888664612e-23 -- False
+	 	 	 (o) Cusum Test: 2.6263941541799643e-123 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9302379360125261 -- True
+	 	 	 	 -3: 0.3122658721609406 -- True
+	 	 	 	 -2: 0.7665888530765036 -- True
+	 	 	 	 -1: 0.42572139604285186 -- True
+	 	 	 	 +1: 0.12051745587873591 -- True
+	 	 	 	 +2: 0.49232842452562553 -- True
+	 	 	 	 +3: 0.3240956822551294 -- True
+	 	 	 	 +4: 0.49742589627054024 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5423179858397889 -- True
+	 	 	 	 -8.0: 0.47296190653666237 -- True
+	 	 	 	 -7.0: 0.5631463353066872 -- True
+	 	 	 	 -6.0: 0.5948346299357716 -- True
+	 	 	 	 -5.0: 0.886654016433501 -- True
+	 	 	 	 -4.0: 0.5993890290602054 -- True
+	 	 	 	 -3.0: 0.35119271132838703 -- True
+	 	 	 	 -2.0: 0.6434288435636205 -- True
+	 	 	 	 -1.0: 0.6304665815879635 -- True
+	 	 	 	 +1.0: 0.4871309906878605 -- True
+	 	 	 	 +2.0: 0.6657055242215795 -- True
+	 	 	 	 +3.0: 0.9428297400335108 -- True
+	 	 	 	 +4.0: 0.951670484148124 -- True
+	 	 	 	 +5.0: 0.8306960113063698 -- True
+	 	 	 	 +6.0: 0.7841001392032432 -- True
+	 	 	 	 +7.0: 0.7109171133886191 -- True
+	 	 	 	 +8.0: 0.7197192079565442 -- True
+	 	 	 	 +9.0: 0.8458148386257579 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.34390379710478547 -- True
+	 	 	 (o) Binary Matrix Test: 0.034897546444979465 -- True
+	 	 	 (o) Linear Complexity Test: 0.6017859784178989 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-78-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9894766982054055 bits
+		 --> H = 0.9999613389939679 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315542 bits
+	 	 --> Deficiency Function = 8684370
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 5.587842069552188e-105 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.6229833863857457e-67 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.3553329846519878 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 2.6951795162097774e-87 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 9.537624220844331e-29 -- False
+	 	 	 (o) Cusum Test: 2.7179096378760787e-105 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.007578710663751688 -- False
+	 	 	 	 -3: 0.10991859122483649 -- True
+	 	 	 	 -2: 0.03186648694391549 -- True
+	 	 	 	 -1: 0.08334212519105795 -- True
+	 	 	 	 +1: 0.8299729419211603 -- True
+	 	 	 	 +2: 0.35390172575462725 -- True
+	 	 	 	 +3: 0.007992010624594943 -- False
+	 	 	 	 +4: 0.6077255629506934 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.7698975028395627 -- True
+	 	 	 	 -8.0: 0.8153345943552277 -- True
+	 	 	 	 -7.0: 0.9167485627441716 -- True
+	 	 	 	 -6.0: 0.7850628685475594 -- True
+	 	 	 	 -5.0: 0.5804203667959205 -- True
+	 	 	 	 -4.0: 0.33271241075826863 -- True
+	 	 	 	 -3.0: 0.16693801502506433 -- True
+	 	 	 	 -2.0: 0.08964805544015826 -- True
+	 	 	 	 -1.0: 0.07044042927208799 -- True
+	 	 	 	 +1.0: 0.6510766340778344 -- True
+	 	 	 	 +2.0: 0.5423442984904308 -- True
+	 	 	 	 +3.0: 0.17752985241215347 -- True
+	 	 	 	 +4.0: 0.08222864876420072 -- True
+	 	 	 	 +5.0: 0.07044042927208799 -- True
+	 	 	 	 +6.0: 0.06903634799441526 -- True
+	 	 	 	 +7.0: 0.07556589179430435 -- True
+	 	 	 	 +8.0: 0.0941752737172057 -- True
+	 	 	 	 +9.0: 0.13865277063873244 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.1470584203751435 -- True
+	 	 	 (o) Binary Matrix Test: 0.30995522741505976 -- True
+	 	 	 (o) Linear Complexity Test: 0.14779520300551205 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-79-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.990794945107597 bits
+		 --> H = 0.9999704454965344 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315580 bits
+	 	 --> Deficiency Function = 8684332
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 5.175098092218491e-99 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 5.713316500210091e-62 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.17003228769718656 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 2.2066725913823464e-96 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.8046746925997258e-18 -- False
+	 	 	 (o) Cusum Test: 1.663136528134871e-99 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6654397329500368 -- True
+	 	 	 	 -3: 0.9879265919867929 -- True
+	 	 	 	 -2: 0.9987626267031665 -- True
+	 	 	 	 -1: 0.9104829598260372 -- True
+	 	 	 	 +1: 0.9469380213846711 -- True
+	 	 	 	 +2: 0.8065682605825262 -- True
+	 	 	 	 +3: 0.9620578451467783 -- True
+	 	 	 	 +4: 0.8334822485776533 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.09227631048097928 -- True
+	 	 	 	 -8.0: 0.08037389438590578 -- True
+	 	 	 	 -7.0: 0.2664496619129907 -- True
+	 	 	 	 -6.0: 0.9322006938882603 -- True
+	 	 	 	 -5.0: 0.5853948565737217 -- True
+	 	 	 	 -4.0: 0.35904828591344295 -- True
+	 	 	 	 -3.0: 0.4193167727321975 -- True
+	 	 	 	 -2.0: 0.6958111858541676 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 	 	 +1.0: 0.6115239073185862 -- True
+	 	 	 	 +2.0: 0.6482859652231576 -- True
+	 	 	 	 +3.0: 0.8007494964684632 -- True
+	 	 	 	 +4.0: 0.5646802285251695 -- True
+	 	 	 	 +5.0: 0.3008511499083658 -- True
+	 	 	 	 +6.0: 0.2614341859200058 -- True
+	 	 	 	 +7.0: 0.24676974278978236 -- True
+	 	 	 	 +8.0: 0.39804475480313506 -- True
+	 	 	 	 +9.0: 0.46819741899603773 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.2700913013903242 -- True
+	 	 	 (o) Binary Matrix Test: 0.1262992725640748 -- True
+	 	 	 (o) Linear Complexity Test: 0.6518738967943829 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-80-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9929985321477088 bits
+		 --> H = 0.9999829280204922 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315619 bits
+	 	 --> Deficiency Function = 8684293
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 7.374684169451892e-81 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 4.1831280418170706e-54 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.0015032271439419554 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 5.872232966576256e-109 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 4.384158390969089e-19 -- False
+	 	 	 (o) Cusum Test: 3.5134292745119605e-81 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9979031595107858 -- True
+	 	 	 	 -3: 0.9953295932358704 -- True
+	 	 	 	 -2: 0.984747879018509 -- True
+	 	 	 	 -1: 0.8491450360846096 -- True
+	 	 	 	 +1: 0.30621891841327875 -- True
+	 	 	 	 +2: 0.24663415218605245 -- True
+	 	 	 	 +3: 0.4381393147182503 -- True
+	 	 	 	 +4: 0.3695686228024224 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 +1.0: 1.0 -- True
+	 	 	 	 +2.0: 0.7728299926844475 -- True
+	 	 	 	 +3.0: 0.5023349543605022 -- True
+	 	 	 	 +4.0: 0.1305700181157362 -- True
+	 	 	 	 +5.0: 0.019630657257290667 -- True
+	 	 	 	 +6.0: 0.0009111188771537128 -- False
+	 	 	 	 +7.0: 0.005545667315244056 -- False
+	 	 	 	 +8.0: 0.05280751141611363 -- True
+	 	 	 	 +9.0: 0.0024318453627428568 -- False
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.3636042333652666 -- True
+	 	 	 (o) Binary Matrix Test: 0.7283646509354459 -- True
+	 	 	 (o) Linear Complexity Test: 0.5946370532853276 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-81-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9900210454861139 bits
+		 --> H = 0.9999652484056065 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315509 bits
+	 	 --> Deficiency Function = 8684403
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 8.261819033389723e-87 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.6246766131192873e-47 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.013377926276135828 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 2.0871255264950075e-117 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 7.799754216543628e-17 -- False
+	 	 	 (o) Cusum Test: 2.306645905382027e-87 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.02268571240570705 -- True
+	 	 	 	 -3: 0.5987827471930011 -- True
+	 	 	 	 -2: 0.9695620016363571 -- True
+	 	 	 	 -1: 0.47825343262098285 -- True
+	 	 	 	 +1: 0.47176679431578006 -- True
+	 	 	 	 +2: 0.6531179838171284 -- True
+	 	 	 	 +3: 0.7933613492882488 -- True
+	 	 	 	 +4: 0.5619150487378632 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.3485398463398036 -- True
+	 	 	 	 -8.0: 0.34673621494997564 -- True
+	 	 	 	 -7.0: 0.4258384751471671 -- True
+	 	 	 	 -6.0: 0.4051781531849846 -- True
+	 	 	 	 -5.0: 0.37699199323712673 -- True
+	 	 	 	 -4.0: 0.3807457432648561 -- True
+	 	 	 	 -3.0: 0.25600300741515725 -- True
+	 	 	 	 -2.0: 0.2511180012744735 -- True
+	 	 	 	 -1.0: 0.2694564051597773 -- True
+	 	 	 	 +1.0: 0.03588757033175107 -- True
+	 	 	 	 +2.0: 0.07422648281348855 -- True
+	 	 	 	 +3.0: 0.4294205071670195 -- True
+	 	 	 	 +4.0: 0.7701533183969194 -- True
+	 	 	 	 +5.0: 0.7683880346965924 -- True
+	 	 	 	 +6.0: 0.920432390863684 -- True
+	 	 	 	 +7.0: 1.0 -- True
+	 	 	 	 +8.0: 0.8641610311132468 -- True
+	 	 	 	 +9.0: 0.6108307283529155 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7000005143460132 -- True
+	 	 	 (o) Binary Matrix Test: 0.7416392965055026 -- True
+	 	 	 (o) Linear Complexity Test: 0.8211149112211941 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-82-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9907519397914278 bits
+		 --> H = 0.9999701678065513 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315574 bits
+	 	 --> Deficiency Function = 8684338
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.1526501259721495e-80 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 4.649798282904913e-47 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.5956912167206931 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.563034271238825e-96 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.4025752402321e-15 -- False
+	 	 	 (o) Cusum Test: 5.491752197624661e-81 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.40372264287938564 -- True
+	 	 	 	 -3: 0.6866180705727671 -- True
+	 	 	 	 -2: 0.7192234353420968 -- True
+	 	 	 	 -1: 0.9279245589960502 -- True
+	 	 	 	 +1: 0.38549453532225836 -- True
+	 	 	 	 +2: 0.8736971397702058 -- True
+	 	 	 	 +3: 0.6949370935855783 -- True
+	 	 	 	 +4: 0.6680052536330934 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.969410021563544 -- True
+	 	 	 	 -8.0: 0.9565901036522753 -- True
+	 	 	 	 -7.0: 0.8953333518420598 -- True
+	 	 	 	 -6.0: 0.9493172601362125 -- True
+	 	 	 	 -5.0: 0.8605437048079503 -- True
+	 	 	 	 -4.0: 0.5238283445248569 -- True
+	 	 	 	 -3.0: 0.4795001221869535 -- True
+	 	 	 	 -2.0: 0.6701031580103327 -- True
+	 	 	 	 -1.0: 0.7518296340458492 -- True
+	 	 	 	 +1.0: 0.3990751965482372 -- True
+	 	 	 	 +2.0: 0.3008618029033999 -- True
+	 	 	 	 +3.0: 0.7414126830400161 -- True
+	 	 	 	 +4.0: 0.9048611294504482 -- True
+	 	 	 	 +5.0: 0.7921473917958974 -- True
+	 	 	 	 +6.0: 0.9873213156292048 -- True
+	 	 	 	 +7.0: 0.9417359568252456 -- True
+	 	 	 	 +8.0: 0.8702827722810359 -- True
+	 	 	 	 +9.0: 0.9388649898237753 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9193152316171276 -- True
+	 	 	 (o) Binary Matrix Test: 0.2817826439464692 -- True
+	 	 	 (o) Linear Complexity Test: 0.5552805080265095 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-83-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9895168009963844 bits
+		 --> H = 0.9999616341659716 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315563 bits
+	 	 --> Deficiency Function = 8684349
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 7.597756727264612e-88 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.4976429673080888e-50 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.19529674852575588 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 3.901955885796045e-118 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 7.006128683154173e-17 -- False
+	 	 	 (o) Cusum Test: 2.8073588888617066e-88 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6757196694700753 -- True
+	 	 	 	 -3: 0.02024940713094688 -- True
+	 	 	 	 -2: 0.7824591204128042 -- True
+	 	 	 	 -1: 0.2925654892792221 -- True
+	 	 	 	 +1: 0.22064030793671066 -- True
+	 	 	 	 +2: 0.17906534453314968 -- True
+	 	 	 	 +3: 0.33621401073011037 -- True
+	 	 	 	 +4: 0.2560833511536956 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.8205238169444331 -- True
+	 	 	 	 -8.0: 0.8902300549434974 -- True
+	 	 	 	 -7.0: 0.9409109772278318 -- True
+	 	 	 	 -6.0: 0.5727023597783103 -- True
+	 	 	 	 -5.0: 0.4489059788871501 -- True
+	 	 	 	 -4.0: 0.5444539772747027 -- True
+	 	 	 	 -3.0: 0.6757058487030954 -- True
+	 	 	 	 -2.0: 0.8169613217153913 -- True
+	 	 	 	 -1.0: 0.4226780741706355 -- True
+	 	 	 	 +1.0: 0.045020881002538655 -- True
+	 	 	 	 +2.0: 0.037242544595979345 -- True
+	 	 	 	 +3.0: 0.027023864370910575 -- True
+	 	 	 	 +4.0: 0.013328328780817553 -- True
+	 	 	 	 +5.0: 0.0205438533979482 -- True
+	 	 	 	 +6.0: 0.12575366704374177 -- True
+	 	 	 	 +7.0: 0.22130651679425928 -- True
+	 	 	 	 +8.0: 0.28479866704504975 -- True
+	 	 	 	 +9.0: 0.4961158231244537 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.5657522671382118 -- True
+	 	 	 (o) Binary Matrix Test: 0.4777941761008754 -- True
+	 	 	 (o) Linear Complexity Test: 0.03867598609002576 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-84-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9920110926064435 bits
+		 --> H = 0.9999777577621014 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315612 bits
+	 	 --> Deficiency Function = 8684300
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 5.196657150373191e-74 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.5310400721342093e-42 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.29316588440160996 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.311900889022114e-115 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.442560588235141e-13 -- False
+	 	 	 (o) Cusum Test: 1.9021917586322818e-74 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.7691201605218023 -- True
+	 	 	 	 -3: 0.6179475093028114 -- True
+	 	 	 	 -2: 0.6031306624383921 -- True
+	 	 	 	 -1: 0.87606840032466 -- True
+	 	 	 	 +1: 0.535110172362247 -- True
+	 	 	 	 +2: 0.2847385851138558 -- True
+	 	 	 	 +3: 0.05957001706046456 -- True
+	 	 	 	 +4: 0.03708498047250474 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.4640829413752404 -- True
+	 	 	 	 -8.0: 0.5833604667027033 -- True
+	 	 	 	 -7.0: 0.6418381810738645 -- True
+	 	 	 	 -6.0: 0.6369696845945059 -- True
+	 	 	 	 -5.0: 0.7941892150565808 -- True
+	 	 	 	 -4.0: 0.8991199567740973 -- True
+	 	 	 	 -3.0: 0.7641771556220948 -- True
+	 	 	 	 -2.0: 0.43857802608099994 -- True
+	 	 	 	 -1.0: 0.31430466047385397 -- True
+	 	 	 	 +1.0: 0.8230632737581215 -- True
+	 	 	 	 +2.0: 0.6055766163353464 -- True
+	 	 	 	 +3.0: 0.39532508624538487 -- True
+	 	 	 	 +4.0: 0.42203453491312726 -- True
+	 	 	 	 +5.0: 0.39135680171486487 -- True
+	 	 	 	 +6.0: 0.3807801097604444 -- True
+	 	 	 	 +7.0: 0.3852612410903167 -- True
+	 	 	 	 +8.0: 0.3556110610952391 -- True
+	 	 	 	 +9.0: 0.3425846282754541 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.5928233651870278 -- True
+	 	 	 (o) Binary Matrix Test: 0.9712291903972029 -- True
+	 	 	 (o) Linear Complexity Test: 0.14487736987072422 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-85-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9950904610129313 bits
+		 --> H = 0.999991617837608 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315581 bits
+	 	 --> Deficiency Function = 8684331
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.791383534191439e-70 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.040411364553186e-41 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.00018223211687709586 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 9.133143689515997e-99 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 2.7816182943714393e-12 -- False
+	 	 	 (o) Cusum Test: 1.0865769614278533e-70 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.027911007498412344 -- True
+	 	 	 	 -3: 0.8686460542590744 -- True
+	 	 	 	 -2: 0.9554317117602378 -- True
+	 	 	 	 -1: 0.5318056758514705 -- True
+	 	 	 	 +1: 0.4537548429811469 -- True
+	 	 	 	 +2: 0.08083989646860738 -- True
+	 	 	 	 +3: 0.08601103731499773 -- True
+	 	 	 	 +4: 0.008067453545841256 -- False
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.31556202411862133 -- True
+	 	 	 	 -8.0: 0.2757997999668772 -- True
+	 	 	 	 -7.0: 0.16146148794552395 -- True
+	 	 	 	 -6.0: 0.11026383230803499 -- True
+	 	 	 	 -5.0: 0.07294956724014529 -- True
+	 	 	 	 -4.0: 0.141511268744293 -- True
+	 	 	 	 -3.0: 0.43701431369633126 -- True
+	 	 	 	 -2.0: 0.5991659268261509 -- True
+	 	 	 	 -1.0: 0.6790184275257326 -- True
+	 	 	 	 +1.0: 0.4563652462320589 -- True
+	 	 	 	 +2.0: 0.33925567914719423 -- True
+	 	 	 	 +3.0: 0.26684831462934433 -- True
+	 	 	 	 +4.0: 0.30195100957729537 -- True
+	 	 	 	 +5.0: 0.5257559708393857 -- True
+	 	 	 	 +6.0: 0.5830249115137662 -- True
+	 	 	 	 +7.0: 0.49106890062339426 -- True
+	 	 	 	 +8.0: 0.3926908449169977 -- True
+	 	 	 	 +9.0: 0.4220350528879503 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9561714641175468 -- True
+	 	 	 (o) Binary Matrix Test: 0.5784017796435919 -- True
+	 	 	 (o) Linear Complexity Test: 0.011159136136235604 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-86-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9926769659978445 bits
+		 --> H = 0.9999813196578511 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315611 bits
+	 	 --> Deficiency Function = 8684301
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 7.525100630679771e-61 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.1147380945453439e-34 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.6696154632880061 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 3.842294297065906e-92 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 9.567070610548268e-11 -- False
+	 	 	 (o) Cusum Test: 3.5524468798167524e-61 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.11251612708008098 -- True
+	 	 	 	 -3: 0.12416382132471648 -- True
+	 	 	 	 -2: 0.7272525559750127 -- True
+	 	 	 	 -1: 0.9310089562056398 -- True
+	 	 	 	 +1: 0.8437281994760144 -- True
+	 	 	 	 +2: 0.81494153785897 -- True
+	 	 	 	 +3: 0.04276395763719181 -- True
+	 	 	 	 +4: 0.46417500300284764 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.2912514784954061 -- True
+	 	 	 	 -8.0: 0.25248089032930887 -- True
+	 	 	 	 -7.0: 0.17993004081828623 -- True
+	 	 	 	 -6.0: 0.2534812895276035 -- True
+	 	 	 	 -5.0: 0.390040182683002 -- True
+	 	 	 	 -4.0: 0.4284257658845865 -- True
+	 	 	 	 -3.0: 0.47106336173321883 -- True
+	 	 	 	 -2.0: 0.6754223160920776 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 	 	 +1.0: 0.7472033251006591 -- True
+	 	 	 	 +2.0: 0.6417580893423203 -- True
+	 	 	 	 +3.0: 0.8288123742464508 -- True
+	 	 	 	 +4.0: 0.9514273092164754 -- True
+	 	 	 	 +5.0: 0.7068791921277431 -- True
+	 	 	 	 +6.0: 0.6098931338867681 -- True
+	 	 	 	 +7.0: 0.754361872838613 -- True
+	 	 	 	 +8.0: 0.6621610637359939 -- True
+	 	 	 	 +9.0: 0.5708648486863259 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.11153884779149552 -- True
+	 	 	 (o) Binary Matrix Test: 0.2840755212418916 -- True
+	 	 	 (o) Linear Complexity Test: 0.6343178482478979 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-87-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9927200287363042 bits
+		 --> H = 0.9999815392619836 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315580 bits
+	 	 --> Deficiency Function = 8684332
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.3252834797501128e-53 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 9.989189111087228e-31 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.8362900089487805 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.418467932090646e-109 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 3.899407124213335e-11 -- False
+	 	 	 (o) Cusum Test: 6.309859546843882e-54 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6831455733026637 -- True
+	 	 	 	 -3: 0.7237751060494952 -- True
+	 	 	 	 -2: 0.6135521799147857 -- True
+	 	 	 	 -1: 0.32277564078959387 -- True
+	 	 	 	 +1: 0.2605584559107456 -- True
+	 	 	 	 +2: 0.8861754529079482 -- True
+	 	 	 	 +3: 0.23817780044248235 -- True
+	 	 	 	 +4: 0.24830154193869064 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.3603706112538273 -- True
+	 	 	 	 -8.0: 0.3008618029033999 -- True
+	 	 	 	 -7.0: 0.266428582970169 -- True
+	 	 	 	 -6.0: 0.3373556517763615 -- True
+	 	 	 	 -5.0: 0.40939548620991884 -- True
+	 	 	 	 -4.0: 0.30559849700634445 -- True
+	 	 	 	 -3.0: 0.17058693287144144 -- True
+	 	 	 	 -2.0: 0.15304188415882009 -- True
+	 	 	 	 -1.0: 0.09896015401940578 -- True
+	 	 	 	 +1.0: 0.23859282931643555 -- True
+	 	 	 	 +2.0: 0.8382564863858263 -- True
+	 	 	 	 +3.0: 0.7921473917958974 -- True
+	 	 	 	 +4.0: 0.7892680261342813 -- True
+	 	 	 	 +5.0: 0.875138580080403 -- True
+	 	 	 	 +6.0: 0.8589842960089598 -- True
+	 	 	 	 +7.0: 0.8701797951665811 -- True
+	 	 	 	 +8.0: 0.7609067270751141 -- True
+	 	 	 	 +9.0: 0.8191294708665398 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.5872168892511939 -- True
+	 	 	 (o) Binary Matrix Test: 0.9788407577286176 -- True
+	 	 	 (o) Linear Complexity Test: 0.3558067711897381 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-88-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.994805803410858 bits
+		 --> H = 0.9999906158000974 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315535 bits
+	 	 --> Deficiency Function = 8684377
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.8894868288786462e-51 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.34338596904182e-26 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.1185491040292564 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.3395811633951322e-113 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.2132281610979651e-05 -- False
+	 	 	 (o) Cusum Test: 8.02640402712374e-52 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.41088526015129806 -- True
+	 	 	 	 -3: 0.6878599966778904 -- True
+	 	 	 	 -2: 0.13587688339500226 -- True
+	 	 	 	 -1: 0.2595664292133003 -- True
+	 	 	 	 +1: 0.5595039343745922 -- True
+	 	 	 	 +2: 0.3984770925706499 -- True
+	 	 	 	 +3: 0.2547978930046393 -- True
+	 	 	 	 +4: 0.11242003688692533 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.39533515267281605 -- True
+	 	 	 	 -8.0: 0.28375208550537945 -- True
+	 	 	 	 -7.0: 0.16890158872164052 -- True
+	 	 	 	 -6.0: 0.16703490392954212 -- True
+	 	 	 	 -5.0: 0.2355589199240795 -- True
+	 	 	 	 -4.0: 0.22923560507642782 -- True
+	 	 	 	 -3.0: 0.10108303788014311 -- True
+	 	 	 	 -2.0: 0.11960539700641924 -- True
+	 	 	 	 -1.0: 0.6662276454096188 -- True
+	 	 	 	 +1.0: 0.6662276454096188 -- True
+	 	 	 	 +2.0: 0.8033382543558498 -- True
+	 	 	 	 +3.0: 0.6642749779249079 -- True
+	 	 	 	 +4.0: 0.46317717888031984 -- True
+	 	 	 	 +5.0: 0.5897737906589078 -- True
+	 	 	 	 +6.0: 0.7084807617225838 -- True
+	 	 	 	 +7.0: 0.9403988448723266 -- True
+	 	 	 	 +8.0: 0.7700234869852625 -- True
+	 	 	 	 +9.0: 0.41750812725772546 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.17180456348241058 -- True
+	 	 	 (o) Binary Matrix Test: 0.5718276513600948 -- True
+	 	 	 (o) Linear Complexity Test: 0.8548503763630716 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-89-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9934408026677971 bits
+		 --> H = 0.999985021317157 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315618 bits
+	 	 --> Deficiency Function = 8684294
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.7179200358309425e-34 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 6.338085309339644e-14 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.17812885302104736 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.045194861728371e-90 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.01766029535299914 -- True
+	 	 	 (o) Cusum Test: 8.261118825318832e-35 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9502405577506894 -- True
+	 	 	 	 -3: 0.9012493445012736 -- True
+	 	 	 	 -2: 0.8256359244964686 -- True
+	 	 	 	 -1: 0.9130698145443954 -- True
+	 	 	 	 +1: 0.4798834381132997 -- True
+	 	 	 	 +2: 0.4483325610643152 -- True
+	 	 	 	 +3: 0.19926778992124194 -- True
+	 	 	 	 +4: 0.01389284330940425 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -2.0: 0.312321421676216 -- True
+	 	 	 	 -1.0: 0.4532547047537365 -- True
+	 	 	 	 +1.0: 0.8025873486341526 -- True
+	 	 	 	 +2.0: 0.6650055421020291 -- True
+	 	 	 	 +3.0: 0.5761501220305789 -- True
+	 	 	 	 +4.0: 0.6366016325636008 -- True
+	 	 	 	 +5.0: 0.7388826803635272 -- True
+	 	 	 	 +6.0: 0.8210975835519595 -- True
+	 	 	 	 +7.0: 0.8897069355331012 -- True
+	 	 	 	 +8.0: 0.8464505968765906 -- True
+	 	 	 	 +9.0: 0.7160047955043312 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.010233394386725898 -- True
+	 	 	 (o) Binary Matrix Test: 0.24982572242720472 -- True
+	 	 	 (o) Linear Complexity Test: 0.7980702436459928 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-90-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9961836079925868 bits
+		 --> H = 0.9999949388287745 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315617 bits
+	 	 --> Deficiency Function = 8684295
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.9107198984686502e-28 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.1864240377679718e-12 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.07839172864770458 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 5.2502601449450484e-107 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.0008536241906182553 -- False
+	 	 	 (o) Cusum Test: 5.563471970740195e-29 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.204357818048921 -- True
+	 	 	 	 -3: 0.7579925756968723 -- True
+	 	 	 	 -2: 0.9818758581891758 -- True
+	 	 	 	 -1: 0.8379036404993321 -- True
+	 	 	 	 +1: 0.08898024702321922 -- True
+	 	 	 	 +2: 0.00486444147672684 -- False
+	 	 	 	 +3: 0.7470844607114064 -- True
+	 	 	 	 +4: 0.4560379229297321 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.24671942682983394 -- True
+	 	 	 	 -8.0: 0.4569900511193713 -- True
+	 	 	 	 -7.0: 0.7207627629306432 -- True
+	 	 	 	 -6.0: 0.9635373824618901 -- True
+	 	 	 	 -5.0: 0.859595152180795 -- True
+	 	 	 	 -4.0: 0.7095248061345727 -- True
+	 	 	 	 -3.0: 0.8124068205005608 -- True
+	 	 	 	 -2.0: 1.0 -- True
+	 	 	 	 -1.0: 0.5956484277285694 -- True
+	 	 	 	 +1.0: 0.09535231907456682 -- True
+	 	 	 	 +2.0: 0.2551250401833335 -- True
+	 	 	 	 +3.0: 0.4158304695450541 -- True
+	 	 	 	 +4.0: 0.11504016122838738 -- True
+	 	 	 	 +5.0: 0.04589857506942134 -- True
+	 	 	 	 +6.0: 0.015397304278474728 -- True
+	 	 	 	 +7.0: 0.009704613140067792 -- False
+	 	 	 	 +8.0: 0.015216833803137942 -- True
+	 	 	 	 +9.0: 0.021543452985470397 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9680336788105798 -- True
+	 	 	 (o) Binary Matrix Test: 0.8068005359062113 -- True
+	 	 	 (o) Linear Complexity Test: 0.7789616602264224 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-91-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9945786926800841 bits
+		 --> H = 0.9999897756188136 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315582 bits
+	 	 --> Deficiency Function = 8684330
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.2102959556338417e-33 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 4.298132044387795e-16 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.17011577418929263 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.578985548248592e-92 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 1.440242451680715e-06 -- False
+	 	 	 (o) Cusum Test: 4.674959803066959e-34 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.5348714778567648 -- True
+	 	 	 	 -3: 0.08900448426650212 -- True
+	 	 	 	 -2: 0.7922411606167401 -- True
+	 	 	 	 -1: 0.1247613011527253 -- True
+	 	 	 	 +1: 0.9360577189472402 -- True
+	 	 	 	 +2: 0.6808492313930883 -- True
+	 	 	 	 +3: 0.017681509426559473 -- True
+	 	 	 	 +4: 0.14729413671114316 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.7444471290758603 -- True
+	 	 	 	 -8.0: 0.6369630614612258 -- True
+	 	 	 	 -7.0: 0.66544884635907 -- True
+	 	 	 	 -6.0: 0.8712322223548667 -- True
+	 	 	 	 -5.0: 0.8860051705838807 -- True
+	 	 	 	 -4.0: 0.7450963562026216 -- True
+	 	 	 	 -3.0: 0.7729577376418838 -- True
+	 	 	 	 -2.0: 0.9011932076114293 -- True
+	 	 	 	 -1.0: 0.8718720878080758 -- True
+	 	 	 	 +1.0: 0.7066772793966466 -- True
+	 	 	 	 +2.0: 0.5977386541343038 -- True
+	 	 	 	 +3.0: 0.5968528025225264 -- True
+	 	 	 	 +4.0: 0.854895735445633 -- True
+	 	 	 	 +5.0: 0.8437326771054349 -- True
+	 	 	 	 +6.0: 0.9483034622200244 -- True
+	 	 	 	 +7.0: 0.66544884635907 -- True
+	 	 	 	 +8.0: 0.4535159245490119 -- True
+	 	 	 	 +9.0: 0.42640030903057 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.2268848298924948 -- True
+	 	 	 (o) Binary Matrix Test: 0.018466454673416247 -- True
+	 	 	 (o) Linear Complexity Test: 0.08416633115974793 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-92-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9927028034866753 bits
+		 --> H = 0.9999814515761484 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315541 bits
+	 	 --> Deficiency Function = 8684371
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 2.3678439734226436e-43 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.748599923539222e-20 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.0417877213625855 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 5.943302521882421e-99 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.0016398240237168516 -- False
+	 	 	 (o) Cusum Test: 7.868556342850849e-44 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.7735632394479295 -- True
+	 	 	 	 -3: 0.4856723341318856 -- True
+	 	 	 	 -2: 0.7895618203233656 -- True
+	 	 	 	 -1: 0.5704037622576693 -- True
+	 	 	 	 +1: 0.8925925766139282 -- True
+	 	 	 	 +2: 0.5755137297882105 -- True
+	 	 	 	 +3: 0.9093547897209039 -- True
+	 	 	 	 +4: 0.5740459816894181 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.48137362433085196 -- True
+	 	 	 	 -8.0: 0.5052313806337796 -- True
+	 	 	 	 -7.0: 0.8346464728033097 -- True
+	 	 	 	 -6.0: 0.8204774707405332 -- True
+	 	 	 	 -5.0: 0.7200423302512644 -- True
+	 	 	 	 -4.0: 0.7605242402920989 -- True
+	 	 	 	 -3.0: 0.9043154028270174 -- True
+	 	 	 	 -2.0: 0.876669392233803 -- True
+	 	 	 	 -1.0: 0.7880823117823649 -- True
+	 	 	 	 +1.0: 0.9143759311699666 -- True
+	 	 	 	 +2.0: 0.876669392233803 -- True
+	 	 	 	 +3.0: 0.37369842255631347 -- True
+	 	 	 	 +4.0: 0.3605186160542715 -- True
+	 	 	 	 +5.0: 0.6934020533211591 -- True
+	 	 	 	 +6.0: 0.5704918592613779 -- True
+	 	 	 	 +7.0: 0.3399481263985237 -- True
+	 	 	 	 +8.0: 0.2914503739545615 -- True
+	 	 	 	 +9.0: 0.2106703007509877 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.36480854161310194 -- True
+	 	 	 (o) Binary Matrix Test: 0.6460791802056166 -- True
+	 	 	 (o) Linear Complexity Test: 0.8031060777655835 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-93-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9935039952400246 bits
+		 --> H = 0.9999853091868696 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315698 bits
+	 	 --> Deficiency Function = 8684214
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.0836919182631726e-34 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.1539673071090449e-10 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.9080831771277037 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.2533862002114566e-109 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.00013458151868361702 -- False
+	 	 	 (o) Cusum Test: 4.7250832014821993e-35 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.05321466923607156 -- True
+	 	 	 	 -3: 0.03220162309265125 -- True
+	 	 	 	 -2: 0.15785672103336168 -- True
+	 	 	 	 -1: 0.2616874698026027 -- True
+	 	 	 	 +1: 0.49330830107463497 -- True
+	 	 	 	 +2: 0.7537998132031201 -- True
+	 	 	 	 +3: 0.667896950282068 -- True
+	 	 	 	 +4: 0.9017595658333927 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.7305972262519478 -- True
+	 	 	 	 -8.0: 0.6229043597509609 -- True
+	 	 	 	 -7.0: 0.5973524338692757 -- True
+	 	 	 	 -6.0: 0.458527102321876 -- True
+	 	 	 	 -5.0: 0.2083482024678739 -- True
+	 	 	 	 -4.0: 0.07946984501413241 -- True
+	 	 	 	 -3.0: 0.02575098772780086 -- True
+	 	 	 	 -2.0: 0.01933209243587487 -- True
+	 	 	 	 -1.0: 0.031802484318084336 -- True
+	 	 	 	 +1.0: 0.9723770375126448 -- True
+	 	 	 	 +2.0: 0.4966766000891293 -- True
+	 	 	 	 +3.0: 0.5154331710076658 -- True
+	 	 	 	 +4.0: 0.7633990114644688 -- True
+	 	 	 	 +5.0: 0.9356036122636522 -- True
+	 	 	 	 +6.0: 0.6992760497055929 -- True
+	 	 	 	 +7.0: 0.3666523530920146 -- True
+	 	 	 	 +8.0: 0.36652041196270757 -- True
+	 	 	 	 +9.0: 0.4701372967629591 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6016192108556675 -- True
+	 	 	 (o) Binary Matrix Test: 0.9904028526578696 -- True
+	 	 	 (o) Linear Complexity Test: 0.9463834166828516 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-94-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9959246298947363 bits
+		 --> H = 0.9999942275889044 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315655 bits
+	 	 --> Deficiency Function = 8684257
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 3.1522153642625083e-34 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 5.722557904728731e-15 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.04515348728456487 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.418467932090646e-109 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 5.422183939726764e-06 -- False
+	 	 	 (o) Cusum Test: 1.2978034004281137e-34 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.06856166936162218 -- True
+	 	 	 	 -3: 0.16143742892296578 -- True
+	 	 	 	 -2: 0.36544895645331194 -- True
+	 	 	 	 -1: 0.3705333666404111 -- True
+	 	 	 	 +1: 0.5070798859434595 -- True
+	 	 	 	 +2: 0.7369527657755958 -- True
+	 	 	 	 +3: 0.30741799306501916 -- True
+	 	 	 	 +4: 0.49819160621847147 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.1358831978349617 -- True
+	 	 	 	 -8.0: 0.14817983121638476 -- True
+	 	 	 	 -7.0: 0.08518231661023888 -- True
+	 	 	 	 -6.0: 0.06010280593886631 -- True
+	 	 	 	 -5.0: 0.04431453215795882 -- True
+	 	 	 	 -4.0: 0.1904302638255242 -- True
+	 	 	 	 -3.0: 0.9691057875842617 -- True
+	 	 	 	 -2.0: 0.46335514926959653 -- True
+	 	 	 	 -1.0: 0.2040238704744367 -- True
+	 	 	 	 +1.0: 0.23658409332187613 -- True
+	 	 	 	 +2.0: 0.48392730444614607 -- True
+	 	 	 	 +3.0: 0.9896996407346004 -- True
+	 	 	 	 +4.0: 0.7850282054929877 -- True
+	 	 	 	 +5.0: 0.6100565495949127 -- True
+	 	 	 	 +6.0: 0.3085096179560004 -- True
+	 	 	 	 +7.0: 0.22667530810193082 -- True
+	 	 	 	 +8.0: 0.23893119517933004 -- True
+	 	 	 	 +9.0: 0.32698934959801507 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.3824381488095462 -- True
+	 	 	 (o) Binary Matrix Test: 0.8297326672347358 -- True
+	 	 	 (o) Linear Complexity Test: 0.21756616240287624 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston--156-6.410200e+04-95-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.995216993533472 bits
+		 --> H = 0.9999920450322033 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315592 bits
+	 	 --> Deficiency Function = 8684320
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 1.6366904847250217e-36 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.862409022218937e-17 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.12242528280737762 -- True
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.6459216725213565e-108 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.0001934234679990286 -- False
+	 	 	 (o) Cusum Test: 2.412897386566488e-37 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.2853226893619775 -- True
+	 	 	 	 -3: 0.7256590195356403 -- True
+	 	 	 	 -2: 0.3942588521665001 -- True
+	 	 	 	 -1: 0.11698492426627762 -- True
+	 	 	 	 +1: 8.188962713339898e-05 -- False
+	 	 	 	 +2: 0.004581562317697556 -- False
+	 	 	 	 +3: 0.06497716024999026 -- True
+	 	 	 	 +4: 0.11319352286459058 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.3661344298075162 -- True
+	 	 	 	 -8.0: 0.27628848701953557 -- True
+	 	 	 	 -7.0: 0.2888443663464849 -- True
+	 	 	 	 -6.0: 0.4964986005455363 -- True
+	 	 	 	 -5.0: 0.6009907040609206 -- True
+	 	 	 	 -4.0: 0.5531815181083107 -- True
+	 	 	 	 -3.0: 0.5106708223861568 -- True
+	 	 	 	 -2.0: 0.3081795474670541 -- True
+	 	 	 	 -1.0: 0.07755616674366551 -- True
+	 	 	 	 +1.0: 0.0008561456864208789 -- False
+	 	 	 	 +2.0: 0.0018471852434783177 -- False
+	 	 	 	 +3.0: 0.0006250009784932352 -- False
+	 	 	 	 +4.0: 9.96021973463293e-05 -- False
+	 	 	 	 +5.0: 0.0002211706320908 -- False
+	 	 	 	 +6.0: 0.0021062648257995707 -- False
+	 	 	 	 +7.0: 0.0023190903681731367 -- False
+	 	 	 	 +8.0: 0.0010904572057621894 -- False
+	 	 	 	 +9.0: 0.002730047276782583 -- False
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.07513322699762512 -- True
+	 	 	 (o) Binary Matrix Test: 0.9674764786035337 -- True
+	 	 	 (o) Linear Complexity Test: 0.9110467625563363 -- True
+--> END NIST BATTERY TEST ----------
+

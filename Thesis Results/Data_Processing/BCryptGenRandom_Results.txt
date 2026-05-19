@@ -1,0 +1,2800 @@
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-100-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.99828997752451 bits
+		 --> H = 0.9999989853552252 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315624 bits
+	 	 --> Deficiency Function = 8684376
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.685645450034149 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.5024520454402653 -- True
+	 	 	 (o) runTest: 0.24868589752355263 -- True
+	 	 	 (o) Longest One Block: 0.15629462772562716 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.7894882095679121 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.18327379819212625 -- True
+	 	 	 (o) Cusum Test: 0.41991779356794223 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6302998103427022 -- True
+	 	 	 	 -3: 0.12634789476349145 -- True
+	 	 	 	 -2: 0.42212731824093497 -- True
+	 	 	 	 -1: 0.8992020772238796 -- True
+	 	 	 	 +1: 0.8841611801379404 -- True
+	 	 	 	 +2: 0.9257978652357867 -- True
+	 	 	 	 +3: 0.5819198049104475 -- True
+	 	 	 	 +4: 0.19146273038050518 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6554655489463955 -- True
+	 	 	 	 -8.0: 0.4147509760401217 -- True
+	 	 	 	 -7.0: 0.3706227281898121 -- True
+	 	 	 	 -6.0: 0.43249996691348147 -- True
+	 	 	 	 -5.0: 0.5629208972092099 -- True
+	 	 	 	 -4.0: 0.9686049530136546 -- True
+	 	 	 	 -3.0: 0.7094817154479341 -- True
+	 	 	 	 -2.0: 0.5344392692310493 -- True
+	 	 	 	 -1.0: 0.3486640823017838 -- True
+	 	 	 	 +1.0: 0.31412477735105415 -- True
+	 	 	 	 +2.0: 0.4227815908650471 -- True
+	 	 	 	 +3.0: 0.663820638398803 -- True
+	 	 	 	 +4.0: 0.9164117486798088 -- True
+	 	 	 	 +5.0: 0.7723868406116973 -- True
+	 	 	 	 +6.0: 0.3680975840636591 -- True
+	 	 	 	 +7.0: 0.13067814041191667 -- True
+	 	 	 	 +8.0: 0.14161507713474897 -- True
+	 	 	 	 +9.0: 0.27748299917275776 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.46124131931366597 -- True
+	 	 	 (o) Binary Matrix Test: 0.32581950911053376 -- True
+	 	 	 (o) Linear Complexity Test: 0.39669574540200375 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-101-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9977972444545057 bits
+		 --> H = 0.9999983158086955 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315604 bits
+	 	 --> Deficiency Function = 8684396
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.8624212704420314 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.3192234578751634 -- True
+	 	 	 (o) runTest: 0.4426110522677763 -- True
+	 	 	 (o) Longest One Block: 0.6842379633803424 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.13504992470603389 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.153163603601646 -- True
+	 	 	 (o) Cusum Test: 0.4850849109717974 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.5267939541579929 -- True
+	 	 	 	 -3: 0.0031087144006727223 -- False
+	 	 	 	 -2: 0.35102952465478454 -- True
+	 	 	 	 -1: 0.48873981047748205 -- True
+	 	 	 	 +1: 0.23098336996780963 -- True
+	 	 	 	 +2: 0.19144338698632773 -- True
+	 	 	 	 +3: 0.918022481694481 -- True
+	 	 	 	 +4: 0.7409347632722223 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9006986170187354 -- True
+	 	 	 	 -8.0: 0.7650286994336907 -- True
+	 	 	 	 -7.0: 0.6872499322837619 -- True
+	 	 	 	 -6.0: 0.5720181428260361 -- True
+	 	 	 	 -5.0: 0.43306116267536165 -- True
+	 	 	 	 -4.0: 0.37403975589429694 -- True
+	 	 	 	 -3.0: 0.37042800104730933 -- True
+	 	 	 	 -2.0: 0.6946828636029951 -- True
+	 	 	 	 -1.0: 0.5689497526313766 -- True
+	 	 	 	 +1.0: 0.11406618088286129 -- True
+	 	 	 	 +2.0: 0.7990322004951836 -- True
+	 	 	 	 +3.0: 0.5651545798786377 -- True
+	 	 	 	 +4.0: 0.8950232009822785 -- True
+	 	 	 	 +5.0: 0.8017263526557388 -- True
+	 	 	 	 +6.0: 0.7437729987324336 -- True
+	 	 	 	 +7.0: 0.7251163909646248 -- True
+	 	 	 	 +8.0: 0.6318227196421348 -- True
+	 	 	 	 +9.0: 0.5623662153560072 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.3216721113416221 -- True
+	 	 	 (o) Binary Matrix Test: 0.3907748640238982 -- True
+	 	 	 (o) Linear Complexity Test: 0.2969518957121818 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-102-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9994115004690597 bits
+		 --> H = 0.999999879921603 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315624 bits
+	 	 --> Deficiency Function = 8684376
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.8495154923650349 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.9444219452335277 -- True
+	 	 	 (o) runTest: 0.0318801403786231 -- True
+	 	 	 (o) Longest One Block: 0.16874703921412715 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.8754790250761918 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.8277042502563786 -- True
+	 	 	 (o) Cusum Test: 0.5508731736083066 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.35701787059264845 -- True
+	 	 	 	 -3: 0.5967299510250215 -- True
+	 	 	 	 -2: 0.8442966988155892 -- True
+	 	 	 	 -1: 0.6352806755558061 -- True
+	 	 	 	 +1: 0.19600269848525614 -- True
+	 	 	 	 +2: 0.7147236249077427 -- True
+	 	 	 	 +3: 0.3236277787335736 -- True
+	 	 	 	 +4: 0.6943783498300758 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.33767740310758965 -- True
+	 	 	 	 -8.0: 0.29514102777421414 -- True
+	 	 	 	 -7.0: 0.2302600750310766 -- True
+	 	 	 	 -6.0: 0.2848927721286233 -- True
+	 	 	 	 -5.0: 0.45122635028943936 -- True
+	 	 	 	 -4.0: 0.5411412199694514 -- True
+	 	 	 	 -3.0: 0.4444556630737895 -- True
+	 	 	 	 -2.0: 0.17118310125964253 -- True
+	 	 	 	 -1.0: 0.20418145002493526 -- True
+	 	 	 	 +1.0: 0.8390126974371575 -- True
+	 	 	 	 +2.0: 0.9221357938804907 -- True
+	 	 	 	 +3.0: 0.6771057666371739 -- True
+	 	 	 	 +4.0: 0.5369135628846445 -- True
+	 	 	 	 +5.0: 0.9258134686644329 -- True
+	 	 	 	 +6.0: 0.7906751636787833 -- True
+	 	 	 	 +7.0: 0.8016541246738295 -- True
+	 	 	 	 +8.0: 0.8066198052127818 -- True
+	 	 	 	 +9.0: 0.6828679136556717 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.16351638740604735 -- True
+	 	 	 (o) Binary Matrix Test: 0.44975798394072164 -- True
+	 	 	 (o) Linear Complexity Test: 0.2951076399033954 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-103-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9985868511898022 bits
+		 --> H = 0.9999993072177304 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315660 bits
+	 	 --> Deficiency Function = 8684340
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.4138526847293347 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.08733998048422739 -- True
+	 	 	 (o) runTest: 0.03595518887136833 -- True
+	 	 	 (o) Longest One Block: 0.7278201203859254 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.3411858220619718 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.8400622348467397 -- True
+	 	 	 (o) Cusum Test: 0.6511275127893423 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.5935810211300873 -- True
+	 	 	 	 -3: 0.3508583784225147 -- True
+	 	 	 	 -2: 0.43514129867777473 -- True
+	 	 	 	 -1: 0.13327391373120523 -- True
+	 	 	 	 +1: 0.737927521055073 -- True
+	 	 	 	 +2: 0.3065775544821918 -- True
+	 	 	 	 +3: 0.755864958570689 -- True
+	 	 	 	 +4: 0.15846900508022851 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.40686019090705183 -- True
+	 	 	 	 -8.0: 0.4244271956196919 -- True
+	 	 	 	 -7.0: 0.26400569101345805 -- True
+	 	 	 	 -6.0: 0.11790272915161505 -- True
+	 	 	 	 -5.0: 0.09009099551812043 -- True
+	 	 	 	 -4.0: 0.07413235333094546 -- True
+	 	 	 	 -3.0: 0.11533157323113809 -- True
+	 	 	 	 -2.0: 0.13185905325869496 -- True
+	 	 	 	 -1.0: 0.03349102008533684 -- True
+	 	 	 	 +1.0: 0.33331755597626633 -- True
+	 	 	 	 +2.0: 0.5809041938973039 -- True
+	 	 	 	 +3.0: 0.8052839393386098 -- True
+	 	 	 	 +4.0: 0.5573639483685693 -- True
+	 	 	 	 +5.0: 0.784286940380514 -- True
+	 	 	 	 +6.0: 0.9162591745026947 -- True
+	 	 	 	 +7.0: 0.7836517666829053 -- True
+	 	 	 	 +8.0: 0.6112398541135817 -- True
+	 	 	 	 +9.0: 0.5501614564475001 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.8037725149361071 -- True
+	 	 	 (o) Binary Matrix Test: 0.7166876194691049 -- True
+	 	 	 (o) Linear Complexity Test: 0.21852270115343445 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-104-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9989212675050907 bits
+		 --> H = 0.9999995964031393 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315694 bits
+	 	 --> Deficiency Function = 8684306
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.9204015074115078 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.9909878443805108 -- True
+	 	 	 (o) runTest: 0.5851949795428188 -- True
+	 	 	 (o) Longest One Block: 0.6659117384903652 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.31956440717863666 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.8984455024608704 -- True
+	 	 	 (o) Cusum Test: 0.9893440517720671 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.7529754377303439 -- True
+	 	 	 	 -3: 0.0068235089407725795 -- False
+	 	 	 	 -2: 0.5624064725027819 -- True
+	 	 	 	 -1: 0.6540792004745342 -- True
+	 	 	 	 +1: 0.4369041036726531 -- True
+	 	 	 	 +2: 0.11556906399637512 -- True
+	 	 	 	 +3: 0.22701239994932446 -- True
+	 	 	 	 +4: 0.4489672498716992 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6687247272733333 -- True
+	 	 	 	 -8.0: 0.728844056019964 -- True
+	 	 	 	 -7.0: 0.9950890654482943 -- True
+	 	 	 	 -6.0: 0.7633361693047438 -- True
+	 	 	 	 -5.0: 0.7843131555531164 -- True
+	 	 	 	 -4.0: 0.9598618367044596 -- True
+	 	 	 	 -3.0: 0.9446136981129627 -- True
+	 	 	 	 -2.0: 0.5599107252123043 -- True
+	 	 	 	 -1.0: 0.28178546188467957 -- True
+	 	 	 	 +1.0: 0.2719821986787737 -- True
+	 	 	 	 +2.0: 0.32072072967494447 -- True
+	 	 	 	 +3.0: 0.14595863386531618 -- True
+	 	 	 	 +4.0: 0.09180479476005056 -- True
+	 	 	 	 +5.0: 0.08214360080228829 -- True
+	 	 	 	 +6.0: 0.106837454336554 -- True
+	 	 	 	 +7.0: 0.2276723211639493 -- True
+	 	 	 	 +8.0: 0.3806569573588793 -- True
+	 	 	 	 +9.0: 0.49255361011240273 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.37896411081361003 -- True
+	 	 	 (o) Binary Matrix Test: 0.7243994414203981 -- True
+	 	 	 (o) Linear Complexity Test: 0.8087355696663023 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-105-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9981113063208729 bits
+		 --> H = 0.9999987620951661 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315604 bits
+	 	 --> Deficiency Function = 8684396
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.3644378749868846 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.23003269040112787 -- True
+	 	 	 (o) runTest: 0.6509334152346675 -- True
+	 	 	 (o) Longest One Block: 0.1029542061691743 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.16987640057847686 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.898271927835679 -- True
+	 	 	 (o) Cusum Test: 0.33919450438916054 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.5379061504113578 -- True
+	 	 	 	 -3: 0.45172191462810596 -- True
+	 	 	 	 -2: 0.9870168915294583 -- True
+	 	 	 	 -1: 0.9135384419164011 -- True
+	 	 	 	 +1: 0.5635462458437072 -- True
+	 	 	 	 +2: 0.35252318068232136 -- True
+	 	 	 	 +3: 0.3212321833232825 -- True
+	 	 	 	 +4: 0.009560390803484259 -- False
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5331150100342202 -- True
+	 	 	 	 -8.0: 0.6751736149271245 -- True
+	 	 	 	 -7.0: 0.9900235847573027 -- True
+	 	 	 	 -6.0: 0.5960189809451586 -- True
+	 	 	 	 -5.0: 0.49888051907411923 -- True
+	 	 	 	 -4.0: 0.8379788469351119 -- True
+	 	 	 	 -3.0: 0.7470049080205658 -- True
+	 	 	 	 -2.0: 0.6209176301678787 -- True
+	 	 	 	 -1.0: 0.9640407677018853 -- True
+	 	 	 	 +1.0: 0.2597056808617926 -- True
+	 	 	 	 +2.0: 0.27429882739587585 -- True
+	 	 	 	 +3.0: 0.2674702916790429 -- True
+	 	 	 	 +4.0: 0.40374148806842614 -- True
+	 	 	 	 +5.0: 0.40003522455608465 -- True
+	 	 	 	 +6.0: 0.25922109188428566 -- True
+	 	 	 	 +7.0: 0.4531134927987256 -- True
+	 	 	 	 +8.0: 0.6414873834224659 -- True
+	 	 	 	 +9.0: 0.5696369772996843 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.4924011562629381 -- True
+	 	 	 (o) Binary Matrix Test: 0.18041982792807237 -- True
+	 	 	 (o) Linear Complexity Test: 0.56319565145475 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-106-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9988030597775684 bits
+		 --> H = 0.9999995030636362 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315651 bits
+	 	 --> Deficiency Function = 8684349
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.08221296312851903 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.12212605108019185 -- True
+	 	 	 (o) runTest: 0.8428249159603469 -- True
+	 	 	 (o) Longest One Block: 0.7753234404696683 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.9352404805119241 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.697188140882984 -- True
+	 	 	 (o) Cusum Test: 0.09248268603298727 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.31001286612439793 -- True
+	 	 	 	 -3: 0.1547651611783046 -- True
+	 	 	 	 -2: 0.09970274693632557 -- True
+	 	 	 	 -1: 0.02688800277543506 -- True
+	 	 	 	 +1: 0.4212980925737404 -- True
+	 	 	 	 +2: 0.2725985988273855 -- True
+	 	 	 	 +3: 0.20422314359836832 -- True
+	 	 	 	 +4: 0.8804612385173903 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.7469571439370544 -- True
+	 	 	 	 -8.0: 0.7022589278898764 -- True
+	 	 	 	 -7.0: 0.8257221790954038 -- True
+	 	 	 	 -6.0: 0.8309408969173719 -- True
+	 	 	 	 -5.0: 0.4788938560105537 -- True
+	 	 	 	 -4.0: 0.3723390978522457 -- True
+	 	 	 	 -3.0: 0.32296840230779633 -- True
+	 	 	 	 -2.0: 0.1809194315815078 -- True
+	 	 	 	 -1.0: 0.3674839799973969 -- True
+	 	 	 	 +1.0: 0.15672704003712987 -- True
+	 	 	 	 +2.0: 0.07050035529894033 -- True
+	 	 	 	 +3.0: 0.07585844249889498 -- True
+	 	 	 	 +4.0: 0.27715149275212403 -- True
+	 	 	 	 +5.0: 0.47005628407729505 -- True
+	 	 	 	 +6.0: 0.5134829329040466 -- True
+	 	 	 	 +7.0: 0.4862531398857681 -- True
+	 	 	 	 +8.0: 0.24465128518612222 -- True
+	 	 	 	 +9.0: 0.29795910085918054 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7625535807171553 -- True
+	 	 	 (o) Binary Matrix Test: 0.9069882535158005 -- True
+	 	 	 (o) Linear Complexity Test: 0.9568997822565811 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-107-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9980046904993103 bits
+		 --> H = 0.9999986182901226 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315642 bits
+	 	 --> Deficiency Function = 8684358
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.9551119462436459 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.38680384428417636 -- True
+	 	 	 (o) runTest: 0.4336394751558946 -- True
+	 	 	 (o) Longest One Block: 0.18485375538982698 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.8572168574568303 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.2818961554570208 -- True
+	 	 	 (o) Cusum Test: 0.6675696203506484 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.45074228112185133 -- True
+	 	 	 	 -3: 0.5565944433299161 -- True
+	 	 	 	 -2: 0.22589376705662648 -- True
+	 	 	 	 -1: 0.43281183195070816 -- True
+	 	 	 	 +1: 0.219347969505648 -- True
+	 	 	 	 +2: 0.31725897321105817 -- True
+	 	 	 	 +3: 0.6193088992581712 -- True
+	 	 	 	 +4: 0.5695195833658953 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.7772464996498505 -- True
+	 	 	 	 -8.0: 0.6934802798018205 -- True
+	 	 	 	 -7.0: 0.297203101511308 -- True
+	 	 	 	 -6.0: 0.08712747145552059 -- True
+	 	 	 	 -5.0: 0.07975722666276863 -- True
+	 	 	 	 -4.0: 0.1288648098795558 -- True
+	 	 	 	 -3.0: 0.13683182463464025 -- True
+	 	 	 	 -2.0: 0.4443217213131594 -- True
+	 	 	 	 -1.0: 0.7733346038068571 -- True
+	 	 	 	 +1.0: 0.9655402095507364 -- True
+	 	 	 	 +2.0: 0.659460621365016 -- True
+	 	 	 	 +3.0: 0.4907574219875943 -- True
+	 	 	 	 +4.0: 0.6514361219107507 -- True
+	 	 	 	 +5.0: 0.7917687211977407 -- True
+	 	 	 	 +6.0: 0.8011677244507369 -- True
+	 	 	 	 +7.0: 0.7706181139855623 -- True
+	 	 	 	 +8.0: 0.8147901811613267 -- True
+	 	 	 	 +9.0: 0.974923149574476 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.4089027121125184 -- True
+	 	 	 (o) Binary Matrix Test: 0.13466718312394704 -- True
+	 	 	 (o) Linear Complexity Test: 0.8413309259302314 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-108-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.998932800484881 bits
+		 --> H = 0.9999996049900617 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315602 bits
+	 	 --> Deficiency Function = 8684398
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.14109541766841013 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.17282308494591775 -- True
+	 	 	 (o) runTest: 0.5726874582134143 -- True
+	 	 	 (o) Longest One Block: 0.8698261218175997 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.22292007348346488 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.5427995249183976 -- True
+	 	 	 (o) Cusum Test: 0.12074131070726238 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6946384465445772 -- True
+	 	 	 	 -3: 0.8911368561638513 -- True
+	 	 	 	 -2: 0.7783457922629529 -- True
+	 	 	 	 -1: 0.5954777383179524 -- True
+	 	 	 	 +1: 0.47234396012453983 -- True
+	 	 	 	 +2: 0.5640918456017433 -- True
+	 	 	 	 +3: 0.4036341448873697 -- True
+	 	 	 	 +4: 0.4348163809607568 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9890709290105334 -- True
+	 	 	 	 -8.0: 0.7373231491515448 -- True
+	 	 	 	 -7.0: 0.5621997874904279 -- True
+	 	 	 	 -6.0: 0.8248005904201687 -- True
+	 	 	 	 -5.0: 0.9324860830029362 -- True
+	 	 	 	 -4.0: 0.9744559756208211 -- True
+	 	 	 	 -3.0: 0.8596616501841462 -- True
+	 	 	 	 -2.0: 0.4149616647249419 -- True
+	 	 	 	 -1.0: 0.4128237180079334 -- True
+	 	 	 	 +1.0: 0.4128237180079334 -- True
+	 	 	 	 +2.0: 0.6018627065262145 -- True
+	 	 	 	 +3.0: 0.9798493011900922 -- True
+	 	 	 	 +4.0: 0.8309621661275969 -- True
+	 	 	 	 +5.0: 0.9175316608329591 -- True
+	 	 	 	 +6.0: 0.8447419923063862 -- True
+	 	 	 	 +7.0: 0.9937509330577874 -- True
+	 	 	 	 +8.0: 0.8042082499127513 -- True
+	 	 	 	 +9.0: 0.5931882861506421 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7445388272379118 -- True
+	 	 	 (o) Binary Matrix Test: 0.14749113999742913 -- True
+	 	 	 (o) Linear Complexity Test: 0.15899485192059898 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-109-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9993249766640068 bits
+		 --> H = 0.9999998420075749 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315659 bits
+	 	 --> Deficiency Function = 8684341
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.10597408272290378 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.47166113584944647 -- True
+	 	 	 (o) runTest: 0.5306870784771015 -- True
+	 	 	 (o) Longest One Block: 0.5854361834144686 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.26513698948077846 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.4521393687079803 -- True
+	 	 	 (o) Cusum Test: 0.16121940990552994 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.11765932364262761 -- True
+	 	 	 	 -3: 0.01124474756979526 -- True
+	 	 	 	 -2: 0.021871549553646077 -- True
+	 	 	 	 -1: 0.026556118685809618 -- True
+	 	 	 	 +1: 0.8520775012854951 -- True
+	 	 	 	 +2: 0.7053177274506486 -- True
+	 	 	 	 +3: 0.07045978726741649 -- True
+	 	 	 	 +4: 0.6246473119288724 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5503445022182947 -- True
+	 	 	 	 -8.0: 0.5061386724144954 -- True
+	 	 	 	 -7.0: 0.5394551670036789 -- True
+	 	 	 	 -6.0: 0.6241650806988794 -- True
+	 	 	 	 -5.0: 0.5995831909373919 -- True
+	 	 	 	 -4.0: 0.5235940826586801 -- True
+	 	 	 	 -3.0: 0.18521418081887753 -- True
+	 	 	 	 -2.0: 0.010193104991108252 -- True
+	 	 	 	 -1.0: 0.003731626600768075 -- False
+	 	 	 	 +1.0: 0.880764615259515 -- True
+	 	 	 	 +2.0: 0.8795383653497697 -- True
+	 	 	 	 +3.0: 0.7670170166100365 -- True
+	 	 	 	 +4.0: 0.5771874999685355 -- True
+	 	 	 	 +5.0: 0.6437228023273082 -- True
+	 	 	 	 +6.0: 0.9759465198473448 -- True
+	 	 	 	 +7.0: 0.6622372482720629 -- True
+	 	 	 	 +8.0: 0.535470240210971 -- True
+	 	 	 	 +9.0: 0.33197546708273695 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6715390788781987 -- True
+	 	 	 (o) Binary Matrix Test: 0.9865358125104333 -- True
+	 	 	 (o) Linear Complexity Test: 0.7279984448453181 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-110-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9987338695040864 bits
+		 --> H = 0.9999994439246667 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315663 bits
+	 	 --> Deficiency Function = 8684337
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.14717342216679546 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.3081252668364665 -- True
+	 	 	 (o) runTest: 0.8948140237386034 -- True
+	 	 	 (o) Longest One Block: 0.20654007794670032 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.29482860447339154 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.2454859342910578 -- True
+	 	 	 (o) Cusum Test: 0.22366898736185692 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.3080573032149607 -- True
+	 	 	 	 -3: 0.2653741664170683 -- True
+	 	 	 	 -2: 0.9557593614500103 -- True
+	 	 	 	 -1: 0.0859704909235574 -- True
+	 	 	 	 +1: 0.3208366163815309 -- True
+	 	 	 	 +2: 0.7413039129286494 -- True
+	 	 	 	 +3: 0.4990252088512992 -- True
+	 	 	 	 +4: 0.9401496704674389 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6491001190129086 -- True
+	 	 	 	 -8.0: 0.9659079972381367 -- True
+	 	 	 	 -7.0: 0.8985200571046895 -- True
+	 	 	 	 -6.0: 0.8547932930257099 -- True
+	 	 	 	 -5.0: 0.8492629716302788 -- True
+	 	 	 	 -4.0: 0.7596958211602791 -- True
+	 	 	 	 -3.0: 0.3743498370983972 -- True
+	 	 	 	 -2.0: 0.22201221750536648 -- True
+	 	 	 	 -1.0: 0.45078636138772477 -- True
+	 	 	 	 +1.0: 0.6722702079072167 -- True
+	 	 	 	 +2.0: 0.5240302760545097 -- True
+	 	 	 	 +3.0: 0.9737527091176312 -- True
+	 	 	 	 +4.0: 0.41203642886687675 -- True
+	 	 	 	 +5.0: 0.17543792657054447 -- True
+	 	 	 	 +6.0: 0.08865969790041084 -- True
+	 	 	 	 +7.0: 0.1004655937732471 -- True
+	 	 	 	 +8.0: 0.16698430405475417 -- True
+	 	 	 	 +9.0: 0.27247377700593145 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.3293113972146722 -- True
+	 	 	 (o) Binary Matrix Test: 0.3045618077578035 -- True
+	 	 	 (o) Linear Complexity Test: 0.17825291179444788 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-111-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9989702833059354 bits
+		 --> H = 0.9999996322598883 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315612 bits
+	 	 --> Deficiency Function = 8684388
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.8519943542610245 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.9587644462370317 -- True
+	 	 	 (o) runTest: 0.9833397530915134 -- True
+	 	 	 (o) Longest One Block: 0.42978695384798093 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.5365056222915983 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.7628315818038408 -- True
+	 	 	 (o) Cusum Test: 0.9981159144976963 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8976125910360329 -- True
+	 	 	 	 -3: 0.9975264712066871 -- True
+	 	 	 	 -2: 0.8518211066404462 -- True
+	 	 	 	 -1: 0.9695000498894997 -- True
+	 	 	 	 +1: 0.4475064964360731 -- True
+	 	 	 	 +2: 0.20989754793387322 -- True
+	 	 	 	 +3: 0.15037455238856304 -- True
+	 	 	 	 +4: 0.9066991783977365 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6855411735762322 -- True
+	 	 	 	 -8.0: 0.6523077497171907 -- True
+	 	 	 	 -7.0: 0.5436526958164558 -- True
+	 	 	 	 -6.0: 0.467856746161047 -- True
+	 	 	 	 -5.0: 0.6424928045174991 -- True
+	 	 	 	 -4.0: 0.9873504120976092 -- True
+	 	 	 	 -3.0: 0.8015236383211484 -- True
+	 	 	 	 -2.0: 0.7602518721366329 -- True
+	 	 	 	 -1.0: 0.8932197463938027 -- True
+	 	 	 	 +1.0: 0.43034094041189785 -- True
+	 	 	 	 +2.0: 0.2694402276588437 -- True
+	 	 	 	 +3.0: 0.39648025969056866 -- True
+	 	 	 	 +4.0: 0.804651824744203 -- True
+	 	 	 	 +5.0: 0.8251530101907701 -- True
+	 	 	 	 +6.0: 0.42117429798327755 -- True
+	 	 	 	 +7.0: 0.3238537048434543 -- True
+	 	 	 	 +8.0: 0.30658153645303654 -- True
+	 	 	 	 +9.0: 0.5215595155534299 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7130712832779521 -- True
+	 	 	 (o) Binary Matrix Test: 0.5089828442897057 -- True
+	 	 	 (o) Linear Complexity Test: 0.5748728803800198 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-112-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.999774957126509 bits
+		 --> H = 0.9999999824452865 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315608 bits
+	 	 --> Deficiency Function = 8684392
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.38797155412051987 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.1362147430067264 -- True
+	 	 	 (o) runTest: 0.1592464549939454 -- True
+	 	 	 (o) Longest One Block: 0.1301423518233525 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.3606642630512894 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.7556482141226579 -- True
+	 	 	 (o) Cusum Test: 0.7090286613966881 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.46493695920016875 -- True
+	 	 	 	 -3: 0.8030519412974968 -- True
+	 	 	 	 -2: 0.0818186631890329 -- True
+	 	 	 	 -1: 0.2302146857878419 -- True
+	 	 	 	 +1: 0.006040670083466874 -- False
+	 	 	 	 +2: 0.01096172256509465 -- True
+	 	 	 	 +3: 0.41516320358876607 -- True
+	 	 	 	 +4: 0.543355294179194 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.23988370059577424 -- True
+	 	 	 	 -8.0: 0.20979498713668665 -- True
+	 	 	 	 -7.0: 0.26588529939381544 -- True
+	 	 	 	 -6.0: 0.5908805541086766 -- True
+	 	 	 	 -5.0: 0.8698789885369042 -- True
+	 	 	 	 -4.0: 0.9724327380323148 -- True
+	 	 	 	 -3.0: 0.7243391352780986 -- True
+	 	 	 	 -2.0: 0.07922963960075079 -- True
+	 	 	 	 -1.0: 0.01081522305438914 -- True
+	 	 	 	 +1.0: 0.7838616208318059 -- True
+	 	 	 	 +2.0: 0.6970502460722026 -- True
+	 	 	 	 +3.0: 0.8220662316780395 -- True
+	 	 	 	 +4.0: 0.9105766005628394 -- True
+	 	 	 	 +5.0: 0.9513963404386688 -- True
+	 	 	 	 +6.0: 0.9176637609573908 -- True
+	 	 	 	 +7.0: 0.8367636769397728 -- True
+	 	 	 	 +8.0: 0.8548330580652486 -- True
+	 	 	 	 +9.0: 0.7837647825470366 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.5894012320538237 -- True
+	 	 	 (o) Binary Matrix Test: 0.3475431698423877 -- True
+	 	 	 (o) Linear Complexity Test: 0.8114406562157632 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-113-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9976215148935718 bits
+		 --> H = 0.9999980361304844 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315618 bits
+	 	 --> Deficiency Function = 8684382
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.16680356637608262 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.40746984119483415 -- True
+	 	 	 (o) runTest: 0.891316601252742 -- True
+	 	 	 (o) Longest One Block: 0.6417134572284158 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.309788106672806 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.6810072655903213 -- True
+	 	 	 (o) Cusum Test: 0.2759061982938897 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.2844589428663676 -- True
+	 	 	 	 -3: 0.41677289817295526 -- True
+	 	 	 	 -2: 0.5608659499056059 -- True
+	 	 	 	 -1: 0.1700929618315769 -- True
+	 	 	 	 +1: 0.3956737397758394 -- True
+	 	 	 	 +2: 0.16426938144335682 -- True
+	 	 	 	 +3: 0.13115092815051776 -- True
+	 	 	 	 +4: 0.9018049354829704 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9159217021395334 -- True
+	 	 	 	 -8.0: 0.8661227290418329 -- True
+	 	 	 	 -7.0: 0.9039076325167247 -- True
+	 	 	 	 -6.0: 0.7929458650985228 -- True
+	 	 	 	 -5.0: 0.6809968574857819 -- True
+	 	 	 	 -4.0: 0.9126618145852643 -- True
+	 	 	 	 -3.0: 0.7952076118662074 -- True
+	 	 	 	 -2.0: 0.9332386792003442 -- True
+	 	 	 	 -1.0: 0.4248566352796507 -- True
+	 	 	 	 +1.0: 0.24573870033984924 -- True
+	 	 	 	 +2.0: 0.6449856562173608 -- True
+	 	 	 	 +3.0: 0.721176307474874 -- True
+	 	 	 	 +4.0: 0.4265016380749289 -- True
+	 	 	 	 +5.0: 0.26596752968048487 -- True
+	 	 	 	 +6.0: 0.25535252925489693 -- True
+	 	 	 	 +7.0: 0.3341380805957457 -- True
+	 	 	 	 +8.0: 0.4536952997039291 -- True
+	 	 	 	 +9.0: 0.5037349915059153 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.14983194702383085 -- True
+	 	 	 (o) Binary Matrix Test: 0.7344521010969504 -- True
+	 	 	 (o) Linear Complexity Test: 0.019118589297361554 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-114-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9965416802275889 bits
+		 --> H = 0.9999958450342934 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315682 bits
+	 	 --> Deficiency Function = 8684318
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.4388565370042148 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.3726831793107426 -- True
+	 	 	 (o) runTest: 0.558831199639779 -- True
+	 	 	 (o) Longest One Block: 0.9956641733653866 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.6382774230096783 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.3580313571935131 -- True
+	 	 	 (o) Cusum Test: 0.32093294875209033 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.5344219386597824 -- True
+	 	 	 	 -3: 0.1096947950206028 -- True
+	 	 	 	 -2: 0.9091259458408968 -- True
+	 	 	 	 -1: 0.45395066080378366 -- True
+	 	 	 	 +1: 0.2564769082677223 -- True
+	 	 	 	 +2: 0.41340066636503714 -- True
+	 	 	 	 +3: 0.16418882914097035 -- True
+	 	 	 	 +4: 0.39896171643593553 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6174736232773129 -- True
+	 	 	 	 -8.0: 0.5518539133447866 -- True
+	 	 	 	 -7.0: 0.5139407062383616 -- True
+	 	 	 	 -6.0: 0.3871516567976767 -- True
+	 	 	 	 -5.0: 0.4185271926003862 -- True
+	 	 	 	 -4.0: 0.2393019761485532 -- True
+	 	 	 	 -3.0: 0.09134661651892406 -- True
+	 	 	 	 -2.0: 0.15696698825357788 -- True
+	 	 	 	 -1.0: 0.5399669813903587 -- True
+	 	 	 	 +1.0: 0.29182604584490035 -- True
+	 	 	 	 +2.0: 0.10359949482041993 -- True
+	 	 	 	 +3.0: 0.06391317161152218 -- True
+	 	 	 	 +4.0: 0.06795178219404488 -- True
+	 	 	 	 +5.0: 0.03947322372463644 -- True
+	 	 	 	 +6.0: 0.04677985475702551 -- True
+	 	 	 	 +7.0: 0.03505503138868816 -- True
+	 	 	 	 +8.0: 0.01405350082527998 -- True
+	 	 	 	 +9.0: 0.01657082188171864 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.42458643225184567 -- True
+	 	 	 (o) Binary Matrix Test: 0.846116587668763 -- True
+	 	 	 (o) Linear Complexity Test: 0.6772648461313855 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-115-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9994288058527862 bits
+		 --> H = 0.9999998868811644 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315645 bits
+	 	 --> Deficiency Function = 8684355
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.346980952528422 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.6819301310138397 -- True
+	 	 	 (o) runTest: 0.31143830886000246 -- True
+	 	 	 (o) Longest One Block: 0.39959175738232056 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.8344972947893624 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.7788448667000043 -- True
+	 	 	 (o) Cusum Test: 0.6000715061025734 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.7601432418022565 -- True
+	 	 	 	 -3: 0.6712672359550538 -- True
+	 	 	 	 -2: 0.4998455561225803 -- True
+	 	 	 	 -1: 0.5701185150305831 -- True
+	 	 	 	 +1: 0.5854803208982022 -- True
+	 	 	 	 +2: 0.6134200787960655 -- True
+	 	 	 	 +3: 0.6477924736231895 -- True
+	 	 	 	 +4: 0.8670635614212843 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9533852012860998 -- True
+	 	 	 	 -8.0: 0.9946800208043137 -- True
+	 	 	 	 -7.0: 0.9828574689866848 -- True
+	 	 	 	 -6.0: 0.9689456279772782 -- True
+	 	 	 	 -5.0: 0.7962238884698593 -- True
+	 	 	 	 -4.0: 0.5757530202054264 -- True
+	 	 	 	 -3.0: 0.6331150866312494 -- True
+	 	 	 	 -2.0: 0.6909382562196118 -- True
+	 	 	 	 -1.0: 0.9109005042446314 -- True
+	 	 	 	 +1.0: 0.9040786278308923 -- True
+	 	 	 	 +2.0: 0.6332919673127642 -- True
+	 	 	 	 +3.0: 0.5610481231103188 -- True
+	 	 	 	 +4.0: 0.5669068364541197 -- True
+	 	 	 	 +5.0: 0.6585815029468982 -- True
+	 	 	 	 +6.0: 0.5928929478053899 -- True
+	 	 	 	 +7.0: 0.21006499835300885 -- True
+	 	 	 	 +8.0: 0.08701381577778333 -- True
+	 	 	 	 +9.0: 0.04285792743009408 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.3309097809500855 -- True
+	 	 	 (o) Binary Matrix Test: 0.028624076325059387 -- True
+	 	 	 (o) Linear Complexity Test: 0.36681306641083783 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-116-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9995066826484754 bits
+		 --> H = 0.999999915628307 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315649 bits
+	 	 --> Deficiency Function = 8684351
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.35944242048465647 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.9749886628801642 -- True
+	 	 	 (o) runTest: 0.13006817778128005 -- True
+	 	 	 (o) Longest One Block: 0.6825504110294025 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.8367633725232279 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.686697967713197 -- True
+	 	 	 (o) Cusum Test: 0.7013057321675611 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.508597849527612 -- True
+	 	 	 	 -3: 0.26197522952687835 -- True
+	 	 	 	 -2: 0.7404151410188288 -- True
+	 	 	 	 -1: 0.4524322892301138 -- True
+	 	 	 	 +1: 0.5560070670521703 -- True
+	 	 	 	 +2: 0.37246449496892436 -- True
+	 	 	 	 +3: 0.45521852183783185 -- True
+	 	 	 	 +4: 0.1290407948686199 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5666440795040297 -- True
+	 	 	 	 -8.0: 0.5443705389236307 -- True
+	 	 	 	 -7.0: 0.5044775447173622 -- True
+	 	 	 	 -6.0: 0.39807367489172907 -- True
+	 	 	 	 -5.0: 0.25851330847630805 -- True
+	 	 	 	 -4.0: 0.08256419420177659 -- True
+	 	 	 	 -3.0: 0.0764155964891998 -- True
+	 	 	 	 -2.0: 0.14505881816543045 -- True
+	 	 	 	 -1.0: 0.16777975283301383 -- True
+	 	 	 	 +1.0: 0.8372295080409007 -- True
+	 	 	 	 +2.0: 0.5993935259960848 -- True
+	 	 	 	 +3.0: 0.5201434013158832 -- True
+	 	 	 	 +4.0: 0.49161425651385227 -- True
+	 	 	 	 +5.0: 0.5539452352632779 -- True
+	 	 	 	 +6.0: 0.604696504686635 -- True
+	 	 	 	 +7.0: 0.4514926617903019 -- True
+	 	 	 	 +8.0: 0.3135331620767514 -- True
+	 	 	 	 +9.0: 0.21816653102353734 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.4566832191509854 -- True
+	 	 	 (o) Binary Matrix Test: 0.4676868701652009 -- True
+	 	 	 (o) Linear Complexity Test: 0.5518116841814413 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-117-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9984312010674615 bits
+		 --> H = 0.9999991461090323 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315520 bits
+	 	 --> Deficiency Function = 8684480
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.7949106548095054 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.8922906523909102 -- True
+	 	 	 (o) runTest: 0.4207651316861989 -- True
+	 	 	 (o) Longest One Block: 0.5352506116596989 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.7124691824029097 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.06538167341254779 -- True
+	 	 	 (o) Cusum Test: 0.899324898556499 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.7240056597367336 -- True
+	 	 	 	 -3: 0.982616361413774 -- True
+	 	 	 	 -2: 0.6261530992570913 -- True
+	 	 	 	 -1: 0.8550386191429629 -- True
+	 	 	 	 +1: 0.8756767843496346 -- True
+	 	 	 	 +2: 0.6882367921885981 -- True
+	 	 	 	 +3: 0.13699302655060028 -- True
+	 	 	 	 +4: 0.15407804340455655 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.8193567942241959 -- True
+	 	 	 	 -8.0: 0.9957366702678372 -- True
+	 	 	 	 -7.0: 0.8497728829478435 -- True
+	 	 	 	 -6.0: 0.6001877188154203 -- True
+	 	 	 	 -5.0: 0.4838233125269449 -- True
+	 	 	 	 -4.0: 0.24068664927211958 -- True
+	 	 	 	 -3.0: 0.13260180095394825 -- True
+	 	 	 	 -2.0: 0.23924342939053223 -- True
+	 	 	 	 -1.0: 0.44385521056892396 -- True
+	 	 	 	 +1.0: 0.5763299042190723 -- True
+	 	 	 	 +2.0: 0.6889660130371131 -- True
+	 	 	 	 +3.0: 0.9372977979233111 -- True
+	 	 	 	 +4.0: 0.793297695753363 -- True
+	 	 	 	 +5.0: 0.8065448337575112 -- True
+	 	 	 	 +6.0: 0.9975107439216825 -- True
+	 	 	 	 +7.0: 0.8587787878712252 -- True
+	 	 	 	 +8.0: 0.4608926772570271 -- True
+	 	 	 	 +9.0: 0.3797510226535581 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.894276201780617 -- True
+	 	 	 (o) Binary Matrix Test: 0.9830552482511399 -- True
+	 	 	 (o) Linear Complexity Test: 0.9445735152744733 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-118-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9989558667210509 bits
+		 --> H = 0.9999996218869092 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315664 bits
+	 	 --> Deficiency Function = 8684336
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.29464836682471185 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.4258615181972861 -- True
+	 	 	 (o) runTest: 0.97146988954535 -- True
+	 	 	 (o) Longest One Block: 0.7641218995228805 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.6465925513644957 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.9550903629614944 -- True
+	 	 	 (o) Cusum Test: 0.2769147338143041 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.4871733248333543 -- True
+	 	 	 	 -3: 0.8405915253008762 -- True
+	 	 	 	 -2: 0.7219599100957023 -- True
+	 	 	 	 -1: 0.22433746569847965 -- True
+	 	 	 	 +1: 0.08117235778655586 -- True
+	 	 	 	 +2: 0.5138504561671211 -- True
+	 	 	 	 +3: 0.481841804392404 -- True
+	 	 	 	 +4: 0.4221520804979806 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6667003245422368 -- True
+	 	 	 	 -8.0: 0.6916068364144403 -- True
+	 	 	 	 -7.0: 0.5876075745358824 -- True
+	 	 	 	 -6.0: 0.7362034806353068 -- True
+	 	 	 	 -5.0: 0.8731824897080599 -- True
+	 	 	 	 -4.0: 0.5614606324911622 -- True
+	 	 	 	 -3.0: 0.25712771574468396 -- True
+	 	 	 	 -2.0: 0.1668713092603974 -- True
+	 	 	 	 -1.0: 0.03798413446263849 -- True
+	 	 	 	 +1.0: 0.11497474299611023 -- True
+	 	 	 	 +2.0: 0.5188714891667339 -- True
+	 	 	 	 +3.0: 0.59239198580218 -- True
+	 	 	 	 +4.0: 0.43287227096387204 -- True
+	 	 	 	 +5.0: 0.2160742112746321 -- True
+	 	 	 	 +6.0: 0.1917464841316977 -- True
+	 	 	 	 +7.0: 0.4127903730753023 -- True
+	 	 	 	 +8.0: 0.5263090479188497 -- True
+	 	 	 	 +9.0: 0.45321709792901566 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.17951687315246478 -- True
+	 	 	 (o) Binary Matrix Test: 0.26586027388948424 -- True
+	 	 	 (o) Linear Complexity Test: 0.3481013440959755 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-119-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9986272076665931 bits
+		 --> H = 0.9999993462397581 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315696 bits
+	 	 --> Deficiency Function = 8684304
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.7246299869157535 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.8487344095807416 -- True
+	 	 	 (o) runTest: 0.49574883250743906 -- True
+	 	 	 (o) Longest One Block: 0.7365137393933416 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.6633550269772723 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.9418168913586302 -- True
+	 	 	 (o) Cusum Test: 0.917770108130405 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.36618146301173604 -- True
+	 	 	 	 -3: 0.7922806791453363 -- True
+	 	 	 	 -2: 0.6939024870482822 -- True
+	 	 	 	 -1: 0.6484817455715166 -- True
+	 	 	 	 +1: 0.7984608601925549 -- True
+	 	 	 	 +2: 0.5570294380049551 -- True
+	 	 	 	 +3: 0.56333615352452 -- True
+	 	 	 	 +4: 0.17120834473088384 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.3180396647851892 -- True
+	 	 	 	 -8.0: 0.31967362472481076 -- True
+	 	 	 	 -7.0: 0.28327613323670664 -- True
+	 	 	 	 -6.0: 0.2470034919470404 -- True
+	 	 	 	 -5.0: 0.2568574075513871 -- True
+	 	 	 	 -4.0: 0.45299504101706944 -- True
+	 	 	 	 -3.0: 0.809115645760019 -- True
+	 	 	 	 -2.0: 0.5895856876883767 -- True
+	 	 	 	 -1.0: 0.36539461262709716 -- True
+	 	 	 	 +1.0: 0.7260578130185488 -- True
+	 	 	 	 +2.0: 0.9194358743257929 -- True
+	 	 	 	 +3.0: 0.690439122427023 -- True
+	 	 	 	 +4.0: 0.43007907613005114 -- True
+	 	 	 	 +5.0: 0.5527196186169112 -- True
+	 	 	 	 +6.0: 0.7613410302826474 -- True
+	 	 	 	 +7.0: 0.9870779806072345 -- True
+	 	 	 	 +8.0: 0.909964896652463 -- True
+	 	 	 	 +9.0: 0.853919677811398 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.43857773847163073 -- True
+	 	 	 (o) Binary Matrix Test: 0.36438297536135067 -- True
+	 	 	 (o) Linear Complexity Test: 0.3052996181339321 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-120-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9999653757345082 bits
+		 --> H = 0.9999999995845038 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315591 bits
+	 	 --> Deficiency Function = 8684409
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.8125242693153686 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.7759245985281787 -- True
+	 	 	 (o) runTest: 0.3749080786163189 -- True
+	 	 	 (o) Longest One Block: 0.3181056354478073 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.046513127367512876 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.33651720297751764 -- True
+	 	 	 (o) Cusum Test: 0.9872495995854313 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6460546812941531 -- True
+	 	 	 	 -3: 0.17348123232683654 -- True
+	 	 	 	 -2: 0.9951138387187286 -- True
+	 	 	 	 -1: 0.6475192272985275 -- True
+	 	 	 	 +1: 0.3001420919837392 -- True
+	 	 	 	 +2: 0.7989758982185966 -- True
+	 	 	 	 +3: 0.3697394232034946 -- True
+	 	 	 	 +4: 0.17852029207562975 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5572402666033874 -- True
+	 	 	 	 -8.0: 0.3238352061367412 -- True
+	 	 	 	 -7.0: 0.394568522869729 -- True
+	 	 	 	 -6.0: 0.6755087598952356 -- True
+	 	 	 	 -5.0: 0.8718288463469328 -- True
+	 	 	 	 -4.0: 0.8472988582474771 -- True
+	 	 	 	 -3.0: 0.8286332316227596 -- True
+	 	 	 	 -2.0: 0.713106769659636 -- True
+	 	 	 	 -1.0: 0.23619731891760787 -- True
+	 	 	 	 +1.0: 0.34591555944993424 -- True
+	 	 	 	 +2.0: 0.7351583170505845 -- True
+	 	 	 	 +3.0: 0.9002734225113519 -- True
+	 	 	 	 +4.0: 0.8322454184377848 -- True
+	 	 	 	 +5.0: 0.7566105665475783 -- True
+	 	 	 	 +6.0: 0.9235133535406963 -- True
+	 	 	 	 +7.0: 0.8625740715336013 -- True
+	 	 	 	 +8.0: 0.960656022497042 -- True
+	 	 	 	 +9.0: 0.7085593329154369 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.32827080186123836 -- True
+	 	 	 (o) Binary Matrix Test: 0.9708350341876422 -- True
+	 	 	 (o) Linear Complexity Test: 0.37210263129459303 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-121-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9984427301302846 bits
+		 --> H = 0.9999991586200886 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315661 bits
+	 	 --> Deficiency Function = 8684339
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.17957309280916234 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.13652966194787702 -- True
+	 	 	 (o) runTest: 0.5556025125618779 -- True
+	 	 	 (o) Longest One Block: 0.1461193333557646 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.41482318229890414 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.00753682701210032 -- False
+	 	 	 (o) Cusum Test: 0.2868103341126271 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.12621469126014462 -- True
+	 	 	 	 -3: 0.329557146432984 -- True
+	 	 	 	 -2: 0.9344651911831903 -- True
+	 	 	 	 -1: 0.7975492132651752 -- True
+	 	 	 	 +1: 0.6484962234922526 -- True
+	 	 	 	 +2: 0.4536900765741314 -- True
+	 	 	 	 +3: 0.6595271006545751 -- True
+	 	 	 	 +4: 0.5506778363406377 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.0972040280795457 -- True
+	 	 	 	 -8.0: 0.12937399883629822 -- True
+	 	 	 	 -7.0: 0.11732426883791154 -- True
+	 	 	 	 -6.0: 0.13434024814564446 -- True
+	 	 	 	 -5.0: 0.28515985956216716 -- True
+	 	 	 	 -4.0: 0.6066986826104052 -- True
+	 	 	 	 -3.0: 1.0 -- True
+	 	 	 	 -2.0: 0.9477522135581932 -- True
+	 	 	 	 -1.0: 0.5897977526601881 -- True
+	 	 	 	 +1.0: 0.2684524217123466 -- True
+	 	 	 	 +2.0: 0.43165830931379 -- True
+	 	 	 	 +3.0: 0.5766050959996707 -- True
+	 	 	 	 +4.0: 0.49925404530259765 -- True
+	 	 	 	 +5.0: 0.5386891980645945 -- True
+	 	 	 	 +6.0: 0.771139043312015 -- True
+	 	 	 	 +7.0: 0.8072571898352647 -- True
+	 	 	 	 +8.0: 0.7141244531665327 -- True
+	 	 	 	 +9.0: 0.7204450476766195 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.39311031140515773 -- True
+	 	 	 (o) Binary Matrix Test: 0.6452206435085015 -- True
+	 	 	 (o) Linear Complexity Test: 0.31272779291965835 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-122-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9983216795655123 bits
+		 --> H = 0.9999990226489093 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315661 bits
+	 	 --> Deficiency Function = 8684339
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.49297686367942317 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.20046008210243157 -- True
+	 	 	 (o) runTest: 0.37531903483727314 -- True
+	 	 	 (o) Longest One Block: 0.3963981259479247 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.6888156111776458 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.9517863777995224 -- True
+	 	 	 (o) Cusum Test: 0.7941550445207981 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.6227780001500267 -- True
+	 	 	 	 -3: 0.8575571828835697 -- True
+	 	 	 	 -2: 0.9152414537184664 -- True
+	 	 	 	 -1: 0.4679206290419021 -- True
+	 	 	 	 +1: 0.5382138970747803 -- True
+	 	 	 	 +2: 0.48191606643781293 -- True
+	 	 	 	 +3: 0.0026128246944936116 -- False
+	 	 	 	 +4: 0.023611787460871135 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.3313854336925134 -- True
+	 	 	 	 -8.0: 0.20935071804071204 -- True
+	 	 	 	 -7.0: 0.21322839713643293 -- True
+	 	 	 	 -6.0: 0.303491670122502 -- True
+	 	 	 	 -5.0: 0.43283199205710265 -- True
+	 	 	 	 -4.0: 0.4265342244315905 -- True
+	 	 	 	 -3.0: 0.6555846779006378 -- True
+	 	 	 	 -2.0: 0.9497834020958478 -- True
+	 	 	 	 -1.0: 0.5854700299259517 -- True
+	 	 	 	 +1.0: 0.2753501300958874 -- True
+	 	 	 	 +2.0: 0.14007740549774486 -- True
+	 	 	 	 +3.0: 0.015595332881048803 -- True
+	 	 	 	 +4.0: 0.006622711701174252 -- False
+	 	 	 	 +5.0: 0.007019984521690876 -- False
+	 	 	 	 +6.0: 0.0030757558415633267 -- False
+	 	 	 	 +7.0: 0.0030706768033579445 -- False
+	 	 	 	 +8.0: 0.0034430908721744713 -- False
+	 	 	 	 +9.0: 0.0027593280006589804 -- False
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.0633844696553827 -- True
+	 	 	 (o) Binary Matrix Test: 0.27469788187478433 -- True
+	 	 	 (o) Linear Complexity Test: 0.4967283907178176 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-123-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9994720702202919 bits
+		 --> H = 0.9999999033711693 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315595 bits
+	 	 --> Deficiency Function = 8684405
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.34893005984070846 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.46998101491761385 -- True
+	 	 	 (o) runTest: 0.5088938393073972 -- True
+	 	 	 (o) Longest One Block: 0.4631642610080159 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.026421664573021465 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.13071979526456598 -- True
+	 	 	 (o) Cusum Test: 0.16110976509437727 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8912166760968926 -- True
+	 	 	 	 -3: 0.5384598050272055 -- True
+	 	 	 	 -2: 0.7139235199673001 -- True
+	 	 	 	 -1: 0.9468510108980135 -- True
+	 	 	 	 +1: 0.6150708689873917 -- True
+	 	 	 	 +2: 0.7601243572264863 -- True
+	 	 	 	 +3: 0.6218929399060241 -- True
+	 	 	 	 +4: 0.2594476692209396 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9147254575629598 -- True
+	 	 	 	 -8.0: 0.7825565451881609 -- True
+	 	 	 	 -7.0: 0.7085553422069983 -- True
+	 	 	 	 -6.0: 0.684477962528672 -- True
+	 	 	 	 -5.0: 0.6146354863501616 -- True
+	 	 	 	 -4.0: 0.6669376291151533 -- True
+	 	 	 	 -3.0: 0.9172337148038552 -- True
+	 	 	 	 -2.0: 0.8615461429805067 -- True
+	 	 	 	 -1.0: 0.7100480705466634 -- True
+	 	 	 	 +1.0: 0.692821854570099 -- True
+	 	 	 	 +2.0: 0.9251797773274291 -- True
+	 	 	 	 +3.0: 0.36046140085414935 -- True
+	 	 	 	 +4.0: 0.11592454785802589 -- True
+	 	 	 	 +5.0: 0.05572536523832799 -- True
+	 	 	 	 +6.0: 0.032040873125938736 -- True
+	 	 	 	 +7.0: 0.028435596251405345 -- True
+	 	 	 	 +8.0: 0.01321578514653285 -- True
+	 	 	 	 +9.0: 0.011209249916191181 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.06736894462630894 -- True
+	 	 	 (o) Binary Matrix Test: 0.40146650049698734 -- True
+	 	 	 (o) Linear Complexity Test: 0.6434034186159605 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-124-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9999134408942939 bits
+		 --> H = 0.9999999974031488 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315688 bits
+	 	 --> Deficiency Function = 8684312
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.07087258475690728 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.25812537374356515 -- True
+	 	 	 (o) runTest: 0.5112527060625864 -- True
+	 	 	 (o) Longest One Block: 0.5508418394915939 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.01860036154796288 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.20763655614173562 -- True
+	 	 	 (o) Cusum Test: 0.1364948639494417 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.4251804250013428 -- True
+	 	 	 	 -3: 0.1760213151451898 -- True
+	 	 	 	 -2: 0.06879343088967455 -- True
+	 	 	 	 -1: 0.14257381053415855 -- True
+	 	 	 	 +1: 0.8528132226002749 -- True
+	 	 	 	 +2: 0.46790693139584794 -- True
+	 	 	 	 +3: 0.8975877482817987 -- True
+	 	 	 	 +4: 0.11399754835986335 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.3011488965954918 -- True
+	 	 	 	 -8.0: 0.3464382628580548 -- True
+	 	 	 	 -7.0: 0.40281807268920966 -- True
+	 	 	 	 -6.0: 0.4894373861099771 -- True
+	 	 	 	 -5.0: 0.5948782522047167 -- True
+	 	 	 	 -4.0: 0.4780820934649401 -- True
+	 	 	 	 -3.0: 0.39791111412423297 -- True
+	 	 	 	 -2.0: 0.40756333016621316 -- True
+	 	 	 	 -1.0: 0.5286340786923747 -- True
+	 	 	 	 +1.0: 0.9145908212081885 -- True
+	 	 	 	 +2.0: 0.6534857503066973 -- True
+	 	 	 	 +3.0: 0.2968522176018771 -- True
+	 	 	 	 +4.0: 0.1559627909338249 -- True
+	 	 	 	 +5.0: 0.1297969200138982 -- True
+	 	 	 	 +6.0: 0.11399877429294582 -- True
+	 	 	 	 +7.0: 0.07862562811162176 -- True
+	 	 	 	 +8.0: 0.09386511053202497 -- True
+	 	 	 	 +9.0: 0.14165061576640217 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.4276398295161752 -- True
+	 	 	 (o) Binary Matrix Test: 0.022263101858593197 -- True
+	 	 	 (o) Linear Complexity Test: 0.31890854942907787 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-125-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9985609083365473 bits
+		 --> H = 0.9999992815348651 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315627 bits
+	 	 --> Deficiency Function = 8684373
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.14315718697889482 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.6763019147098421 -- True
+	 	 	 (o) runTest: 0.535415072486733 -- True
+	 	 	 (o) Longest One Block: 0.23571696845149429 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.47172669878968687 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.8841260301454529 -- True
+	 	 	 (o) Cusum Test: 0.22139741800755883 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9491885508842627 -- True
+	 	 	 	 -3: 0.037526458186520256 -- True
+	 	 	 	 -2: 0.5585911567379424 -- True
+	 	 	 	 -1: 0.6971093649138519 -- True
+	 	 	 	 +1: 0.8124937383936554 -- True
+	 	 	 	 +2: 0.21542424930341872 -- True
+	 	 	 	 +3: 0.7344172909718599 -- True
+	 	 	 	 +4: 0.6859316879191492 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.08842771922684688 -- True
+	 	 	 	 -8.0: 0.061625195921354424 -- True
+	 	 	 	 -7.0: 0.06729178898537799 -- True
+	 	 	 	 -6.0: 0.128645924329307 -- True
+	 	 	 	 -5.0: 0.19602491026734314 -- True
+	 	 	 	 -4.0: 0.26281564019915216 -- True
+	 	 	 	 -3.0: 0.3121298880275827 -- True
+	 	 	 	 -2.0: 0.44830340641100264 -- True
+	 	 	 	 -1.0: 0.8786255505702696 -- True
+	 	 	 	 +1.0: 0.9269943326245997 -- True
+	 	 	 	 +2.0: 0.7509359138372156 -- True
+	 	 	 	 +3.0: 0.4282326252310007 -- True
+	 	 	 	 +4.0: 0.3993924984595565 -- True
+	 	 	 	 +5.0: 0.6468551557985761 -- True
+	 	 	 	 +6.0: 0.6451979761907405 -- True
+	 	 	 	 +7.0: 0.6112740957702905 -- True
+	 	 	 	 +8.0: 0.6417350941944082 -- True
+	 	 	 	 +9.0: 0.7110989773692651 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.36144031005016153 -- True
+	 	 	 (o) Binary Matrix Test: 0.9294228328146658 -- True
+	 	 	 (o) Linear Complexity Test: 0.5133381382754358 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-126-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9988463053836297 bits
+		 --> H = 0.9999995383375376 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315675 bits
+	 	 --> Deficiency Function = 8684325
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.5904254102656161 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.3294164624649879 -- True
+	 	 	 (o) runTest: 0.9263563132541599 -- True
+	 	 	 (o) Longest One Block: 0.3082340010536422 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.7146337007561245 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.45491302877071893 -- True
+	 	 	 (o) Cusum Test: 0.8101788546647037 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.3126496052415401 -- True
+	 	 	 	 -3: 0.6474586766671385 -- True
+	 	 	 	 -2: 0.30058901998742893 -- True
+	 	 	 	 -1: 0.29383157352989664 -- True
+	 	 	 	 +1: 0.3391717959683256 -- True
+	 	 	 	 +2: 0.9123748631051156 -- True
+	 	 	 	 +3: 0.1472871504369806 -- True
+	 	 	 	 +4: 0.6408018588769283 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.526013078835691 -- True
+	 	 	 	 -8.0: 0.4053837715880799 -- True
+	 	 	 	 -7.0: 0.4454228102281328 -- True
+	 	 	 	 -6.0: 0.9817176470509429 -- True
+	 	 	 	 -5.0: 0.5133571436376342 -- True
+	 	 	 	 -4.0: 0.41460164160087665 -- True
+	 	 	 	 -3.0: 0.25627460112622136 -- True
+	 	 	 	 -2.0: 0.5047883151196804 -- True
+	 	 	 	 -1.0: 0.8791834060675678 -- True
+	 	 	 	 +1.0: 0.1911317286261487 -- True
+	 	 	 	 +2.0: 0.3343654950567929 -- True
+	 	 	 	 +3.0: 0.9620470445483548 -- True
+	 	 	 	 +4.0: 0.9541849093074075 -- True
+	 	 	 	 +5.0: 0.8751886632358103 -- True
+	 	 	 	 +6.0: 0.8509492401311434 -- True
+	 	 	 	 +7.0: 0.7646920521686741 -- True
+	 	 	 	 +8.0: 0.8536504723749248 -- True
+	 	 	 	 +9.0: 0.8566455633595651 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.8008709806984607 -- True
+	 	 	 (o) Binary Matrix Test: 0.7582689821005014 -- True
+	 	 	 (o) Linear Complexity Test: 0.32179875336740427 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-127-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9999220965711656 bits
+		 --> H = 0.9999999978965506 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315627 bits
+	 	 --> Deficiency Function = 8684373
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.3155198960986533 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.2801494948810849 -- True
+	 	 	 (o) runTest: 0.6664566351305826 -- True
+	 	 	 (o) Longest One Block: 0.6218854969950833 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.7650192351298315 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.23531687128874754 -- True
+	 	 	 (o) Cusum Test: 0.6006390291131694 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.21664489641486276 -- True
+	 	 	 	 -3: 0.17903655054347756 -- True
+	 	 	 	 -2: 0.33085198952211564 -- True
+	 	 	 	 -1: 0.6408445556370497 -- True
+	 	 	 	 +1: 0.7419489956600186 -- True
+	 	 	 	 +2: 0.3594537853287126 -- True
+	 	 	 	 +3: 0.6359671389962707 -- True
+	 	 	 	 +4: 0.366833633256705 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6653209146435825 -- True
+	 	 	 	 -8.0: 0.7982799224575514 -- True
+	 	 	 	 -7.0: 0.4859996451667904 -- True
+	 	 	 	 -6.0: 0.5227417451511351 -- True
+	 	 	 	 -5.0: 0.7297126319902587 -- True
+	 	 	 	 -4.0: 0.907278572574262 -- True
+	 	 	 	 -3.0: 0.893690983512616 -- True
+	 	 	 	 -2.0: 0.9956983656834196 -- True
+	 	 	 	 -1.0: 0.6010224412056477 -- True
+	 	 	 	 +1.0: 0.8591761937026096 -- True
+	 	 	 	 +2.0: 0.3372284306176896 -- True
+	 	 	 	 +3.0: 0.2542546403707555 -- True
+	 	 	 	 +4.0: 0.4912998232698681 -- True
+	 	 	 	 +5.0: 0.43463580189670636 -- True
+	 	 	 	 +6.0: 0.3967310517579894 -- True
+	 	 	 	 +7.0: 0.5600754150301266 -- True
+	 	 	 	 +8.0: 0.6730703171369652 -- True
+	 	 	 	 +9.0: 0.7736293510797951 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7965792758856465 -- True
+	 	 	 (o) Binary Matrix Test: 0.9055396538024842 -- True
+	 	 	 (o) Linear Complexity Test: 0.22126975237990681 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-128-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9998788187061085 bits
+		 --> H = 0.9999999949101719 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315659 bits
+	 	 --> Deficiency Function = 8684341
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.060500550016026125 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.1919602625143365 -- True
+	 	 	 (o) runTest: 0.7801959893406951 -- True
+	 	 	 (o) Longest One Block: 0.5516295578815196 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.6654624575444429 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.5082700870103543 -- True
+	 	 	 (o) Cusum Test: 0.11740637655439295 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.8958749163021222 -- True
+	 	 	 	 -3: 0.4945932741731319 -- True
+	 	 	 	 -2: 0.2937394899884829 -- True
+	 	 	 	 -1: 0.7030275849757217 -- True
+	 	 	 	 +1: 0.404255760920074 -- True
+	 	 	 	 +2: 0.5595545690336924 -- True
+	 	 	 	 +3: 0.6420390655970611 -- True
+	 	 	 	 +4: 0.6069614505117674 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5945278542184196 -- True
+	 	 	 	 -8.0: 0.8066129114457106 -- True
+	 	 	 	 -7.0: 0.9378975499261104 -- True
+	 	 	 	 -6.0: 0.9324999258978784 -- True
+	 	 	 	 -5.0: 0.6106373687265112 -- True
+	 	 	 	 -4.0: 0.34943539309819893 -- True
+	 	 	 	 -3.0: 0.6097899708281539 -- True
+	 	 	 	 -2.0: 0.5363498855214985 -- True
+	 	 	 	 -1.0: 0.08855584057649422 -- True
+	 	 	 	 +1.0: 0.17640159649128462 -- True
+	 	 	 	 +2.0: 0.14437454366204222 -- True
+	 	 	 	 +3.0: 0.171866778296887 -- True
+	 	 	 	 +4.0: 0.279395449552989 -- True
+	 	 	 	 +5.0: 0.3674402266053961 -- True
+	 	 	 	 +6.0: 0.641323020922836 -- True
+	 	 	 	 +7.0: 0.857016782023154 -- True
+	 	 	 	 +8.0: 0.45173425213618523 -- True
+	 	 	 	 +9.0: 0.18967101237766992 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6793443837369473 -- True
+	 	 	 (o) Binary Matrix Test: 0.5788521711684191 -- True
+	 	 	 (o) Linear Complexity Test: 0.772395357775894 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-129-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9965186525575636 bits
+		 --> H = 0.9999957894500315 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315592 bits
+	 	 --> Deficiency Function = 8684408
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.047608016203377394 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.42723118351457606 -- True
+	 	 	 (o) runTest: 0.5070294463609976 -- True
+	 	 	 (o) Longest One Block: 0.9089919866820242 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.4735156952802999 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.6194874008962882 -- True
+	 	 	 (o) Cusum Test: 0.038363194153233776 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.14067426221475404 -- True
+	 	 	 	 -3: 0.1671144090795396 -- True
+	 	 	 	 -2: 0.37294354352958026 -- True
+	 	 	 	 -1: 0.026780804632492484 -- True
+	 	 	 	 +1: 0.297873337697103 -- True
+	 	 	 	 +2: 0.28275578636133386 -- True
+	 	 	 	 +3: 0.975407850120031 -- True
+	 	 	 	 +4: 0.7766716688464925 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.2185594200788359 -- True
+	 	 	 	 -8.0: 0.23088285706378486 -- True
+	 	 	 	 -7.0: 0.3013404856573272 -- True
+	 	 	 	 -6.0: 0.5966805521468141 -- True
+	 	 	 	 -5.0: 0.8100019477492725 -- True
+	 	 	 	 -4.0: 0.7781721740449397 -- True
+	 	 	 	 -3.0: 0.620885987050813 -- True
+	 	 	 	 -2.0: 0.3043340591214909 -- True
+	 	 	 	 -1.0: 0.2792943727947902 -- True
+	 	 	 	 +1.0: 0.24848668562828102 -- True
+	 	 	 	 +2.0: 0.3743391052424909 -- True
+	 	 	 	 +3.0: 0.20453243378769714 -- True
+	 	 	 	 +4.0: 0.0892630575605613 -- True
+	 	 	 	 +5.0: 0.04342930163941212 -- True
+	 	 	 	 +6.0: 0.024627058628868832 -- True
+	 	 	 	 +7.0: 0.05072871327375166 -- True
+	 	 	 	 +8.0: 0.09996099203267066 -- True
+	 	 	 	 +9.0: 0.0792303745921255 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.3263496578603635 -- True
+	 	 	 (o) Binary Matrix Test: 0.9093887399765457 -- True
+	 	 	 (o) Linear Complexity Test: 0.3265379499767907 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-130-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.998540730884314 bits
+		 --> H = 0.9999992612361388 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315593 bits
+	 	 --> Deficiency Function = 8684407
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.09700233328305992 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.11167029471656188 -- True
+	 	 	 (o) runTest: 0.5659466222286258 -- True
+	 	 	 (o) Longest One Block: 0.03565813213542178 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.2589648943615984 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.7365714652011126 -- True
+	 	 	 (o) Cusum Test: 0.08609985712537152 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.13908948454633063 -- True
+	 	 	 	 -3: 0.4390600922296797 -- True
+	 	 	 	 -2: 0.20660933304829374 -- True
+	 	 	 	 -1: 0.6585806140146071 -- True
+	 	 	 	 +1: 0.7439789751720722 -- True
+	 	 	 	 +2: 0.8498973160981382 -- True
+	 	 	 	 +3: 0.2565154215268163 -- True
+	 	 	 	 +4: 0.6171494504658981 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.03391462197403907 -- True
+	 	 	 	 -8.0: 0.049884436979925915 -- True
+	 	 	 	 -7.0: 0.04173141571307671 -- True
+	 	 	 	 -6.0: 0.07797988735819861 -- True
+	 	 	 	 -5.0: 0.13467091918631835 -- True
+	 	 	 	 -4.0: 0.13920336675083275 -- True
+	 	 	 	 -3.0: 0.14960525169943956 -- True
+	 	 	 	 -2.0: 0.0940900989307719 -- True
+	 	 	 	 -1.0: 0.16035569048186427 -- True
+	 	 	 	 +1.0: 0.5343444530735155 -- True
+	 	 	 	 +2.0: 0.6324049551583906 -- True
+	 	 	 	 +3.0: 0.9343773831527632 -- True
+	 	 	 	 +4.0: 0.6699387926914192 -- True
+	 	 	 	 +5.0: 0.612634804659566 -- True
+	 	 	 	 +6.0: 0.5599715600772636 -- True
+	 	 	 	 +7.0: 0.6140787632609801 -- True
+	 	 	 	 +8.0: 0.7303556701490221 -- True
+	 	 	 	 +9.0: 0.7801756225704533 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.11472977088879108 -- True
+	 	 	 (o) Binary Matrix Test: 0.9988312564909319 -- True
+	 	 	 (o) Linear Complexity Test: 0.0507010337542503 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-131-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9996884115215123 bits
+		 --> H = 0.9999999663448099 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315627 bits
+	 	 --> Deficiency Function = 8684373
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.9616631484770208 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.10968515022821645 -- True
+	 	 	 (o) runTest: 0.35911130960280613 -- True
+	 	 	 (o) Longest One Block: 0.874255699878998 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.8322325905968013 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.5395440074191593 -- True
+	 	 	 (o) Cusum Test: 0.3775802098907886 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.06676988607991306 -- True
+	 	 	 	 -3: 0.4944744565434662 -- True
+	 	 	 	 -2: 0.08365073221771291 -- True
+	 	 	 	 -1: 0.03208606806119316 -- True
+	 	 	 	 +1: 0.002204895668234438 -- False
+	 	 	 	 +2: 0.03839225495206498 -- True
+	 	 	 	 +3: 0.13933417789445207 -- True
+	 	 	 	 +4: 0.42690977779950856 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.006354165852817353 -- False
+	 	 	 	 -8.0: 0.006096277616897291 -- False
+	 	 	 	 -7.0: 0.002910550633538461 -- False
+	 	 	 	 -6.0: 0.002589017492617387 -- False
+	 	 	 	 -5.0: 0.0031964089750470374 -- False
+	 	 	 	 -4.0: 0.006244739117564706 -- False
+	 	 	 	 -3.0: 0.012299774806456009 -- True
+	 	 	 	 -2.0: 0.005180343707620587 -- False
+	 	 	 	 -1.0: 0.002390866415162272 -- False
+	 	 	 	 +1.0: 0.034585343474082285 -- True
+	 	 	 	 +2.0: 0.08379645001727865 -- True
+	 	 	 	 +3.0: 0.07863594515733506 -- True
+	 	 	 	 +4.0: 0.08275146263357959 -- True
+	 	 	 	 +5.0: 0.083512072486023 -- True
+	 	 	 	 +6.0: 0.13972049183617535 -- True
+	 	 	 	 +7.0: 0.5552093250696015 -- True
+	 	 	 	 +8.0: 0.7863881825365329 -- True
+	 	 	 	 +9.0: 0.437000851839798 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9501800934533529 -- True
+	 	 	 (o) Binary Matrix Test: 0.2558747977301166 -- True
+	 	 	 (o) Linear Complexity Test: 0.2887684225705491 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-132-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9983505002073105 bits
+		 --> H = 0.9999990559463254 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315572 bits
+	 	 --> Deficiency Function = 8684428
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.2265649021183589 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.3492075697531956 -- True
+	 	 	 (o) runTest: 0.6485118922467397 -- True
+	 	 	 (o) Longest One Block: 0.574887369192304 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.4610713474827388 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.8614123075792166 -- True
+	 	 	 (o) Cusum Test: 0.414677889807841 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9229325591630873 -- True
+	 	 	 	 -3: 0.804482948497355 -- True
+	 	 	 	 -2: 0.38918827603571976 -- True
+	 	 	 	 -1: 0.693901851136831 -- True
+	 	 	 	 +1: 0.1516020803429744 -- True
+	 	 	 	 +2: 0.575045824091605 -- True
+	 	 	 	 +3: 0.7123233471278504 -- True
+	 	 	 	 +4: 0.9397089811847923 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.3316978228745504 -- True
+	 	 	 	 -8.0: 0.23977551086664317 -- True
+	 	 	 	 -7.0: 0.26446030467493875 -- True
+	 	 	 	 -6.0: 0.3130669517721696 -- True
+	 	 	 	 -5.0: 0.3406265586386561 -- True
+	 	 	 	 -4.0: 0.5167836500209726 -- True
+	 	 	 	 -3.0: 0.5634756310662109 -- True
+	 	 	 	 -2.0: 0.29870424388767547 -- True
+	 	 	 	 -1.0: 0.16222489133701123 -- True
+	 	 	 	 +1.0: 0.4585926671136781 -- True
+	 	 	 	 +2.0: 0.9317983084512633 -- True
+	 	 	 	 +3.0: 0.5958794270877819 -- True
+	 	 	 	 +4.0: 0.37431135064253773 -- True
+	 	 	 	 +5.0: 0.32304412378555725 -- True
+	 	 	 	 +6.0: 0.30698103449010106 -- True
+	 	 	 	 +7.0: 0.25453481689529356 -- True
+	 	 	 	 +8.0: 0.19315428403711976 -- True
+	 	 	 	 +9.0: 0.25207539417963676 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9387511093479339 -- True
+	 	 	 (o) Binary Matrix Test: 0.026811943934450334 -- True
+	 	 	 (o) Linear Complexity Test: 0.7667913220726008 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-133-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9998326570809586 bits
+		 --> H = 0.9999999902935477 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315633 bits
+	 	 --> Deficiency Function = 8684367
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.3408546022628298 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.5961595454934701 -- True
+	 	 	 (o) runTest: 0.8142191392535738 -- True
+	 	 	 (o) Longest One Block: 0.060951652208265567 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.5384200988909128 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.8506067820187458 -- True
+	 	 	 (o) Cusum Test: 0.5798059043604837 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.12091541937101445 -- True
+	 	 	 	 -3: 0.16425290402601614 -- True
+	 	 	 	 -2: 0.2667286401130904 -- True
+	 	 	 	 -1: 0.13807798497180487 -- True
+	 	 	 	 +1: 0.15244286572994128 -- True
+	 	 	 	 +2: 0.4221280630712856 -- True
+	 	 	 	 +3: 0.37815697265620873 -- True
+	 	 	 	 +4: 0.7786725542164562 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.01249535976704761 -- True
+	 	 	 	 -8.0: 0.0038714952577722584 -- False
+	 	 	 	 -7.0: 0.0030466150888208763 -- False
+	 	 	 	 -6.0: 0.0035297730429286523 -- False
+	 	 	 	 -5.0: 0.004886846811423757 -- False
+	 	 	 	 -4.0: 0.008535127582747512 -- False
+	 	 	 	 -3.0: 0.01610065345818531 -- True
+	 	 	 	 -2.0: 0.06740520924137951 -- True
+	 	 	 	 -1.0: 0.0693881557102259 -- True
+	 	 	 	 +1.0: 0.022619786042556576 -- True
+	 	 	 	 +2.0: 0.12031081061489704 -- True
+	 	 	 	 +3.0: 0.5936954700568848 -- True
+	 	 	 	 +4.0: 0.817742254950525 -- True
+	 	 	 	 +5.0: 0.5508691201877133 -- True
+	 	 	 	 +6.0: 0.6660223831785232 -- True
+	 	 	 	 +7.0: 0.8054472579441885 -- True
+	 	 	 	 +8.0: 0.7921502461477394 -- True
+	 	 	 	 +9.0: 0.9078666052037803 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.31022069076603154 -- True
+	 	 	 (o) Binary Matrix Test: 0.7465437515674115 -- True
+	 	 	 (o) Linear Complexity Test: 0.13347187463370244 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-134-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9988059427776432 bits
+		 --> H = 0.999999505455625 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315550 bits
+	 	 --> Deficiency Function = 8684450
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.7384274604044769 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.6963088448968351 -- True
+	 	 	 (o) runTest: 0.36680258316845404 -- True
+	 	 	 (o) Longest One Block: 0.34687544707680157 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.12333831312688785 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.13223188082458173 -- True
+	 	 	 (o) Cusum Test: 0.9436907031990955 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.3678962600878252 -- True
+	 	 	 	 -3: 0.5815469272580712 -- True
+	 	 	 	 -2: 0.08214975134600053 -- True
+	 	 	 	 -1: 0.01715735698944311 -- True
+	 	 	 	 +1: 0.07750549801667395 -- True
+	 	 	 	 +2: 0.8846317794080681 -- True
+	 	 	 	 +3: 0.25399410176426507 -- True
+	 	 	 	 +4: 0.7033600906938866 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6919765073401988 -- True
+	 	 	 	 -8.0: 0.6041311618134906 -- True
+	 	 	 	 -7.0: 0.6196638080909387 -- True
+	 	 	 	 -6.0: 0.4940596265480488 -- True
+	 	 	 	 -5.0: 0.5695149623357563 -- True
+	 	 	 	 -4.0: 0.5738852175664702 -- True
+	 	 	 	 -3.0: 0.5452585976963946 -- True
+	 	 	 	 -2.0: 0.580513514837856 -- True
+	 	 	 	 -1.0: 0.3653751978339358 -- True
+	 	 	 	 +1.0: 0.9006414560158215 -- True
+	 	 	 	 +2.0: 0.6138541478862007 -- True
+	 	 	 	 +3.0: 0.27830652385906784 -- True
+	 	 	 	 +4.0: 0.19847532072335783 -- True
+	 	 	 	 +5.0: 0.4372466247661355 -- True
+	 	 	 	 +6.0: 0.6379619968679157 -- True
+	 	 	 	 +7.0: 0.3978389544101818 -- True
+	 	 	 	 +8.0: 0.322867126548639 -- True
+	 	 	 	 +9.0: 0.342722642773685 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.5521053243070686 -- True
+	 	 	 (o) Binary Matrix Test: 0.6901676817487986 -- True
+	 	 	 (o) Linear Complexity Test: 0.336533331425825 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-135-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9979326572421101 bits
+		 --> H = 0.9999985166521899 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315746 bits
+	 	 --> Deficiency Function = 8684254
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.6142142541795894 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.02482018475286391 -- True
+	 	 	 (o) runTest: 0.09387648391465463 -- True
+	 	 	 (o) Longest One Block: 0.8498244417148156 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.9352404805119241 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.24084006649097134 -- True
+	 	 	 (o) Cusum Test: 0.7770313445099419 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.40858223585307285 -- True
+	 	 	 	 -3: 0.4424789220400268 -- True
+	 	 	 	 -2: 0.3994255725755874 -- True
+	 	 	 	 -1: 0.4821497586963297 -- True
+	 	 	 	 +1: 0.8687947981309622 -- True
+	 	 	 	 +2: 0.9136868652160812 -- True
+	 	 	 	 +3: 0.9274992765348798 -- True
+	 	 	 	 +4: 0.7923067132146414 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5381549956820769 -- True
+	 	 	 	 -8.0: 0.4587880476235533 -- True
+	 	 	 	 -7.0: 0.3004109334438595 -- True
+	 	 	 	 -6.0: 0.2795195663336626 -- True
+	 	 	 	 -5.0: 0.5438759239848672 -- True
+	 	 	 	 -4.0: 0.5499354474897598 -- True
+	 	 	 	 -3.0: 0.2924027982904286 -- True
+	 	 	 	 -2.0: 0.15474845017929523 -- True
+	 	 	 	 -1.0: 0.1915904406227733 -- True
+	 	 	 	 +1.0: 0.5078810518585701 -- True
+	 	 	 	 +2.0: 0.4382254387875578 -- True
+	 	 	 	 +3.0: 0.9934370673547663 -- True
+	 	 	 	 +4.0: 0.5876516209315596 -- True
+	 	 	 	 +5.0: 0.7920649662720262 -- True
+	 	 	 	 +6.0: 0.8547932930257099 -- True
+	 	 	 	 +7.0: 0.7947376954595231 -- True
+	 	 	 	 +8.0: 0.9054932325205393 -- True
+	 	 	 	 +9.0: 0.6979427366681278 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7015140021061881 -- True
+	 	 	 (o) Binary Matrix Test: 0.9663912053436103 -- True
+	 	 	 (o) Linear Complexity Test: 0.6380289352685191 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-136-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9997893818987775 bits
+		 --> H = 0.9999999846237563 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315606 bits
+	 	 --> Deficiency Function = 8684394
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.9873848630227966 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.0926967827513064 -- True
+	 	 	 (o) runTest: 0.39180713684750546 -- True
+	 	 	 (o) Longest One Block: 0.6574638005796989 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.30292726467790887 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.6130493994971958 -- True
+	 	 	 (o) Cusum Test: 0.6980402223950661 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.420479614791191 -- True
+	 	 	 	 -3: 0.4008805208925689 -- True
+	 	 	 	 -2: 0.27242857124445463 -- True
+	 	 	 	 -1: 0.30452802938756074 -- True
+	 	 	 	 +1: 0.007407177099924322 -- False
+	 	 	 	 +2: 0.004089029871584249 -- False
+	 	 	 	 +3: 0.2517886729135009 -- True
+	 	 	 	 +4: 0.3968602785252591 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.29202241678419383 -- True
+	 	 	 	 -8.0: 0.30767016620924337 -- True
+	 	 	 	 -7.0: 0.35131100050139197 -- True
+	 	 	 	 -6.0: 0.19177334162946857 -- True
+	 	 	 	 -5.0: 0.11658580452243121 -- True
+	 	 	 	 -4.0: 0.15928367873966398 -- True
+	 	 	 	 -3.0: 0.12435864874452923 -- True
+	 	 	 	 -2.0: 0.05451319953072067 -- True
+	 	 	 	 -1.0: 0.032809677989990876 -- True
+	 	 	 	 +1.0: 0.07909454860168139 -- True
+	 	 	 	 +2.0: 0.24508058523821175 -- True
+	 	 	 	 +3.0: 0.3229648697580354 -- True
+	 	 	 	 +4.0: 0.3659984195576954 -- True
+	 	 	 	 +5.0: 0.3610831331438229 -- True
+	 	 	 	 +6.0: 0.34244455777512384 -- True
+	 	 	 	 +7.0: 0.389416382702619 -- True
+	 	 	 	 +8.0: 0.3686745539464017 -- True
+	 	 	 	 +9.0: 0.3126685625084733 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.03209346882483541 -- True
+	 	 	 (o) Binary Matrix Test: 0.6612697724091257 -- True
+	 	 	 (o) Linear Complexity Test: 0.2272281986900672 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-137-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9959344483936639 bits
+		 --> H = 0.9999942554086683 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315648 bits
+	 	 --> Deficiency Function = 8684352
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.3288111303616762 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.4172840062702453 -- True
+	 	 	 (o) runTest: 0.5910702769615301 -- True
+	 	 	 (o) Longest One Block: 0.10638004161259199 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.486142551946402 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.3784391331988623 -- True
+	 	 	 (o) Cusum Test: 0.3614940477631667 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.4886101703326726 -- True
+	 	 	 	 -3: 0.32326094194377264 -- True
+	 	 	 	 -2: 0.453733008474445 -- True
+	 	 	 	 -1: 0.15793275104401347 -- True
+	 	 	 	 +1: 0.4497305798914002 -- True
+	 	 	 	 +2: 0.2848330577829042 -- True
+	 	 	 	 +3: 0.5065152869841113 -- True
+	 	 	 	 +4: 0.780452550088009 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9723447929807091 -- True
+	 	 	 	 -8.0: 0.6667769549211824 -- True
+	 	 	 	 -7.0: 0.5520715384666983 -- True
+	 	 	 	 -6.0: 0.5273238297722673 -- True
+	 	 	 	 -5.0: 0.5892047959863866 -- True
+	 	 	 	 -4.0: 0.8854466467402935 -- True
+	 	 	 	 -3.0: 0.565078181722936 -- True
+	 	 	 	 -2.0: 0.5091234068916393 -- True
+	 	 	 	 -1.0: 0.7387399394233469 -- True
+	 	 	 	 +1.0: 0.3910972573413495 -- True
+	 	 	 	 +2.0: 0.3287916655313404 -- True
+	 	 	 	 +3.0: 0.27716659266538923 -- True
+	 	 	 	 +4.0: 0.3824378866538545 -- True
+	 	 	 	 +5.0: 0.43177370933098413 -- True
+	 	 	 	 +6.0: 0.570408313525773 -- True
+	 	 	 	 +7.0: 0.6484582128668056 -- True
+	 	 	 	 +8.0: 0.7961403621145738 -- True
+	 	 	 	 +9.0: 0.9401246901048945 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.006390577520465176 -- False
+	 	 	 (o) Binary Matrix Test: 0.09137977044612328 -- True
+	 	 	 (o) Linear Complexity Test: 0.16664967654518595 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-138-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9992269226243166 bits
+		 --> H = 0.9999997927597328 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315600 bits
+	 	 --> Deficiency Function = 8684400
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.1723036460695495 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.17681934103160776 -- True
+	 	 	 (o) runTest: 0.09945458162457341 -- True
+	 	 	 (o) Longest One Block: 0.967814712119881 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.5616577150130424 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.5687990566261246 -- True
+	 	 	 (o) Cusum Test: 0.07133443368121602 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.40334027962577257 -- True
+	 	 	 	 -3: 0.41518497422373196 -- True
+	 	 	 	 -2: 0.37631272552320577 -- True
+	 	 	 	 -1: 0.8517224020148179 -- True
+	 	 	 	 +1: 0.9410831248518677 -- True
+	 	 	 	 +2: 0.2044458765895062 -- True
+	 	 	 	 +3: 0.5213846078680292 -- True
+	 	 	 	 +4: 0.20366085562342828 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5454523745748225 -- True
+	 	 	 	 -8.0: 0.586547758513128 -- True
+	 	 	 	 -7.0: 0.8219027579712719 -- True
+	 	 	 	 -6.0: 0.7310297358515049 -- True
+	 	 	 	 -5.0: 0.44337017963363134 -- True
+	 	 	 	 -4.0: 0.7479339188102987 -- True
+	 	 	 	 -3.0: 0.9037015440758909 -- True
+	 	 	 	 -2.0: 0.9732998117754025 -- True
+	 	 	 	 -1.0: 0.670745019353163 -- True
+	 	 	 	 +1.0: 0.2706955784925219 -- True
+	 	 	 	 +2.0: 0.12095553207500412 -- True
+	 	 	 	 +3.0: 0.30376771556451343 -- True
+	 	 	 	 +4.0: 0.40505506699999316 -- True
+	 	 	 	 +5.0: 0.21380493499468778 -- True
+	 	 	 	 +6.0: 0.4593306258646588 -- True
+	 	 	 	 +7.0: 0.7722659790358086 -- True
+	 	 	 	 +8.0: 0.7268951669195547 -- True
+	 	 	 	 +9.0: 0.7146895407730143 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7579954354583338 -- True
+	 	 	 (o) Binary Matrix Test: 0.8280343861460163 -- True
+	 	 	 (o) Linear Complexity Test: 0.7180720470786652 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-139-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9992990205343442 bits
+		 --> H = 0.9999998296205944 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315583 bits
+	 	 --> Deficiency Function = 8684417
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.9868803021492094 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.5041079490599886 -- True
+	 	 	 (o) runTest: 0.9621672681492276 -- True
+	 	 	 (o) Longest One Block: 0.6599421627408075 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.6341367734136742 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.45477866745259815 -- True
+	 	 	 (o) Cusum Test: 0.99980817276132 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.02245741327459976 -- True
+	 	 	 	 -3: 0.03323233609600461 -- True
+	 	 	 	 -2: 0.6995175556063702 -- True
+	 	 	 	 -1: 0.7810800661729849 -- True
+	 	 	 	 +1: 0.47997616458706305 -- True
+	 	 	 	 +2: 0.3679472762025458 -- True
+	 	 	 	 +3: 0.07348759926084075 -- True
+	 	 	 	 +4: 0.09403754513103327 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.2169175578036907 -- True
+	 	 	 	 -8.0: 0.10223272499666308 -- True
+	 	 	 	 -7.0: 0.05192304934091724 -- True
+	 	 	 	 -6.0: 0.027601664539513418 -- True
+	 	 	 	 -5.0: 0.007149525834941996 -- False
+	 	 	 	 -4.0: 0.0037473906518201306 -- False
+	 	 	 	 -3.0: 0.012076983703085761 -- True
+	 	 	 	 -2.0: 0.0718387061489855 -- True
+	 	 	 	 -1.0: 0.30593041760619843 -- True
+	 	 	 	 +1.0: 0.35683185424227915 -- True
+	 	 	 	 +2.0: 0.03290021000045662 -- True
+	 	 	 	 +3.0: 0.02230573938278832 -- True
+	 	 	 	 +4.0: 0.06788864413290734 -- True
+	 	 	 	 +5.0: 0.1179069147777505 -- True
+	 	 	 	 +6.0: 0.31914482938440303 -- True
+	 	 	 	 +7.0: 0.4205962375999266 -- True
+	 	 	 	 +8.0: 0.2096854573903637 -- True
+	 	 	 	 +9.0: 0.13626479011927414 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.04019777444604693 -- True
+	 	 	 (o) Binary Matrix Test: 0.6243341367731231 -- True
+	 	 	 (o) Linear Complexity Test: 0.2856224021022788 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-140-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9990942718831929 bits
+		 --> H = 0.9999997155120608 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315584 bits
+	 	 --> Deficiency Function = 8684416
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.4597002521410032 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.06768074177650561 -- True
+	 	 	 (o) runTest: 0.9806881571411056 -- True
+	 	 	 (o) Longest One Block: 0.28985403545159044 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.5307828173976115 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.17930922078849137 -- True
+	 	 	 (o) Cusum Test: 0.5579650252485875 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.885471757603951 -- True
+	 	 	 	 -3: 0.8552918475543804 -- True
+	 	 	 	 -2: 0.42718341595669806 -- True
+	 	 	 	 -1: 0.5180172335213813 -- True
+	 	 	 	 +1: 0.8479661778254932 -- True
+	 	 	 	 +2: 0.7286389131722848 -- True
+	 	 	 	 +3: 0.38216893035638905 -- True
+	 	 	 	 +4: 0.8673481187954921 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.981066445060613 -- True
+	 	 	 	 -8.0: 0.7681824409348509 -- True
+	 	 	 	 -7.0: 0.8564278151663617 -- True
+	 	 	 	 -6.0: 0.9921535575830525 -- True
+	 	 	 	 -5.0: 0.9826519504730978 -- True
+	 	 	 	 -4.0: 0.7392462082579989 -- True
+	 	 	 	 -3.0: 0.5022339325222395 -- True
+	 	 	 	 -2.0: 0.24299739136941634 -- True
+	 	 	 	 -1.0: 0.2817746352011309 -- True
+	 	 	 	 +1.0: 0.4730280856323741 -- True
+	 	 	 	 +2.0: 0.40734893858497856 -- True
+	 	 	 	 +3.0: 0.781669933710329 -- True
+	 	 	 	 +4.0: 0.4594999467285439 -- True
+	 	 	 	 +5.0: 0.12798431734279764 -- True
+	 	 	 	 +6.0: 0.08525304661673762 -- True
+	 	 	 	 +7.0: 0.11340357748605537 -- True
+	 	 	 	 +8.0: 0.13386574069422263 -- True
+	 	 	 	 +9.0: 0.17114289340561928 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.8445669823186057 -- True
+	 	 	 (o) Binary Matrix Test: 0.7856699358228193 -- True
+	 	 	 (o) Linear Complexity Test: 0.6141337999863259 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-141-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9983706749991453 bits
+		 --> H = 0.9999990789111551 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315499 bits
+	 	 --> Deficiency Function = 8684501
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.6782218237626488 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.9093613128260817 -- True
+	 	 	 (o) runTest: 0.09288341571489599 -- True
+	 	 	 (o) Longest One Block: 0.6258660552355744 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.19061594659475878 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.33755027104824514 -- True
+	 	 	 (o) Cusum Test: 0.5497864922008062 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.7773815363704004 -- True
+	 	 	 	 -3: 0.5900003778907349 -- True
+	 	 	 	 -2: 0.4675861023178325 -- True
+	 	 	 	 -1: 0.8505825460868107 -- True
+	 	 	 	 +1: 0.496540863344349 -- True
+	 	 	 	 +2: 0.2640145189144092 -- True
+	 	 	 	 +3: 0.4320967619682544 -- True
+	 	 	 	 +4: 0.19612809799775976 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.9883600579709789 -- True
+	 	 	 	 -8.0: 0.8007458206431532 -- True
+	 	 	 	 -7.0: 0.9037281944164407 -- True
+	 	 	 	 -6.0: 0.7647471647697988 -- True
+	 	 	 	 -5.0: 0.5609236842673463 -- True
+	 	 	 	 -4.0: 0.4034227220740204 -- True
+	 	 	 	 -3.0: 0.3856398260990277 -- True
+	 	 	 	 -2.0: 0.38053952243859157 -- True
+	 	 	 	 -1.0: 0.45211062505450206 -- True
+	 	 	 	 +1.0: 0.29944545900678154 -- True
+	 	 	 	 +2.0: 0.3619627571908862 -- True
+	 	 	 	 +3.0: 0.48428866569632534 -- True
+	 	 	 	 +4.0: 0.46342732855574975 -- True
+	 	 	 	 +5.0: 0.5541885254796084 -- True
+	 	 	 	 +6.0: 0.5495026223460343 -- True
+	 	 	 	 +7.0: 0.6079457837221343 -- True
+	 	 	 	 +8.0: 0.7857788904547447 -- True
+	 	 	 	 +9.0: 0.8324652905710548 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9408724128684067 -- True
+	 	 	 (o) Binary Matrix Test: 0.005175619560382332 -- False
+	 	 	 (o) Linear Complexity Test: 0.27365633070446177 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-142-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9997114898418764 bits
+		 --> H = 0.999999971146099 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315589 bits
+	 	 --> Deficiency Function = 8684411
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.11027680438863437 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.04222631769436078 -- True
+	 	 	 (o) runTest: 0.41664984979797004 -- True
+	 	 	 (o) Longest One Block: 0.6426382238942427 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.6445095748361777 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.22391062073705958 -- True
+	 	 	 (o) Cusum Test: 0.09514510199847061 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.4960100669588393 -- True
+	 	 	 	 -3: 0.8461146835759119 -- True
+	 	 	 	 -2: 0.28168028535669454 -- True
+	 	 	 	 -1: 0.026214671518785877 -- True
+	 	 	 	 +1: 0.7821452688235904 -- True
+	 	 	 	 +2: 0.3093927246903692 -- True
+	 	 	 	 +3: 0.8665895459520844 -- True
+	 	 	 	 +4: 0.09769773160593791 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5858487775342445 -- True
+	 	 	 	 -8.0: 0.34253330223258205 -- True
+	 	 	 	 -7.0: 0.3920317345851 -- True
+	 	 	 	 -6.0: 0.47250862707146934 -- True
+	 	 	 	 -5.0: 0.40538354201360083 -- True
+	 	 	 	 -4.0: 0.45555659647990077 -- True
+	 	 	 	 -3.0: 0.4774708552890482 -- True
+	 	 	 	 -2.0: 0.13190019446223966 -- True
+	 	 	 	 -1.0: 0.056632113552021614 -- True
+	 	 	 	 +1.0: 0.6176194735572049 -- True
+	 	 	 	 +2.0: 0.9269291052977103 -- True
+	 	 	 	 +3.0: 0.6847945649179576 -- True
+	 	 	 	 +4.0: 0.9863140444091903 -- True
+	 	 	 	 +5.0: 0.49602077260514543 -- True
+	 	 	 	 +6.0: 0.4313856588445931 -- True
+	 	 	 	 +7.0: 0.6549831462041638 -- True
+	 	 	 	 +8.0: 0.7740394748652628 -- True
+	 	 	 	 +9.0: 0.8129228848660538 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.04392733079292572 -- True
+	 	 	 (o) Binary Matrix Test: 0.40077988833568956 -- True
+	 	 	 (o) Linear Complexity Test: 0.2340914071900945 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-143-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9998355421392587 bits
+		 --> H = 0.9999999906253676 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315814 bits
+	 	 --> Deficiency Function = 8684186
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.07946492186331278 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.2342879681020675 -- True
+	 	 	 (o) runTest: 0.1772187083793595 -- True
+	 	 	 (o) Longest One Block: 0.23444296882453924 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.9329330012112209 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.20349571939871025 -- True
+	 	 	 (o) Cusum Test: 0.15559769336582807 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.3623377002413663 -- True
+	 	 	 	 -3: 0.6100837662430341 -- True
+	 	 	 	 -2: 0.7735679036973926 -- True
+	 	 	 	 -1: 0.8744220775484961 -- True
+	 	 	 	 +1: 0.9535158110993941 -- True
+	 	 	 	 +2: 0.7607763606289798 -- True
+	 	 	 	 +3: 0.12380887067063692 -- True
+	 	 	 	 +4: 0.40481943147561555 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.5914288175756914 -- True
+	 	 	 	 -8.0: 0.4175749073320454 -- True
+	 	 	 	 -7.0: 0.4579120845102219 -- True
+	 	 	 	 -6.0: 0.39123042246559436 -- True
+	 	 	 	 -5.0: 0.4451954071450266 -- True
+	 	 	 	 -4.0: 0.7630137266144965 -- True
+	 	 	 	 -3.0: 1.0 -- True
+	 	 	 	 -2.0: 0.7663492974870345 -- True
+	 	 	 	 -1.0: 0.8068626666927844 -- True
+	 	 	 	 +1.0: 0.6524585341849889 -- True
+	 	 	 	 +2.0: 0.6828434297074154 -- True
+	 	 	 	 +3.0: 0.712665495664285 -- True
+	 	 	 	 +4.0: 0.4776767452981112 -- True
+	 	 	 	 +5.0: 0.9521185322877492 -- True
+	 	 	 	 +6.0: 0.5897059393051667 -- True
+	 	 	 	 +7.0: 0.4579120845102219 -- True
+	 	 	 	 +8.0: 0.42332336859729514 -- True
+	 	 	 	 +9.0: 0.3572503174760142 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.34740845288596545 -- True
+	 	 	 (o) Binary Matrix Test: 0.25075632888828797 -- True
+	 	 	 (o) Linear Complexity Test: 0.7835871679385629 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-144-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9994980294635789 bits
+		 --> H = 0.9999999126419281 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315683 bits
+	 	 --> Deficiency Function = 8684317
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.23843914798610766 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.9902154632944445 -- True
+	 	 	 (o) runTest: 0.9998460380291261 -- True
+	 	 	 (o) Longest One Block: 0.16673424613903032 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.3515890360251499 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.5347985464145153 -- True
+	 	 	 (o) Cusum Test: 0.2709058049227642 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.21098763729540018 -- True
+	 	 	 	 -3: 0.3440348439538914 -- True
+	 	 	 	 -2: 0.4483875479255195 -- True
+	 	 	 	 -1: 0.5457972899236153 -- True
+	 	 	 	 +1: 0.7510792024296683 -- True
+	 	 	 	 +2: 0.3968040823057564 -- True
+	 	 	 	 +3: 0.2667926761756271 -- True
+	 	 	 	 +4: 0.2567470355614632 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.24123439697018356 -- True
+	 	 	 	 -8.0: 0.4935627897033893 -- True
+	 	 	 	 -7.0: 0.5265431813065712 -- True
+	 	 	 	 -6.0: 0.5940323405990415 -- True
+	 	 	 	 -5.0: 0.7645293617082433 -- True
+	 	 	 	 -4.0: 0.889293243617697 -- True
+	 	 	 	 -3.0: 0.7972289049943062 -- True
+	 	 	 	 -2.0: 0.4190955281820906 -- True
+	 	 	 	 -1.0: 0.31647178784797825 -- True
+	 	 	 	 +1.0: 0.8366038517798747 -- True
+	 	 	 	 +2.0: 0.4439943760230096 -- True
+	 	 	 	 +3.0: 0.3881164214802989 -- True
+	 	 	 	 +4.0: 0.4589746085060915 -- True
+	 	 	 	 +5.0: 0.4524715546004554 -- True
+	 	 	 	 +6.0: 0.7457542543675707 -- True
+	 	 	 	 +7.0: 0.8830632707719543 -- True
+	 	 	 	 +8.0: 0.6756552890187795 -- True
+	 	 	 	 +9.0: 0.6474341857017969 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.9353075598754291 -- True
+	 	 	 (o) Binary Matrix Test: 0.6391383393837627 -- True
+	 	 	 (o) Linear Complexity Test: 0.09709000188766902 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-145-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9977309832537355 bits
+		 --> H = 0.9999982128780924 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315580 bits
+	 	 --> Deficiency Function = 8684420
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.6366097028439612 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.16080255131164267 -- True
+	 	 	 (o) runTest: 0.8484690603569376 -- True
+	 	 	 (o) Longest One Block: 0.3895169695809611 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.20475064236926432 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.7958728402016416 -- True
+	 	 	 (o) Cusum Test: 0.5756260338904887 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.9985800178389959 -- True
+	 	 	 	 -3: 0.08929287806226671 -- True
+	 	 	 	 -2: 0.46838660172048974 -- True
+	 	 	 	 -1: 0.5430349595076345 -- True
+	 	 	 	 +1: 0.20308615334887997 -- True
+	 	 	 	 +2: 0.21401360034799882 -- True
+	 	 	 	 +3: 0.35200026371449616 -- True
+	 	 	 	 +4: 0.9046285457270019 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.2258206570682636 -- True
+	 	 	 	 -8.0: 0.2040238704744367 -- True
+	 	 	 	 -7.0: 0.1858230174866099 -- True
+	 	 	 	 -6.0: 0.21644626728745286 -- True
+	 	 	 	 -5.0: 0.3325637549003464 -- True
+	 	 	 	 -4.0: 0.36732366490785584 -- True
+	 	 	 	 -3.0: 0.2052745036642717 -- True
+	 	 	 	 -2.0: 0.41356859615378105 -- True
+	 	 	 	 -1.0: 0.8230632737581215 -- True
+	 	 	 	 +1.0: 0.4122779105041251 -- True
+	 	 	 	 +2.0: 0.212045229771325 -- True
+	 	 	 	 +3.0: 0.25707429868483 -- True
+	 	 	 	 +4.0: 0.17629637444051116 -- True
+	 	 	 	 +5.0: 0.08200592286667106 -- True
+	 	 	 	 +6.0: 0.047967873742731267 -- True
+	 	 	 	 +7.0: 0.054538048334528855 -- True
+	 	 	 	 +8.0: 0.2180684290882866 -- True
+	 	 	 	 +9.0: 0.39552287841238043 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6550953253291367 -- True
+	 	 	 (o) Binary Matrix Test: 0.8811845718805139 -- True
+	 	 	 (o) Linear Complexity Test: 0.02941391227348155 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-146-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9988405392279228 bits
+		 --> H = 0.9999995337093709 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315532 bits
+	 	 --> Deficiency Function = 8684468
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.5834591899667918 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.10550151996933231 -- True
+	 	 	 (o) runTest: 0.6452775342347601 -- True
+	 	 	 (o) Longest One Block: 0.5990155007954847 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.7761140579131113 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.7566366143477432 -- True
+	 	 	 (o) Cusum Test: 0.6298815402527876 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.5524385100680864 -- True
+	 	 	 	 -3: 0.15541854810366168 -- True
+	 	 	 	 -2: 0.9153978869939303 -- True
+	 	 	 	 -1: 0.9816661872305924 -- True
+	 	 	 	 +1: 0.6198668739786645 -- True
+	 	 	 	 +2: 0.9043160942632249 -- True
+	 	 	 	 +3: 0.8105287292758572 -- True
+	 	 	 	 +4: 0.7821247004182531 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.33146888117276707 -- True
+	 	 	 	 -8.0: 0.3205472397727366 -- True
+	 	 	 	 -7.0: 0.18168677991037008 -- True
+	 	 	 	 -6.0: 0.12777218615512034 -- True
+	 	 	 	 -5.0: 0.2495131794065505 -- True
+	 	 	 	 -4.0: 0.5138480629459474 -- True
+	 	 	 	 -3.0: 0.6564958352386892 -- True
+	 	 	 	 -2.0: 0.7281940979357553 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 	 	 +1.0: 0.7534797573619147 -- True
+	 	 	 	 +2.0: 0.5061543234332239 -- True
+	 	 	 	 +3.0: 0.5663051016819505 -- True
+	 	 	 	 +4.0: 0.3524603841118691 -- True
+	 	 	 	 +5.0: 0.25675882553069274 -- True
+	 	 	 	 +6.0: 0.3853941252933827 -- True
+	 	 	 	 +7.0: 0.13484444365381676 -- True
+	 	 	 	 +8.0: 0.054972419105223554 -- True
+	 	 	 	 +9.0: 0.10553355106695332 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.1572973726302349 -- True
+	 	 	 (o) Binary Matrix Test: 0.17793371455858067 -- True
+	 	 	 (o) Linear Complexity Test: 0.7747381018906525 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-147-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.99934228100989 bits
+		 --> H = 0.9999998500058767 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315658 bits
+	 	 --> Deficiency Function = 8684342
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.6226837119286613 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.3068877806430456 -- True
+	 	 	 (o) runTest: 0.7398018762833742 -- True
+	 	 	 (o) Longest One Block: 0.4060123665603772 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.12123340528824526 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.4912294279652505 -- True
+	 	 	 (o) Cusum Test: 0.4629916558512836 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.32457035882206925 -- True
+	 	 	 	 -3: 0.5273832875498468 -- True
+	 	 	 	 -2: 0.1441480802661814 -- True
+	 	 	 	 -1: 0.03196288070172417 -- True
+	 	 	 	 +1: 0.051048604931460385 -- True
+	 	 	 	 +2: 0.11674701967948967 -- True
+	 	 	 	 +3: 0.6954809299524101 -- True
+	 	 	 	 +4: 0.024385169154474053 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.08489963366563484 -- True
+	 	 	 	 -8.0: 0.12400029864571009 -- True
+	 	 	 	 -7.0: 0.11059832296036119 -- True
+	 	 	 	 -6.0: 0.08012982001383323 -- True
+	 	 	 	 -5.0: 0.1072929522858175 -- True
+	 	 	 	 -4.0: 0.08168392472400539 -- True
+	 	 	 	 -3.0: 0.055102498238763696 -- True
+	 	 	 	 -2.0: 0.020202869093349334 -- True
+	 	 	 	 -1.0: 0.05303644300627721 -- True
+	 	 	 	 +1.0: 0.37869403080044794 -- True
+	 	 	 	 +2.0: 0.5310258676533849 -- True
+	 	 	 	 +3.0: 0.5456709183831974 -- True
+	 	 	 	 +4.0: 0.5487214544716427 -- True
+	 	 	 	 +5.0: 0.6947744527382418 -- True
+	 	 	 	 +6.0: 0.6701736484019469 -- True
+	 	 	 	 +7.0: 0.6476159915477874 -- True
+	 	 	 	 +8.0: 0.8781686609977108 -- True
+	 	 	 	 +9.0: 0.9980191575278675 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.6517834240052311 -- True
+	 	 	 (o) Binary Matrix Test: 0.4313598507972615 -- True
+	 	 	 (o) Linear Complexity Test: 0.508343136167217 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-148-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9976676058223066 bits
+		 --> H = 0.9999981115661899 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315665 bits
+	 	 --> Deficiency Function = 8684335
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.0774267492534565 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.170881292741048 -- True
+	 	 	 (o) runTest: 0.594991711603537 -- True
+	 	 	 (o) Longest One Block: 0.6841537320344412 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.29083418115910353 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.8515564053618476 -- True
+	 	 	 (o) Cusum Test: 0.14303341083129467 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.39148299193323144 -- True
+	 	 	 	 -3: 0.1588821618075165 -- True
+	 	 	 	 -2: 0.7509367669557326 -- True
+	 	 	 	 -1: 0.5925352378314553 -- True
+	 	 	 	 +1: 0.3381542516541918 -- True
+	 	 	 	 +2: 0.6167412108087978 -- True
+	 	 	 	 +3: 0.38628855727794076 -- True
+	 	 	 	 +4: 0.34771733385284787 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.17941473967408028 -- True
+	 	 	 	 -8.0: 0.1556483285137995 -- True
+	 	 	 	 -7.0: 0.143037793846257 -- True
+	 	 	 	 -6.0: 0.12156554216475661 -- True
+	 	 	 	 -5.0: 0.17395659851943746 -- True
+	 	 	 	 -4.0: 0.4913062468475081 -- True
+	 	 	 	 -3.0: 0.5909523717399415 -- True
+	 	 	 	 -2.0: 0.16522642354713934 -- True
+	 	 	 	 -1.0: 0.24386874346343757 -- True
+	 	 	 	 +1.0: 0.15552145843400655 -- True
+	 	 	 	 +2.0: 0.3659361023341332 -- True
+	 	 	 	 +3.0: 0.6483729792989148 -- True
+	 	 	 	 +4.0: 0.6202277776553076 -- True
+	 	 	 	 +5.0: 0.743092628091137 -- True
+	 	 	 	 +6.0: 0.8778261481238792 -- True
+	 	 	 	 +7.0: 0.7237006470426797 -- True
+	 	 	 	 +8.0: 0.9550085838391376 -- True
+	 	 	 	 +9.0: 0.9366399912996966 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.36475227326031456 -- True
+	 	 	 (o) Binary Matrix Test: 0.10446410736999141 -- True
+	 	 	 (o) Linear Complexity Test: 0.6493946641478667 -- True
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF BCryptGenRandom_CSPRNG--10000000-1.000000e+07-149-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.997886557844924 bits
+		 --> H = 0.999998449711093 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315594 bits
+	 	 --> Deficiency Function = 8684406
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.7924723468106194 -- True
+	 	 	 (o) Within a Block (used 101010 bits for each block. Used 99 blocks): 0.9281591102038529 -- True
+	 	 	 (o) runTest: 0.8893566454366707 -- True
+	 	 	 (o) Longest One Block: 0.07384098029464087 -- True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.07245012493741178 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.9311504377528479 -- True
+	 	 	 (o) Cusum Test: 0.7128916105866642 -- True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.27546510057188694 -- True
+	 	 	 	 -3: 0.44383750694782764 -- True
+	 	 	 	 -2: 0.47358791590290494 -- True
+	 	 	 	 -1: 0.39708361856537217 -- True
+	 	 	 	 +1: 0.8862822377730946 -- True
+	 	 	 	 +2: 0.9732364083569063 -- True
+	 	 	 	 +3: 0.653598586662352 -- True
+	 	 	 	 +4: 0.9260073195080489 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.12726387147603843 -- True
+	 	 	 	 -8.0: 0.12185559564820113 -- True
+	 	 	 	 -7.0: 0.1493755202745547 -- True
+	 	 	 	 -6.0: 0.11703583640622925 -- True
+	 	 	 	 -5.0: 0.07701406687532511 -- True
+	 	 	 	 -4.0: 0.03314220038842149 -- True
+	 	 	 	 -3.0: 0.010696984005328848 -- True
+	 	 	 	 -2.0: 0.0444385474528099 -- True
+	 	 	 	 -1.0: 0.27598329301112856 -- True
+	 	 	 	 +1.0: 0.8590234318408471 -- True
+	 	 	 	 +2.0: 0.9183221331245445 -- True
+	 	 	 	 +3.0: 0.9409010541949626 -- True
+	 	 	 	 +4.0: 0.8896542661793869 -- True
+	 	 	 	 +5.0: 0.5914062163413611 -- True
+	 	 	 	 +6.0: 0.5462616677735562 -- True
+	 	 	 	 +7.0: 0.6551320760715007 -- True
+	 	 	 	 +8.0: 0.7973181191343564 -- True
+	 	 	 	 +9.0: 0.8880885525771081 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.7818130955515045 -- True
+	 	 	 (o) Binary Matrix Test: 0.9846768048075433 -- True
+	 	 	 (o) Linear Complexity Test: 0.6726811513411561 -- True
+--> END NIST BATTERY TEST ----------
+

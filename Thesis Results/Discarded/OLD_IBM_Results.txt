@@ -1,0 +1,491 @@
+ANALYSIS OF IBM_1.000000e+06.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9887906385796966 bits
+		 --> H = 0.9999561127718333 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 7.104694239977857e-42 -- False
+	 	 	 (o) Within a Block (used 10101 bits for each block. Used 99 blocks): 3.169516422005201e-20 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.1627868887307133 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 0.24015135811151 -- True
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.9470248533463514 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.26769695128227694 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 1.7362633391408406e-07 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_Hadamard100_1.000000e+04.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9697345571423304 bits
+		 --> H = 0.9996757732811212 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 3.344340789529424e-123 -- False
+	 	 	 (o) Within a Block (used 10101 bits for each block. Used 99 blocks): 2.88788509465484e-82 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.5400561870501364 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 0.03982446669776179 -- True
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.7500933976486499 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.9449408243080414 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 2.2263767310870804e-21 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_Hadamard_1.000000e+05.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.8547447499412417 bits
+		 --> H = 0.9918910012560351 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 0.0 -- False
+	 	 	 (o) Within a Block (used 9009 bits for each block. Used 99 blocks): 0.0 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 3.7973460196591504e-10 -- False
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 0.15027505342129285 -- True
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 3.6216437143205644e-29 -- False
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.19394436289966924 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 0.0 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_Hadamard_4.000000e+04.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9686048037244657 bits
+		 --> H = 0.9996508396313202 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 1.0872500051363434e-77 -- False
+	 	 	 (o) Within a Block (used 10101 bits for each block. Used 99 blocks): 1.0123142757062593e-44 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.7930472130835666 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 0.08285015858670172 -- True
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.755373364359546 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.8758785207642895 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 3.5493068019942223e-12 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(1).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9779391390476055 bits
+		 --> H = 0.999828719859393 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 2.3841883646804202e-52 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.1244571201052954e-30 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.4874528709030891 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.091252966191746e-84 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.3041799997712834 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.5876301226320826 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 4.921121055544395e-07 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(10).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9965543153169316 bits
+		 --> H = 0.9999958753756166 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 3.5309423716432357e-16 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.5263541574284345e-05 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.5651767256832225 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 8.368019794899055e-89 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.5861074738953139 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.9239758677866388 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 0.011749455067837679 -- True
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(11).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9714181520310079 bits
+		 --> H = 0.999711182665234 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 1.636635663194069e-08 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 0.03576200291015659 -- True
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.5289070502262163 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 5.9776080895588075e-86 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.7649718178263072 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.6545081693900567 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 0.12680025188020616 -- True
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(12).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.996241164994884 bits
+		 --> H = 0.9999950905340631 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 8.64470453171951e-08 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 0.0015455132483195527 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.13830214851831849 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 8.799017743452964e-65 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.8754402117831956 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.6178801231383697 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 0.8883342639531346 -- True
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(13).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9976808368446098 bits
+		 --> H = 0.999998132947675 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 0.00015237874549824235 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 0.8658592379570096 -- True
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.004118455344756927 -- False
+	 	 	 (o) Longest One Block: 0.7529899575463751 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.951765991723418e-89 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.08767887322115636 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.4499102584561909 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 0.28462617603642243 -- True
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(2).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9862034887946791 bits
+		 --> H = 0.9999333964806323 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 1.9789589343137366e-62 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 1.181156046822354e-38 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.6027367790780005 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 5.635851202556369e-84 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.9649491203192598 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.6540210073209558 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 9.398906335890236e-10 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(3).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9776550041297224 bits
+		 --> H = 0.9998242445280131 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 1.9437462248550508e-60 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 4.824678559765951e-33 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.2584560803964205 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 3.901432267128558e-68 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.35598727821039766 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.44255789083957875 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 1.0833901236024762e-07 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(4).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9956656982776853 bits
+		 --> H = 0.9999934696045183 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 6.901013772023858e-60 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 6.604684733575195e-34 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.38376514889101765 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.397127715158518e-65 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.037806068465244085 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.6634122161191502 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 2.074932339429698e-14 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(5).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9936533705057281 bits
+		 --> H = 0.9999859785027898 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 1.1285630378511846e-61 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.508273278943153e-38 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.003290163043050788 -- False
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 9.891542932725983e-67 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.36432410810427274 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.9316524037338317 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 2.701165868992477e-10 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(6).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9954033616365271 bits
+		 --> H = 0.9999926538300612 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 2.1815573754128262e-51 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 7.724443303508459e-23 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.6660089741936026 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 9.300261848999528e-82 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.025770281023160306 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.9453914840484199 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 2.8154815594439558e-09 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(7).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9876331738199046 bits
+		 --> H = 0.9999465382970789 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 5.6680622045276625e-58 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 2.4658855932726874e-32 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.0026269298751418536 -- False
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 4.872389321229535e-74 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.4607788666351972 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.267739630652457 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 8.97936597858662e-09 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(8).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9833483621139897 bits
+		 --> H = 0.9999027842568856 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 6.641753981086833e-47 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 3.383738039337437e-20 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.3958518165884072 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 9.170645966409242e-61 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.45251682279780203 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.3076860368369203 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 9.233829673278726e-10 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04(9).txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9731164395030334 bits
+		 --> H = 0.9997447886563762 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 1.6735017088567823e-21 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 5.424228644270769e-09 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.05774205828231247 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 1.6276127265851748e-65 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.313190677186854 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.6839954428723336 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 0.20497717127005044 -- True
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_ibm_kingston156_6.410200e+04.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9714181520310079 bits
+		 --> H = 0.999711182665234 bits
+
+	 --> NIST Battery Test:
+	 	 --> Frequency Tests
+	 	 	 (o) Monobit_Test: 7.398745405947083e-23 -- False
+	 	 	 (o) Within a Block (used 101009 bits for each block. Used 99 blocks): 6.534741725823293e-09 -- False
+	 	 --> Run Tests
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 0.35925296798102935 -- True
+	 	 Binary Matrix Tests
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 6.878927853733622e-70 -- False
+	 	 Overlapping Tests
+	 	 Maurer Universal Statistical Test
+	 	 	 (o) Universal Maurer Test: 0.40821735067503406 -- True
+	 	 Linear Complexity Test
+	 	 	 (o) Linear Complexity Test: 0.6623117260782361 -- True
+	 	 Serial Test
+	 	 Approximate Entropy Test
+	 	 	 (o) Approximate Entopy Test: 0.0001328906372844692 -- False
+	 	 Cusum Test
+	 	 Random Excursions Test
+--> END NIST BATTERY TEST ----------
+
+ANALYSIS OF IBM_1.000000e+06.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9887906385796966 bits
+		 --> H = 0.9999561127718333 bits
+

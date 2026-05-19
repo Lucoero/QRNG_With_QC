@@ -1,0 +1,93 @@
+BCryptGenRandom Data Summary: Used 50 files
+	--> Entropy Estimations:
+		 --> H_min = 0.99876+/-0.00013 bits
+			 --> Worst H_min = 0.9959344483936639 bits
+		 --> H = 1.00000+/-0.00013 bits
+			 --> Worst H = 0.9999942554086683 bits
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1315629+/-8 bits
+	 	 	 --> Worst Complexity =  1315499.0 bits
+	 	 --> Deficiency Function = 8684371+/-8
+	 		 --> Worst Deficiency Function = 8684501.0
+	 	 --> p-value = 0.0+/-0 -- False
+	 		 --> Worst p-value = 0.0 --  False
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.45+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.047608016203377394 --  True
+	 	 	 (o) Within a Block: 0.42+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.02482018475286391 --  True
+	 	 	 (o) Run Test: 0.54+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.0318801403786231 --  True
+	 	 	 (o) Longest One Block: 0.48+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.03565813213542178 --  True
+	 	 SPECTRAL TESTS
+	 	 	 (o) Spectral Test: 0.49+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.01860036154796288 --  True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entropy Test: 0.54+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.00753682701210032 --  False
+	 	 	 (o) Cusum Test: 0.48+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.038363194153233776 --  True
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.48+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.02245741327459976 --  True
+	 	 	 	 -3: 0.43+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.0031087144006727223 --  False
+	 	 	 	 -2: 0.50+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.021871549553646077 --  True
+	 	 	 	  -1: 0.49+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.01715735698944311 --  True
+	 	 	 	 +1: 0.49+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.002204895668234438 --  False
+	 	 	 	 +2: 0.48+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.004089029871584249 --  False
+	 	 	 	 +3: 0.45+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.0026128246944936116 --  False
+	 	 	 	 +4: 0.50+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.009560390803484259 --  False
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9: 0.51+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.006354165852817353 --  False
+	 	 	 	 -8: 0.47+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.0038714952577722584 --  False
+	 	 	 	 -7: 0.46+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.002910550633538461 --  False
+	 	 	 	 -6: 0.46+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.002589017492617387 --  False
+	 	 	 	 -5: 0.47+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.0031964089750470374 --  False
+	 	 	 	 -4: 0.51+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.0037473906518201306 --  False
+	 	 	 	 -3: 0.48+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.010696984005328848 --  True
+	 	 	 	 -2: 0.41+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.005180343707620587 --  False
+	 	 	 	 -1: 0.41+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.002390866415162272 --  False
+	 	 	 	 +1: 0.48+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.022619786042556576 --  True
+	 	 	 	 +2: 0.50+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.03290021000045662 --  True
+	 	 	 	 +3: 0.53+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.015595332881048803 --  True
+	 	 	 	 +4: 0.49+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.006622711701174252 --  False
+	 	 	 	 +5: 0.49+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.007019984521690876 --  False
+	 	 	 	 +6: 0.51+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.0030757558415633267 --  False
+	 	 	 	 +7: 0.52+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.0030706768033579445 --  False
+	 	 	 	 +8: 0.51+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.0034430908721744713 --  False
+	 	 	 	 +9: 0.50+/-0.04 -- True
+	 	 	 	 	 Worst p-value: 0.0027593280006589804 --  False
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.48+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.006390577520465176 --  False
+	 	 	 (o) Binary Matrix Test: 0.54+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.005175619560382332 --  False
+	 	 	 (o) Linear Complexity Test: 0.45+/-0.04 -- True
+	 	 	 	 Worst p-value: 0.019118589297361554 --  True
+

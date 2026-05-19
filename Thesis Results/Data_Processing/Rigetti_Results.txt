@@ -1,0 +1,55 @@
+ANALYSIS OF AWS_Cepheus-1-108Q--106-9.433900e+04-0-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.9222321461088729 bits
+		 --> H = 0.9977862246429324 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 1305454 bits
+	 	 --> Deficiency Function = 8632257
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.0 -- False
+	 	 	 (o) Within a Block (used 100380 bits for each block. Used 99 blocks): 0.0 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 1.2657900822677964e-57 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 0.22337891600865423 -- True
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.0 -- False
+	 	 	 (o) Cusum Test: 0.0 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 0.48699978051033865 -- True
+	 	 	 	 -3: 0.4730906268082202 -- True
+	 	 	 	 -2: 0.6914571220990702 -- True
+	 	 	 	 -1: 0.8038469749619624 -- True
+	 	 	 	 +1: 0.7311754392663888 -- True
+	 	 	 	 +2: 0.29141074964631325 -- True
+	 	 	 	 +3: 0.46182565332913994 -- True
+	 	 	 	 +4: 0.12897057037021184 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.6158978721857425 -- True
+	 	 	 	 -8.0: 0.26733319906854414 -- True
+	 	 	 	 -7.0: 0.12789124500121973 -- True
+	 	 	 	 -6.0: 0.20361888541370987 -- True
+	 	 	 	 -5.0: 0.15214293083791652 -- True
+	 	 	 	 -4.0: 0.14064517501718557 -- True
+	 	 	 	 -3.0: 0.4549751519736983 -- True
+	 	 	 	 -2.0: 0.8183578398322772 -- True
+	 	 	 	 -1.0: 0.7503158528871919 -- True
+	 	 	 	 +1.0: 0.524485879318823 -- True
+	 	 	 	 +2.0: 0.4623977553582126 -- True
+	 	 	 	 +3.0: 0.3931705510376782 -- True
+	 	 	 	 +4.0: 0.24091600319065953 -- True
+	 	 	 	 +5.0: 0.17623224021150952 -- True
+	 	 	 	 +6.0: 0.4286117349551699 -- True
+	 	 	 	 +7.0: 0.5964205444568746 -- True
+	 	 	 	 +8.0: 0.55137911813227 -- True
+	 	 	 	 +9.0: 0.5757810610057631 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 2.026754117018739e-59 -- False
+	 	 	 (o) Binary Matrix Test: 0.2940431812180739 -- True
+	 	 	 (o) Linear Complexity Test: 0.14012025632442124 -- True
+--> END NIST BATTERY TEST ----------

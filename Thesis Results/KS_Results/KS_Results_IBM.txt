@@ -1,0 +1,43 @@
+SECOND ORDEN TESTS RESULTS (Based on KS distance and Shen's proposal)
+Files from directories:
+	 RNG: Outputs/IBM
+	 Mixed: Mix_Sequences/Mixed_IBM
+epsilon = 0.01 --> K = 1.9549752159266272
+	 (o) Monobit Test: 1.0 -- True
+	 (o) Frequency Within a Block Test: 0.98 -- True
+	 (o) Run Test: 1.0 -- True
+	 (o) Longest One Block Test: 0.30000000000000004 -- True
+	 (o) Spectral Test: 1.0 -- True
+	 (o) Approximate Entropy Test: 0.98 -- True
+	 (o) Cusum Test: 1.0 -- True
+	 (o) Maurer Test: 0.14 -- True
+	 (o) Binary Matrix Test: 0.09999999999999998 -- True
+	 (o) Linear Complexity Test: 0.16000000000000003 -- True
+	 (o) Random Excursions Test:
+	 	 -4: 0.16 -- True
+	 	 -3: 0.2 -- True
+	 	 -2: 0.24 -- True
+	 	 -1: 0.1 -- True
+	 	 +1: 0.28 -- True
+	 	 +2: 0.08000000000000002 -- True
+	 	 +3: 0.07999999999999996 -- True
+	 	 +4: 0.14 -- True
+	 (o) Random Excursions Variant Test:
+	 	 -9: 0.33999999999999997 -- True
+	 	 -8: 0.33999999999999997 -- True
+	 	 -7: 0.31999999999999995 -- True
+	 	 -6: 0.21999999999999997 -- True
+	 	 -5: 0.21999999999999997 -- True
+	 	 -4: 0.24 -- True
+	 	 -3: 0.19999999999999996 -- True
+	 	 -2: 0.21999999999999997 -- True
+	 	 -1: 0.14 -- True
+	 	 +1: 0.16000000000000003 -- True
+	 	 +2: 0.18 -- True
+	 	 +3: 0.29999999999999993 -- True
+	 	 +4: 0.18000000000000002 -- True
+	 	 +5: 0.19999999999999996 -- True
+	 	 +6: 0.26 -- True
+	 	 +7: 0.39999999999999997 -- True
+	 	 +8: 0.39999999999999997 -- True
+

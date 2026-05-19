@@ -1,0 +1,47 @@
+ANALYSIS OF Aquila_Aquila--256-3.906000e+03-0-.txt:
+	--> Entropy Estimations:
+		 --> H_min = 0.14470568651884771 bits
+		 --> H = 0.45435914196283234 bits
+
+	 --> Complexity Estimations:
+		 --> Maximum Complexity = 61741 bits
+	 	 --> Deficiency Function = 938195
+	 	 --> Probability of that deficiency with Randomness Hypothesis = 0.0
+	 	 --> Test Passed: False
+
+	 --> NIST Battery Test:
+	 	 --> FREQUENCY IN SEQUENCES
+	 	 	 (o) Monobit_Test: 0.0 -- False
+	 	 	 (o) Within a Block (used 10100 bits for each block. Used 99 blocks): 0.0 -- False
+	 	 	 (o) runTest: 0.0 -- False
+	 	 	 (o) Longest One Block: 7.579099461862028e-218 -- False
+	 	 Spectral Tests
+	 	 	 (o) Spectral Test: 0.0 -- False
+	 	 STATISTICAL MECHANICS TESTS
+	 	 	 (o) Approximate Entopy Test: 0.0 -- False
+	 	 	 (o) Cusum Test: 0.0 -- False
+	 	 	 (o) Random Excursions Test:
+	 	 	 	 -4: 3.6679032349766e-14 -- False
+	 	 	 	 -3: 9.326695044407569e-10 -- False
+	 	 	 	 -2: 0.0010819122096153867 -- False
+	 	 	 	 -1: 0.6999858358786276 -- True
+	 	 	 	 +1: 0.9625657732472964 -- True
+	 	 	 	 +2: 0.9969687632568645 -- True
+	 	 	 	 +3: 0.9991138612111875 -- True
+	 	 	 	 +4: 0.9996100613790039 -- True
+	 	 	 (o) Random Excursions Variant Test:
+	 	 	 	 -9.0: 0.8638317428547264 -- True
+	 	 	 	 -8.0: 0.7150006546880893 -- True
+	 	 	 	 -7.0: 0.84451926747294 -- True
+	 	 	 	 -6.0: 1.0 -- True
+	 	 	 	 -5.0: 1.0 -- True
+	 	 	 	 -4.0: 0.7892680261342813 -- True
+	 	 	 	 -3.0: 0.5270892568655381 -- True
+	 	 	 	 -2.0: 0.6830913983096087 -- True
+	 	 	 	 -1.0: 1.0 -- True
+	 	 KOLMOGOROV COMPLEXITY TEST
+	 	 	 (o) Universal Maurer Test: 0.0 -- False
+	 	 	 (o) Binary Matrix Test: 0.0 -- False
+	 	 	 (o) Linear Complexity Test: 0.8757492405097228 -- True
+--> END NIST BATTERY TEST ----------
+

@@ -1,0 +1,6 @@
+AQT Bits ratio (bits/s): 2.3e+01+/-1.5e+01
+BCryptGenRandom Bits ratio (bits/s): 3.482e+16+/-0.009e+16
+IBM Bits ratio (bits/s): 5.309e+07+/-0.012e+07
+QuEra Bits ratio (bits/s): 1.9e+05+/-1.2e+05
+Rigetti Bits ratio (bits/s): 2.746947e+05+/- 0
+Simulation Bits ratio (bits/s): 8.803e+07+/-0.021e+07
