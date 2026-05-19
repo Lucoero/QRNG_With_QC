@@ -25,4 +25,6 @@ After that you can just run *main.py* on default variables and you will obtain s
 If you dont need the AWS computers you can just switch off their methods in *main* and use only IBM Computers. 
 
 ### Analyse the Bitstrings ###
-Given that you have some bitstrings stored as *main.py* produces them, you can use *main_Data.py* to analyse them and put the log results for each computer in the *Data_Processing* folder. You only need to execute *Data_Processing* given the strings' path as a variable. We left the results of our analysis in a subfolder called *TFG Results*, so feel free to check it before doing anything to see what to expect. 
+Given that you have some bitstrings stored as *main.py* produces them, you can use *main_Data.py* to analyse them and put the log results for each computer in the *Data_Processing* folder. You only need to execute *Data_Processing* given the strings' path as a variable. We left the results of our analysis in a subfolder called *Thesis Results*, so feel free to check it before doing anything to see what to expect. 
+
+To execute the Second Order Test you need to create the sequences mixed via the *Mix_Sequences* method. Then you can do the test by calling *KS_Shen_Test*. The output will be the p-values obtained, as well as de distrutions created. Both will be in the *KS_Results* folder by default. 
