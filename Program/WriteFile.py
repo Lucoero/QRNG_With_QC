@@ -175,3 +175,19 @@ def Load_Distributions(directory):
     
     
     return
+
+def LoadTimes(filePath):
+    times = []
+    bits = []
+    with open(filePath) as file:
+        line = file.readline()
+        while line != "":
+            sides = line.split(":") # Separo la linea en lado derecho e izquierdo
+            times.append(float(sides[1]))
+            compData = sides[0].split("--")[1] # Elimino el nombre del computador
+            aux = compData.split("-") # Separo en elementos
+            bits.append(float(aux[0])*float(aux[1]))
+            line = file.readline()
+    times = np.array(times,dtype = float)
+    bits = np.array(bits,dtype = int)
+    return times,bits

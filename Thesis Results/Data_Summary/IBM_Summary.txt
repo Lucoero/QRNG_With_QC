@@ -1,4 +1,5 @@
-IBM Data Summary: Used 60 files
+IBM Data Summary: Used 60 files. 
+ '(n)' after Passed Result indicates how many of the files passed that test.
 	--> Entropy Estimations:
 		 --> H_min = 0.9909+/-0.0005 bits
 			 --> Worst H_min = 0.9808547529383512 bits
@@ -9,85 +10,85 @@ IBM Data Summary: Used 60 files
 	 	 	 --> Worst Complexity =  1315373.0 bits
 	 	 --> Deficiency Function = 8684352+/-9
 	 		 --> Worst Deficiency Function = 8684539.0
-	 	 --> p-value = 0.0+/-0 -- False
+	 	 --> p-value = 0.0+/-0 -- False (0)
 	 		 --> Worst p-value = 0.0 --  False
 	 --> NIST Battery Test:
 	 	 --> FREQUENCY IN SEQUENCES
-	 	 	 (o) Monobit_Test: (5+/-5)e-07 -- False
+	 	 	 (o) Monobit_Test: (5+/-5)e-07 -- False (0)
 	 	 	 	 Worst p-value: 1.6802121706699517e-280 --  False
-	 	 	 (o) Within a Block: 0.010+/-0.010 -- True
+	 	 	 (o) Within a Block: 0.010+/-0.010 -- True (1)
 	 	 	 	 Worst p-value: 7.518073571319198e-226 --  False
-	 	 	 (o) Run Test: 0.0+/-0 -- False
+	 	 	 (o) Run Test: 0.0+/-0 -- False (0)
 	 	 	 	 Worst p-value: 0.0 --  False
-	 	 	 (o) Longest One Block: 0.29+/-0.04 -- True
+	 	 	 (o) Longest One Block: 0.29+/-0.04 -- True (49)
 	 	 	 	 Worst p-value: 4.338323512796372e-08 --  False
 	 	 SPECTRAL TESTS
-	 	 	 (o) Spectral Test: (8+/-7)e-80 -- False
+	 	 	 (o) Spectral Test: (8+/-7)e-80 -- False (0)
 	 	 	 	 Worst p-value: 2.6544906774133083e-154 --  False
 	 	 STATISTICAL MECHANICS TESTS
-	 	 	 (o) Approximate Entropy Test: 0.005+/-0.004 -- False
+	 	 	 (o) Approximate Entropy Test: 0.005+/-0.004 -- False (4)
 	 	 	 	 Worst p-value: 6.062732103054007e-105 --  False
-	 	 	 (o) Cusum Test: (4+/-4)e-07 -- False
+	 	 	 (o) Cusum Test: (4+/-4)e-07 -- False (0)
 	 	 	 	 Worst p-value: 3.099597781489997e-281 --  False
 	 	 	 (o) Random Excursions Test:
-	 	 	 	 -4: 0.46+/-0.04 -- True
+	 	 	 	 -4: 0.46+/-0.04 -- True  (54)
 	 	 	 	 	 Worst p-value: 2.64000316051373e-06 --  False
-	 	 	 	 -3: 0.50+/-0.04 -- True
+	 	 	 	 -3: 0.50+/-0.04 -- True (55)
 	 	 	 	 	 Worst p-value: 0.00026465364966427317 --  False
-	 	 	 	 -2: 0.55+/-0.04 -- True
+	 	 	 	 -2: 0.55+/-0.04 -- True  (59)
 	 	 	 	 	 Worst p-value: 0.003458298780615612 --  False
-	 	 	 	  -1: 0.52+/-0.04 -- True
+	 	 	 	  -1: 0.52+/-0.04 -- True (58)
 	 	 	 	 	 Worst p-value: 2.3187585803101154e-05 --  False
-	 	 	 	 +1: 0.598+/-0.034 -- True
+	 	 	 	 +1: 0.598+/-0.034 -- True (59)
 	 	 	 	 	 Worst p-value: 8.188962713339898e-05 --  False
-	 	 	 	 +2: 0.54+/-0.04 -- True
+	 	 	 	 +2: 0.54+/-0.04 -- True (56)
 	 	 	 	 	 Worst p-value: 0.004581562317697556 --  False
-	 	 	 	 +3: 0.49+/-0.04 -- True
+	 	 	 	 +3: 0.49+/-0.04 -- True (58)
 	 	 	 	 	 Worst p-value: 0.0011461968894336736 --  False
-	 	 	 	 +4: 0.50+/-0.04 -- True
+	 	 	 	 +4: 0.50+/-0.04 -- True (56)
 	 	 	 	 	 Worst p-value: 1.259114344723498e-07 --  False
 	 	 	 (o) Random Excursions Variant Test:
-	 	 	 	 -9: 0.58+/-0.04 -- True
+	 	 	 	 -9: 0.58+/-0.04 -- True (53)
 	 	 	 	 	 Worst p-value: 7.717040577191723e-08 --  False
-	 	 	 	 -8: 0.55+/-0.04 -- True
+	 	 	 	 -8: 0.55+/-0.04 -- True (55)
 	 	 	 	 	 Worst p-value: 2.6785223425411122e-05 --  False
-	 	 	 	 -7: 0.55+/-0.04 -- True
+	 	 	 	 -7: 0.55+/-0.04 -- True (55)
 	 	 	 	 	 Worst p-value: 2.8666261254657593e-05 --  False
-	 	 	 	 -6: 0.55+/-0.04 -- True
+	 	 	 	 -6: 0.55+/-0.04 -- True (56)
 	 	 	 	 	 Worst p-value: 4.517450988213631e-07 --  False
-	 	 	 	 -5: 0.55+/-0.04 -- True
+	 	 	 	 -5: 0.55+/-0.04 -- True (56)
 	 	 	 	 	 Worst p-value: 1.1093369049350335e-06 --  False
-	 	 	 	 -4: 0.53+/-0.04 -- True
+	 	 	 	 -4: 0.53+/-0.04 -- True (56)
 	 	 	 	 	 Worst p-value: 1.901276281788005e-05 --  False
-	 	 	 	 -3: 0.54+/-0.04 -- True
+	 	 	 	 -3: 0.54+/-0.04 -- True (56)
 	 	 	 	 	 Worst p-value: 3.9401582725131885e-05 --  False
-	 	 	 	 -2: 0.54+/-0.04 -- True
+	 	 	 	 -2: 0.54+/-0.04 -- True (57)
 	 	 	 	 	 Worst p-value: 2.4586136714663832e-05 --  False
-	 	 	 	 -1: 0.52+/-0.04 -- True
+	 	 	 	 -1: 0.52+/-0.04 -- True (57)
 	 	 	 	 	 Worst p-value: 0.002183044737362255 --  False
-	 	 	 	 +1: 0.538+/-0.035 -- True
+	 	 	 	 +1: 0.538+/-0.035 -- True (59)
 	 	 	 	 	 Worst p-value: 0.0008561456864208789 --  False
-	 	 	 	 +2: 0.532+/-0.032 -- True
+	 	 	 	 +2: 0.532+/-0.032 -- True (59)
 	 	 	 	 	 Worst p-value: 0.0018471852434783177 --  False
-	 	 	 	 +3: 0.531+/-0.033 -- True
+	 	 	 	 +3: 0.531+/-0.033 -- True (54)
 	 	 	 	 	 Worst p-value: 0.0006250009784932352 --  False
-	 	 	 	 +4: 0.53+/-0.04 -- True
+	 	 	 	 +4: 0.53+/-0.04 -- True (54)
 	 	 	 	 	 Worst p-value: 9.96021973463293e-05 --  False
-	 	 	 	 +5: 0.55+/-0.04 -- True
+	 	 	 	 +5: 0.55+/-0.04 -- True (53)
 	 	 	 	 	 Worst p-value: 0.0002211706320908 --  False
-	 	 	 	 +6: 0.56+/-0.04 -- True
+	 	 	 	 +6: 0.56+/-0.04 -- True (51)
 	 	 	 	 	 Worst p-value: 0.0009111188771537128 --  False
-	 	 	 	 +7: 0.59+/-0.04 -- True
+	 	 	 	 +7: 0.59+/-0.04 -- True (49)
 	 	 	 	 	 Worst p-value: 0.0023190903681731367 --  False
-	 	 	 	 +8: 0.57+/-0.04 -- True
+	 	 	 	 +8: 0.57+/-0.04 -- True (50)
 	 	 	 	 	 Worst p-value: 0.0010904572057621894 --  False
-	 	 	 	 +9: 0.53+/-0.04 -- True
+	 	 	 	 +9: 0.53+/-0.04 -- True (49)
 	 	 	 	 	 Worst p-value: 0.0024318453627428568 --  False
 	 	 KOLMOGOROV COMPLEXITY TEST
-	 	 	 (o) Universal Maurer Test: 0.48+/-0.04 -- True
+	 	 	 (o) Universal Maurer Test: 0.48+/-0.04 -- True (56)
 	 	 	 	 Worst p-value: 0.00044865646624060805 --  False
-	 	 	 (o) Binary Matrix Test: 0.51+/-0.04 -- True
+	 	 	 (o) Binary Matrix Test: 0.51+/-0.04 -- True (60)
 	 	 	 	 Worst p-value: 0.018466454673416247 --  True
-	 	 	 (o) Linear Complexity Test: 0.56+/-0.04 -- True
+	 	 	 (o) Linear Complexity Test: 0.56+/-0.04 -- True (60)
 	 	 	 	 Worst p-value: 0.011159136136235604 --  True
 

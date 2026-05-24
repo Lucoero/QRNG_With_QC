@@ -1,0 +1,4 @@
+IBM_ibm_kingston--156-1.308270e+05-0-.txt-130827-(s):36
+IBM_ibm_kingston--156-2.616490e+05-0-.txt-261649-(s):69
+IBM_ibm_kingston--156-6.410200e+04-0-.txt-64102-(s):19
+IBM_ibm_kingston--156-6.410200e+04-8-.txt-64102-(s):18
