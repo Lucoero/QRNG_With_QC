@@ -401,7 +401,7 @@ def KS_Shen_Test(dirPr,dirMix, outDir = "KS_Results",nPoints = 5000):
     numbersVar = ["-9","-8","-7","-6","-5","-4","-3","-2","-1",
                "+1", "+2", "+3", "+4", "+5", "+6", "+7", "+8", "+9"]
     msg.append("\t (o) Random Excursions Variant Test:")
-    for i in range(17):
+    for i in range(nVar):
         msg.append(f"\t \t {numbersVar[i]}: {KSVar[i]} -- {passVar[i]}")
 
     WF.Write_Analysis_Files("KS", msg, directory = outDir)
@@ -422,7 +422,9 @@ def KS_Shen_Test(dirPr,dirMix, outDir = "KS_Results",nPoints = 5000):
 
 
 #%%% Tests estadisticos NIST
-def Construct_Sol_Message(testName,p,passMsg):
+def Construct_Sol_Message(testName,p,passMsg, nPassed = ""):
+    if nPassed != "":
+        return f"\t \t \t (o) {testName}: " + str(p) +" -- " +  str(passMsg) + " (" + str(nPassed) + ")" # El caso de los resumenes
     return f"\t \t \t (o) {testName}: " + str(p) +" -- " +  str(passMsg)
 
 def Binary_Matrix_Test(binary_data): # Implementado por Lucas Hernández Bellón
@@ -576,7 +578,7 @@ def NIST_Battery(QC,filePath):
     WF.Write_Analysis_Files(QC,message,showEndMessage=False)
     return
 
-#%% MEAN RESULTS
+#%% Summarize RESULTS
 def Get_Summary_Results(dataDir, outDir="Data_Summary"):
     """
     Get_Mean_Results:
@@ -594,52 +596,89 @@ def Get_Summary_Results(dataDir, outDir="Data_Summary"):
         minEntropyList = []
         entropyList = []
         
-        
         maximumComplexityList = []
         DeficiencyFunctionList = []
         ComplexPValueList = []
+        ComplexityPValuePassed = 0
         
         monobitList = []
+        monobitPassed = 0
         withinList = []
+        withinPassed = 0
         runList =[]
+        runPassed = 0
         longestList = []
+        longestPassed = 0
         
         spectralList = []
+        spectralPassed = 0
+        
         approxEntList = []
+        approxEntPassed = 0
         cusumList = []
+        cusumPassed = 0
         
         # Esto no tendria que haberlo hecho asi, la proxima vez un for
         rdExc0 = [] # -4
+        rdExc0Passed = 0
         rdExc1 = [] # -3
+        rdExc1Passed = 0
         rdExc2 = [] # -2
+        rdExc2Passed = 0
         rdExc3 = [] # -1
+        rdExc3Passed = 0
         rdExc4 = [] # +1
+        rdExc4Passed = 0
         rdExc5 = [] # +2
+        rdExc5Passed = 0
         rdExc6 = [] # +3
+        rdExc6Passed = 0
         rdExc7 = [] # +4
+        rdExc7Passed = 0
         
         varExc0 = [] # -9
+        varExc0Passed = 0
         varExc1 = [] # -8
+        varExc1Passed = 0
         varExc2 = [] # -7
+        varExc2Passed = 0
         varExc3 = [] # -6
+        varExc3Passed = 0
         varExc4 = [] # -5
+        varExc4Passed = 0
         varExc5 = [] # -4
+        varExc5Passed = 0
         varExc6 = [] # -3
+        varExc6Passed = 0
         varExc7 = [] # -2
+        varExc7Passed = 0
         varExc8 = [] # -1
+        varExc8Passed = 0
         varExc9 = [] # +1
-        varExc10 = [] # +2
-        varExc11 = [] # +3
+        varExc9Passed = 0
+        varExc10 = [] # +
+        varExc10Passed = 0
+        varExc11 = [] # +
+        varExc11Passed = 0
         varExc12 = [] # +4
+        varExc12Passed = 0
         varExc13 = [] # +5
+        varExc13Passed = 0
         varExc14 = [] # +6
+        varExc14Passed = 0
         varExc15 = [] # +7
+        varExc15Passed = 0
         varExc16 = [] # +8
+        varExc16Passed = 0
         varExc17 = [] # +9
+        varExc17Passed = 0
         
         maurerList = []
+        maurerPassed = 0
         matrixList = []
+        matrixPassed = 0
         linearList = []
+        linearPassed = 0
         
         #%%% Seccion Lectura datos
         bitEndPos = -5
@@ -674,186 +713,257 @@ def Get_Summary_Results(dataDir, outDir="Data_Summary"):
                     aux = float(currLine.split("=")[1]) # Quito la palabra bits
                     ComplexPValueList.append(aux)
                     
+                    currLine = file.readline()
+                    if "True" in currLine.split(":")[1]:
+                        ComplexityPValuePassed += 1
+
                     # Pasamos a Tests NIST
-                    file.readline()
                     file.readline()
                     file.readline()
                     file.readline() # Estamos en linea "FREQUENCY IN SEQUENCES"
                     
                     currLine = file.readline()
+                    crop = currLine.split(":")[1].split("--")
                     #print(currLine)
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    aux = float(crop[0])
                     monobitList.append(aux)
+                    if "True" in crop[1]: monobitPassed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     withinList.append(aux)
+                    if "True" in crop[1]: withinPassed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     runList.append(aux)
+                    if "True" in crop[1]: runPassed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     longestList.append(aux)
+                    if "True" in crop[1]: longestPassed += 1
                     
                     file.readline() # Linea "Spectral Tests"
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     spectralList.append(aux)
+                    if "True" in crop[1]: spectralPassed += 1
                     
                     file.readline() # Linea "Statistical Mechanics Tests"
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     approxEntList.append(aux)
+                    if "True" in crop[1]: approxEntPassed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     cusumList.append(aux)
+                    if "True" in crop[1]: cusumPassed += 1
                     
                     # Region Random Excursions
                     file.readline()
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     rdExc0.append(aux)
+                    if "True" in crop[1]: rdExc0Passed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     rdExc1.append(aux)
+                    if "True" in crop[1]: rdExc1Passed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     rdExc2.append(aux)
+                    if "True" in crop[1]: rdExc2Passed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     rdExc3.append(aux)
+                    if "True" in crop[1]: rdExc3Passed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     rdExc4.append(aux)
+                    if "True" in crop[1]: rdExc4Passed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     rdExc5.append(aux)
+                    if "True" in crop[1]: rdExc5Passed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     rdExc6.append(aux)
+                    if "True" in crop[1]: rdExc6Passed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    #print(currLine)
+                    aux = float(crop[0])
                     rdExc7.append(aux)
+                    if "True" in crop[1]: rdExc7Passed += 1
 
                     # Seccion Variant:
                     file.readline()
                     # A veces el test variant no llega de -9 a 9, hay que ir con cuidado
                     currLine = file.readline() 
                     if "-9" in currLine: 
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc0.append(aux)
-                    
+                        if "True" in crop[1]: varExc0Passed += 1
                         currLine = file.readline()
                     if "-8" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc1.append(aux)
-                    
+                        if "True" in crop[1]: varExc1Passed += 1
                         currLine = file.readline()
                     if "-7" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
+                        if "True" in crop[1]: varExc2Passed += 1
                         varExc2.append(aux)
                     
                         currLine = file.readline()
                     if "-6" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc3.append(aux)
-                        
+                        if "True" in crop[1]: varExc3Passed += 1
                         currLine = file.readline()
                     if "-5" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc4.append(aux)
-                    
+                        if "True" in crop[1]: varExc4Passed += 1
                         currLine = file.readline()
                     if "-4" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc5.append(aux)
-                    
+                        if "True" in crop[1]: varExc5Passed += 1
                         currLine = file.readline()
                     if "-3" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc6.append(aux)
-                    
+                        if "True" in crop[1]: varExc6Passed += 1
                         currLine = file.readline()
                     if "-2" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc7.append(aux)
-                    
+                        if "True" in crop[1]: varExc7Passed += 1
                         currLine = file.readline()
                     if "-1" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc8.append(aux)
-                    
+                        if "True" in crop[1]: varExc8Passed += 1
                         currLine = file.readline()
                     if "+1" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc9.append(aux)
-                    
+                        if "True" in crop[1]: varExc9Passed += 1
                         currLine = file.readline()
                     if "+2" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc10.append(aux)
-                    
+                        if "True" in crop[1]: varExc10Passed += 1
                         currLine = file.readline()
                     if "+3" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc11.append(aux)
-                        
+                        if "True" in crop[1]: varExc11Passed += 1
                         currLine = file.readline()
                     if "+4" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc12.append(aux)
-                        
+                        if "True" in crop[1]: varExc12Passed += 1
                         currLine = file.readline()
                     if "+5" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc13.append(aux)
-                        
+                        if "True" in crop[1]: varExc13Passed += 1
                         currLine = file.readline()
                     if "+6" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc14.append(aux)
-                        
+                        if "True" in crop[1]: varExc14Passed += 1
                         currLine = file.readline()
                     if "+7" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc15.append(aux)
-                        
+                        if "True" in crop[1]: varExc15Passed += 1
                         currLine = file.readline()
                     if "+8" in currLine:    
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc16.append(aux)
-                        
+                        if "True" in crop[1]: varExc16Passed += 1
                         currLine = file.readline()
                     if "+9" in currLine:
-                        aux = float(currLine.split(":")[1].split("--")[0])
+                        crop = currLine.split(":")[1].split("--")
+                        aux = float(crop[0])
                         varExc17.append(aux)
-                        
+                        if "True" in crop[1]: varExc17Passed += 1
                         file.readline() 
                     # Fin region larga
                     
                     # Estamos en linea "KOLMOGOROV COMPLEXITY TEST"
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    aux = float(crop[0])
                     maurerList.append(aux)
+                    if "True" in crop[1]: maurerPassed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    aux = float(crop[0])
                     matrixList.append(aux)
+                    if "True" in crop[1]: matrixPassed += 1
                     
                     currLine = file.readline()
-                    aux = float(currLine.split(":")[1].split("--")[0])
+                    crop = currLine.split(":")[1].split("--")
+                    aux = float(crop[0])
                     linearList.append(aux)
-                    
+                    if "True" in crop[1]: linearPassed += 1
                 # Vamos al siguiente bloque
                 currLine = file.readline()
         #%%% Seccion Calculos estadisticos
@@ -985,7 +1095,7 @@ def Get_Summary_Results(dataDir, outDir="Data_Summary"):
         
         #%%% Seccion de escritura
         msg = []
-        msg.append(f"{currComp} Data Summary: Used {nData} files")
+        msg.append(f"{currComp} Data Summary: Used {nData} files. \n '(n)' after Passed Result indicates how many of the files passed that test.")
         
         msg.append("\t--> Entropy Estimations:")
         msg.append(f"\t\t --> H_min = {ufloat(meanMinH,errMinH)} bits")
@@ -997,92 +1107,92 @@ def Get_Summary_Results(dataDir, outDir="Data_Summary"):
                      f"\t \t \t --> Worst Complexity =  {np.min(maximumComplexityList)} bits",
                     f"\t \t --> Deficiency Function = {ufloat(meanDeficiency,errDeficiency)}",
                     f"\t \t\t --> Worst Deficiency Function = {np.max(DeficiencyFunctionList)}",
-                    f"\t \t --> p-value = {ufloat(meanComplexPValue,errComplexPValue)} -- {str(meanComplexPValue >= epsilon)}",
+                    f"\t \t --> p-value = {ufloat(meanComplexPValue,errComplexPValue)} -- {str(meanComplexPValue >= epsilon)} ({ComplexityPValuePassed})",
                     f"\t \t\t --> Worst p-value = {np.min(ComplexPValueList)} --  {np.min(ComplexPValueList) >= epsilon}"]
         
         msg.append("\t --> NIST Battery Test:")
         
         msg.append("\t \t --> FREQUENCY IN SEQUENCES")
-        msg.append(Construct_Sol_Message("Monobit_Test", ufloat(meanMonobit,errMonobit), meanMonobit >= epsilon))
+        msg.append(Construct_Sol_Message("Monobit_Test", ufloat(meanMonobit,errMonobit), meanMonobit >= epsilon,monobitPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(monobitList)} --  {np.min(monobitList) >= epsilon}")
-        msg.append(Construct_Sol_Message("Within a Block", ufloat(meanWithin,errWithin), meanWithin >= epsilon))
+        msg.append(Construct_Sol_Message("Within a Block", ufloat(meanWithin,errWithin), meanWithin >= epsilon,withinPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(withinList)} --  {np.min(withinList) >= epsilon}")
-        msg.append(Construct_Sol_Message("Run Test", ufloat(meanRun,errRun), meanRun >= epsilon))
+        msg.append(Construct_Sol_Message("Run Test", ufloat(meanRun,errRun), meanRun >= epsilon,runPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(runList)} --  {np.min(runList) >= epsilon}")
-        msg.append(Construct_Sol_Message("Longest One Block",ufloat(meanLongest,errLongest),meanLongest >= epsilon))
+        msg.append(Construct_Sol_Message("Longest One Block",ufloat(meanLongest,errLongest),meanLongest >= epsilon,longestPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(longestList)} --  {np.min(longestList) >= epsilon}")
         
         msg.append("\t \t SPECTRAL TESTS")
-        msg.append(Construct_Sol_Message("Spectral Test",ufloat(meanSpectral,errSpectral),meanSpectral >= epsilon))
+        msg.append(Construct_Sol_Message("Spectral Test",ufloat(meanSpectral,errSpectral),meanSpectral >= epsilon,spectralPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(spectralList)} --  {np.min(spectralList) >= epsilon}")
         msg.append("\t \t STATISTICAL MECHANICS TESTS")
-        msg.append(Construct_Sol_Message("Approximate Entropy Test",ufloat(meanApprox,errApprox),meanApprox >= epsilon))
+        msg.append(Construct_Sol_Message("Approximate Entropy Test",ufloat(meanApprox,errApprox),meanApprox >= epsilon,approxEntPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(approxEntList)} --  {np.min(approxEntList) >= epsilon}")
-        msg.append(Construct_Sol_Message("Cusum Test",ufloat(meanCusum,errCusum),meanCusum >= epsilon))
+        msg.append(Construct_Sol_Message("Cusum Test",ufloat(meanCusum,errCusum),meanCusum >= epsilon,cusumPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(cusumList)} --  {np.min(cusumList) >= epsilon}")
         
         msg.append("\t \t \t (o) Random Excursions Test:")
-        msg.append(f"\t \t \t \t -4: {ufloat(meanRD0,errRD0)} -- {meanRD0 >= epsilon}")
+        msg.append(f"\t \t \t \t -4: {ufloat(meanRD0,errRD0)} -- {meanRD0 >= epsilon}  ({rdExc0Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {np.min(rdExc0)} --  {np.min(rdExc0) >= epsilon}")
-        msg.append(f"\t \t \t \t -3: {ufloat(meanRD1,errRD1)} -- {meanRD1 >= epsilon}")
+        msg.append(f"\t \t \t \t -3: {ufloat(meanRD1,errRD1)} -- {meanRD1 >= epsilon} ({rdExc1Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {np.min(rdExc1)} --  {np.min(rdExc1) >= epsilon}")
-        msg.append(f"\t \t \t \t -2: {ufloat(meanRD2,errRD2)} -- {meanRD2 >= epsilon}")
+        msg.append(f"\t \t \t \t -2: {ufloat(meanRD2,errRD2)} -- {meanRD2 >= epsilon}  ({rdExc2Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {np.min(rdExc2)} --  {np.min(rdExc2) >= epsilon}")
-        msg.append(f"\t \t \t \t  -1: {ufloat(meanRD3,errRD3)} -- {meanRD3 >= epsilon}")
+        msg.append(f"\t \t \t \t  -1: {ufloat(meanRD3,errRD3)} -- {meanRD3 >= epsilon} ({rdExc3Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {np.min(rdExc3)} --  {np.min(rdExc3) >= epsilon}")
-        msg.append(f"\t \t \t \t +1: {ufloat(meanRD4,errRD4)} -- {meanRD4 >= epsilon}")
+        msg.append(f"\t \t \t \t +1: {ufloat(meanRD4,errRD4)} -- {meanRD4 >= epsilon} ({rdExc4Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {np.min(rdExc4)} --  {np.min(rdExc4) >= epsilon}")
-        msg.append(f"\t \t \t \t +2: {ufloat(meanRD5,errRD5)} -- {meanRD5 >= epsilon}")
+        msg.append(f"\t \t \t \t +2: {ufloat(meanRD5,errRD5)} -- {meanRD5 >= epsilon} ({rdExc5Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {np.min(rdExc5)} --  {np.min(rdExc5) >= epsilon}")
-        msg.append(f"\t \t \t \t +3: {ufloat(meanRD6,errRD6)} -- {meanRD6 >= epsilon}")
+        msg.append(f"\t \t \t \t +3: {ufloat(meanRD6,errRD6)} -- {meanRD6 >= epsilon} ({rdExc6Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {np.min(rdExc6)} --  {np.min(rdExc6) >= epsilon}")
-        msg.append(f"\t \t \t \t +4: {ufloat(meanRD7,errRD7)} -- {meanRD7 >= epsilon}")
+        msg.append(f"\t \t \t \t +4: {ufloat(meanRD7,errRD7)} -- {meanRD7 >= epsilon} ({rdExc7Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {np.min(rdExc7)} --  {np.min(rdExc7) >= epsilon}")
         
         msg.append("\t \t \t (o) Random Excursions Variant Test:")
-        msg.append(f"\t \t \t \t -9: {ufloat(meanVar0,errVar0)} -- {meanVar0 >= epsilon}")
+        msg.append(f"\t \t \t \t -9: {ufloat(meanVar0,errVar0)} -- {meanVar0 >= epsilon} ({varExc0Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc0,default = np.nan)} --  {min(varExc0,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t -8: {ufloat(meanVar1,errVar1)} -- {meanVar1 >= epsilon}")
+        msg.append(f"\t \t \t \t -8: {ufloat(meanVar1,errVar1)} -- {meanVar1 >= epsilon} ({varExc1Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc1,default = np.nan)} --  {min(varExc1,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t -7: {ufloat(meanVar2,errVar2)} -- {meanVar2 >= epsilon}")
+        msg.append(f"\t \t \t \t -7: {ufloat(meanVar2,errVar2)} -- {meanVar2 >= epsilon} ({varExc2Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc2,default = np.nan)} --  {min(varExc2,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t -6: {ufloat(meanVar3,errVar3)} -- {meanVar3 >= epsilon}")
+        msg.append(f"\t \t \t \t -6: {ufloat(meanVar3,errVar3)} -- {meanVar3 >= epsilon} ({varExc3Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc3,default = np.nan)} --  {min(varExc3,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t -5: {ufloat(meanVar4,errVar4)} -- {meanVar4 >= epsilon}")
+        msg.append(f"\t \t \t \t -5: {ufloat(meanVar4,errVar4)} -- {meanVar4 >= epsilon} ({varExc4Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc4,default = np.nan)} --  {min(varExc4,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t -4: {ufloat(meanVar5,errVar5)} -- {meanVar5 >= epsilon}")
+        msg.append(f"\t \t \t \t -4: {ufloat(meanVar5,errVar5)} -- {meanVar5 >= epsilon} ({varExc5Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc5,default = np.nan)} --  {min(varExc5,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t -3: {ufloat(meanVar6,errVar6)} -- {meanVar6 >= epsilon}")
+        msg.append(f"\t \t \t \t -3: {ufloat(meanVar6,errVar6)} -- {meanVar6 >= epsilon} ({varExc6Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc6,default = np.nan)} --  {min(varExc6,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t -2: {ufloat(meanVar7,errVar7)} -- {meanVar7 >= epsilon}")
+        msg.append(f"\t \t \t \t -2: {ufloat(meanVar7,errVar7)} -- {meanVar7 >= epsilon} ({varExc7Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc7,default = np.nan)} --  {min(varExc7,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t -1: {ufloat(meanVar8,errVar8)} -- {meanVar8 >= epsilon}")
+        msg.append(f"\t \t \t \t -1: {ufloat(meanVar8,errVar8)} -- {meanVar8 >= epsilon} ({varExc8Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc8,default = np.nan)} --  {min(varExc8,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t +1: {ufloat(meanVar9,errVar9)} -- {meanVar9 >= epsilon}")
+        msg.append(f"\t \t \t \t +1: {ufloat(meanVar9,errVar9)} -- {meanVar9 >= epsilon} ({varExc9Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc9,default = np.nan)} --  {min(varExc9,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t +2: {ufloat(meanVar10,errVar10)} -- {meanVar10 >= epsilon}")
+        msg.append(f"\t \t \t \t +2: {ufloat(meanVar10,errVar10)} -- {meanVar10 >= epsilon} ({varExc10Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc10,default = np.nan)} --  {min(varExc10,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t +3: {ufloat(meanVar11,errVar11)} -- {meanVar11 >= epsilon}")
+        msg.append(f"\t \t \t \t +3: {ufloat(meanVar11,errVar11)} -- {meanVar11 >= epsilon} ({varExc11Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc11,default = np.nan)} --  {min(varExc11,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t +4: {ufloat(meanVar12,errVar12)} -- {meanVar12 >= epsilon}")
+        msg.append(f"\t \t \t \t +4: {ufloat(meanVar12,errVar12)} -- {meanVar12 >= epsilon} ({varExc12Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc12,default = np.nan)} --  {min(varExc12,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t +5: {ufloat(meanVar13,errVar13)} -- {meanVar13 >= epsilon}")
+        msg.append(f"\t \t \t \t +5: {ufloat(meanVar13,errVar13)} -- {meanVar13 >= epsilon} ({varExc13Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc13,default = np.nan)} --  {min(varExc13,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t +6: {ufloat(meanVar14,errVar14)} -- {meanVar14 >= epsilon}")
+        msg.append(f"\t \t \t \t +6: {ufloat(meanVar14,errVar14)} -- {meanVar14 >= epsilon} ({varExc14Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc14,default = np.nan)} --  {min(varExc14,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t +7: {ufloat(meanVar15,errVar15)} -- {meanVar15 >= epsilon}")
+        msg.append(f"\t \t \t \t +7: {ufloat(meanVar15,errVar15)} -- {meanVar15 >= epsilon} ({varExc15Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc15,default = np.nan)} --  {min(varExc15,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t +8: {ufloat(meanVar16,errVar16)} -- {meanVar16 >= epsilon}")
+        msg.append(f"\t \t \t \t +8: {ufloat(meanVar16,errVar16)} -- {meanVar16 >= epsilon} ({varExc16Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc16,default = np.nan)} --  {min(varExc16,default = np.nan) >= epsilon}")
-        msg.append(f"\t \t \t \t +9: {ufloat(meanVar17,errVar17)} -- {meanVar17 >= epsilon}")
+        msg.append(f"\t \t \t \t +9: {ufloat(meanVar17,errVar17)} -- {meanVar17 >= epsilon} ({varExc17Passed})")
         msg.append(f"\t \t \t \t \t Worst p-value: {min(varExc17,default = np.nan)} --  {min(varExc17,default = np.nan) >= epsilon}")
         
         msg.append("\t \t KOLMOGOROV COMPLEXITY TEST")
-        msg.append(Construct_Sol_Message("Universal Maurer Test",ufloat(meanMaurer,errMaurer),meanMaurer >= epsilon))
+        msg.append(Construct_Sol_Message("Universal Maurer Test",ufloat(meanMaurer,errMaurer),meanMaurer >= epsilon, maurerPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(maurerList)} --  {np.min(maurerList) >= epsilon}")
-        msg.append(Construct_Sol_Message("Binary Matrix Test",ufloat(meanMatrix,errMatrix),meanMatrix >= epsilon))
+        msg.append(Construct_Sol_Message("Binary Matrix Test",ufloat(meanMatrix,errMatrix),meanMatrix >= epsilon,matrixPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(matrixList)} --  {np.min(matrixList) >= epsilon}")
-        msg.append(Construct_Sol_Message("Linear Complexity Test",ufloat(meanLinear,errLinear),meanLinear >= epsilon))
+        msg.append(Construct_Sol_Message("Linear Complexity Test",ufloat(meanLinear,errLinear),meanLinear >= epsilon, linearPassed))
         msg.append(f"\t \t \t \t Worst p-value: {np.min(linearList)} --  {np.min(linearList) >= epsilon}")
         
         WF.Write_Analysis_Files(currComp,msg,directory=outDir,showEndMessage=False)
