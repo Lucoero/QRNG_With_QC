@@ -82,7 +82,7 @@ def Compute_Prob(path, showCount = False):
         print(f"ERROR: No se ha podido encontrar el archivo en el path \n {path}")
         return None,None
     if showCount:
-        print(f"0s: {zCount}, 1s: {oCount}, bits: {bitCount}, diffPer: {(oCount-zCount)/bitCount}")
+        print(f"0s: {zCount} ({zCount*100/bitCount}), 1s: {oCount} ({oCount*100/bitCount}), bits: {bitCount}, diffPer: {(oCount-zCount)/bitCount}")
     # Calculamos las probabilidades
     zProb  = zCount/bitCount
     oProb = 1-zProb
